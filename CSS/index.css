@@ -1,0 +1,42 @@
+
+.top-div {
+	background-color: aqua;
+}
+
+.top-img {
+	opacity: 1;
+}
+
+.heading {
+	position: absolute;
+	font-size: 5vw;
+	text-shadow: 2px 2px 0 #bcbcbc, 4px 4px 0 #9c9c9c;
+	color: #000;
+	top: 8vw;
+	left: 31.5%;
+}
+
+.sub-text {
+	display: block;
+	position: absolute;
+	font-size: 2vw;
+	text-shadow: 2px 2px 0 #bcbcbc, 4px 4px 0 #9c9c9c;
+	color: #000;
+	top: 16vw;
+	left: 50%;
+	transform: translateX(-50%);
+}
+
+.navbar {
+  overflow: hidden;
+  background-color:blue;
+}
+
+.active {
+	background-color: black;
+  color: white;
+}
+
+.navbar-btn {
+/*	display: none;*/
+}
