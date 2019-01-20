@@ -28,6 +28,7 @@
 #navbar {
   overflow: hidden;
   background-color: #333;
+	
 }
 
 #navbar a {
@@ -64,4 +65,15 @@
   padding-top: 60px;
 }
 
+
+
+.link-no-deco {
+	text-decoration: none;
+	color: black;
+}
+
+.popular-download-table:hover{
+	background-color: lightslategrey;
+	cursor: pointer;
+}
 
