@@ -22,49 +22,76 @@
 		</center>
 	</div>
 <!--	strt navbar-->
-	
-	<nav class="navbar navbar-expand-md bg-dark navbar-dark sticky-top">
-	
-    <a class="navbar-brand" href="index.html"> <img src="../gamelogo/logo.png" width="30px" height="30px" alt="GameLOGO" /></a>
-    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar"> <span class="navbar-toggler-icon"></span> 
-	</button> 
-    <div class="collapse navbar-collapse" id="collapsibleNavbar">
-        <ul class="navbar-nav">
-            <li class="nav-item active" id="home"> <a class="nav-link" href="index.html">Home</a> </li>
-             <li class="nav-item dropdown"><a class="nav-link dropdown-toggle" href="#" id="navbardrop" data-toggle="dropdown">
-        Games
-      </a>
-      <div class="dropdown-menu">
-		 <a class="dropdown-item" href="#">NewGames</a>
-        <a class="dropdown-item" href="#">ActionGames</a>
-        <a class="dropdown-item" href="#">KidsGames</a>
-        <a class="dropdown-item" href="#">XbosGames</a>
-		<a class="dropdown-item" href="#">WindowsGames</a>
-		<a class="dropdown-item" href="#">MobileGames</a>
-	    <a class="dropdown-item" href="#">ShootingGames</a>
-		<a class="dropdown-item" href="#">CarGames</a>
-		<a class="dropdown-item" href="#">MMOGames</a>
-		<a class="dropdown-item" href="#">PuzzleGames</a>
-		<a class="dropdown-item" href="#">ZombieGames</a>
-		<a class="dropdown-item" href="#">MultiplayerGames</a>
-      </div>
-    </li>
-			<li class="nav-item" id="kidsGame"> <a class="nav-link" href="games.html">KidsGame</a> </li>
-			<li class="nav-item" id="windowsGame"> <a class="nav-link" href="games.html">WindowsGames</a> </li>
-            <li class="nav-item" id="about"> <a class="nav-link" href="about-us.html">About Us</a> </li>
-        </ul>
-<!--
-        <ul class="navbar-nav ml-auto">
-            <li class="nav-item" id="admin"> <a class="nav-link" href="admin.php">Admin Login</a> </li>
-        </ul>
--->
-      </div>
-		  <form class="form-inline" action="">
-          <input class="form-control mr-sm-2" type="text" placeholder="Search" required;>
-          <button class="btn btn-dark" type="search">Search</button>
-          </form>
-     </nav>
-<!--	navbar end-->
+	<nav class="navbar navbar-expand-lg navbar-dark bg-dark sticky-top">
+		
+		<a class="navbar-brand" href="#">
+			<img src="../gamelogo/logo.png" width="20px" height="20px" alt="LOGO">
+		</a>
+		
+		<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+			<span class="navbar-toggler-icon"></span>
+		</button>
+		
+		<div class="collapse navbar-collapse" id="navbarSupportedContent">
+			<ul class="navbar-nav mr-auto">
+				<li class="nav-item">
+					<a class="nav-link" href="#">Home</a>
+		  		</li>	
+				<li class="nav-item dropdown"><a class="nav-link dropdown-toggle" href="#" data-toggle="dropdown">
+					Window-games
+				  </a>
+				  <div class="dropdown-menu">
+					<a class="dropdown-item" href="#">Action-Games</a>
+					<a class="dropdown-item" href="#">ShootingGames</a>
+					<a class="dropdown-item" href="#">CarGames</a>
+					<a class="dropdown-item" href="#">PuzzleGames</a>
+					<a class="dropdown-item" href="#">ZombieGames</a>
+					<a class="dropdown-item" href="#">Circket07</a>
+				  </div>
+				</li>
+				
+				<li class="nav-item dropdown"><a class="nav-link dropdown-toggle" href="#" data-toggle="dropdown">
+					Mobile-Games
+				  </a>
+				  <div class="dropdown-menu">
+					 <a class="dropdown-item" href="#">Tample Run</a>
+					<a class="dropdown-item" href="#">MotoGp</a>
+					<a class="dropdown-item" href="#">SubwaySarvas</a>
+					<a class="dropdown-item" href="#">FootBall</a>
+					<a class="dropdown-item" href="#">MMOGames</a>
+					<a class="dropdown-item" href="#"></a>
+				  </div>
+				</li>
+				
+				<li class="nav-item dropdown"><a class="nav-link dropdown-toggle" href="#" data-toggle="dropdown">
+					Games
+				  </a>
+				  <div class="dropdown-menu">
+					 <a class="dropdown-item" href="#">NewGames</a>
+					<a class="dropdown-item" href="#">ActionGames</a>
+					<a class="dropdown-item" href="#">KidsGames</a>
+					<a class="dropdown-item" href="#">XbosGames</a>
+					<a class="dropdown-item" href="#">WindowsGames</a>
+					<a class="dropdown-item" href="#">MobileGames</a>
+					<a class="dropdown-item" href="#">ShootingGames</a>
+					<a class="dropdown-item" href="#">CarGames</a>
+					<a class="dropdown-item" href="#">MMOGames</a>
+					<a class="dropdown-item" href="#">PuzzleGames</a>
+					<a class="dropdown-item" href="#">ZombieGames</a>
+					<a class="dropdown-item" href="#">MultiplayerGames</a>
+				  </div>
+				</li>
+				
+				
+				
+			</ul>
+			<form class="form-inline my-2 my-lg-0">
+				<input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+				<button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+			</form>
+		</div>
+	</nav>
+	<!--	navbar end-->
 	
 <!--           now strting working-->
 	
@@ -133,8 +160,7 @@
 		  </div>
 				
 				<!--		  end popular downloads menu-->
-		</div>
-	                 <div class="col-md-7">
+	                 <div class="col-md-7" style="margin-top: 50px">
                     <!--big body-->
                     <!--carousal-->
                     <div id="demo" class="carousel slide" data-ride="carousel">
@@ -262,6 +288,7 @@
                     </table>
                 </div>
 			 <!--		  end categories menu-->
+				</div>
 	 </div>	
   </div>
  
