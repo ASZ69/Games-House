@@ -1,6 +1,6 @@
 html,body{
 	height: 30vw;
-	background-image: url("../home-images/Home-Images/xbox-.jpg");
+	background-image: url("../home-images/Home-Images/arkham_knight-wallpaper-1920x1080.jpg");
 	background-position: center;
 	background-repeat: no-repeat;
 	background-attachment: fixed;
@@ -193,8 +193,8 @@ html,body{
   animation-name: zoomInUp;
 }*/
 .parallax{
-	height: 30vw;
-	background-image: url("../home-images/Home-Images/2019-01-24.png");
+	height: 28vw;
+	background-image: url("../home-images/Home-Images/2019-01-24.jpg");
 	background-position: center;
 	background-repeat: no-repeat;
 	background-attachment: fixed;
@@ -208,7 +208,7 @@ html,body{
 }
 .parallax2 {
 	height: 40vw;
-	background-image: url("../home-images/Home-Images/background.jpg");
+	background-image: url("../home-images/Home-Images/tom_clancys_the_division_2016-wallpaper-1920x1080.jpg");
 	background-position: 50%;
 	background-size: cover;
 	background-repeat: no-repeat;
@@ -228,12 +228,12 @@ html,body{
 .btn1{
 	float: left;
 	background-color: transparent !important;
-	color: black !important;
+	color: white !important;
 }
 .btn2{
 	float: right;
 	background-color: transparent !important;
-	color: black !important;
+	color: white !important;
 }.parallax3 {
 	height: 40vw;
 	background-image: url("../home-images/Home-Images/angry_birds_terence_wallpaper_by_tomefc98-d542kzv.png");
@@ -247,8 +247,6 @@ html,body{
 }
 
 .col-3 {
-	margin: 0;
-	padding: 0;
 	cursor: pointer;
 }
 .col-3:hover{
@@ -258,4 +256,12 @@ html,body{
 .myImg:hover {
 	opacity: 0.7;
 	cursor: pointer;
+}
+.footer-div {
+  width: 100%;
+  background-color: black;
+  vertical-align: bottom;
+  color: white;
+  line-height: 60px;
+  text-align: center;
 }
