@@ -141,17 +141,6 @@ html,body{
 }*/
 
 
-.ab:hover {
-	opacity: 0.7;
-	transition: transform 0.8s;
-}
-
-/*
-
-.myImg:hover {
-	opacity: 0.7;
-	cursor: pointer;
-}
 @-webkit-keyframes zoomInUp {
   from {
     opacity: 0;
@@ -191,10 +180,11 @@ html,body{
 .zoomInUp {
   -webkit-animation-name: zoomInUp;
   animation-name: zoomInUp;
-}*/
+}
+/*
 .parallax{
 	height: 28vw;
-	background-image: url("../home-images/Home-Images/2019-01-24.jpg");
+	background-image: url("../home-images/Home-Images/background.jpg");
 	background-position: center;
 	background-repeat: no-repeat;
 	background-attachment: fixed;
@@ -205,7 +195,8 @@ html,body{
 
 .h1 {
 	font-size: 5vw !important;
-}
+*/
+
 .parallax2 {
 	height: 40vw;
 	background-image: url("../home-images/Home-Images/tom_clancys_the_division_2016-wallpaper-1920x1080.jpg");
@@ -265,3 +256,11 @@ html,body{
   line-height: 60px;
   text-align: center;
 }
+
+.row-heading {
+	color: white;
+	border: 5px solid #f1f1f1;
+	background-color: darkslategrey;
+}
+
+
