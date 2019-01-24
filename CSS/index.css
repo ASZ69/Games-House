@@ -1,3 +1,4 @@
+/*
 html,body{
 	height: 30vw;
 	background-image: url("../home-images/Home-Images/arkham_knight-wallpaper-1920x1080.jpg");
@@ -5,6 +6,7 @@ html,body{
 	background-repeat: no-repeat;
 	background-attachment: fixed;
 }
+*/
 .heading {
 	position: absolute;
 	font-size: 6vw;
@@ -61,7 +63,7 @@ html,body{
   padding: 16px;
 }
 
-.sticky {
+.sticky-top {
   position: fixed;
   top: 0;
   width: 100%;
@@ -75,7 +77,7 @@ html,body{
 
 .link-no-deco {
 	text-decoration: none;
-	color: white;
+	color: black;
 }
 
 .popular-download-table:hover{
@@ -181,11 +183,11 @@ html,body{
   -webkit-animation-name: zoomInUp;
   animation-name: zoomInUp;
 }
-/*
 .parallax{
 	height: 28vw;
-	background-image: url("../home-images/Home-Images/background.jpg");
-	background-position: center;
+	background-image: url("../home-images/Home-Images/best_crysis_3_game-1920x1200.jpg");
+	background-position: 50%;
+	background-size: cover;
 	background-repeat: no-repeat;
 	background-attachment: fixed;
 	color: white;
@@ -195,8 +197,7 @@ html,body{
 
 .h1 {
 	font-size: 5vw !important;
-*/
-
+}
 .parallax2 {
 	height: 40vw;
 	background-image: url("../home-images/Home-Images/tom_clancys_the_division_2016-wallpaper-1920x1080.jpg");
