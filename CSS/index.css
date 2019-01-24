@@ -246,7 +246,7 @@ html,body{
 }
 
 .myImg:hover {
-	opacity: 0.7;
+	opacity: 0.7 !important;
 	cursor: pointer;
 }
 .footer-div {
@@ -259,9 +259,57 @@ html,body{
 }
 
 .row-heading {
+	background-image: url("../home-images/Home-Images/abc.jpg");
 	color: white;
+	background-size: 10%;
+	height: 5vw;
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
 	border: 5px solid #f1f1f1;
 	background-color: darkslategrey;
+	text-decoration: underline;
+	
 }
 
 
+
+.parallax4 {
+	height: 30vw;
+	background-image: url("../home-images/Home-Images/assassins_creed_syndicate_twin_assassins-wallpaper-1680x1050.jpg");
+	background-position: 50%;
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	color: white;
+	display: flex;
+	align-items: center;
+}
+
+
+
+
+
+.parallax6 {
+	height: 28vw;
+	background-image: url("../home-images/Home-Images/ferrari_enzo_red-wallpaper-1920x1080.jpg");
+	background-position: 50%;
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	color: white;
+	display: flex;
+	align-items: center;
+}
+
+.parallax7 {
+	height: 28vw;
+	background-image: url("../home-images/Home-Images/12.jpg");
+	background-position: 50%;
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	color: white;
+	display: flex;
+	align-items: center;
+}
