@@ -25,8 +25,24 @@ function btnfol(ref){
   }
 }
 
-function btnread(btnread){
-	alert(navabout);
-	var navabout = document.getElementsByClassName('nav-about')[0];
-	navabout.location.href = 'about-us.html';
-}
+	
+	$(function() {
+
+	  $('.container-fluid').appear();
+
+	  $(document.body).on('appear', '.container-fluid', function(e, $affected) {
+		// this code is executed for each appeared element
+		$affected.each(function() {
+		 $('.container-fluid').addClass('slideInRight');
+		})
+		  
+	  });
+
+	  $(document.body).on('disappear', '.heading-transparent:eq(0)', function(e, $affected) {
+		  $('#background').children().each(function(){
+			  $(this).css("display","none");
+		  });
+		  $('#background img').css('display','block');
+	  });
+		
+	});
