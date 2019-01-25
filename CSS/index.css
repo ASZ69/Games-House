@@ -1,12 +1,15 @@
-/*
 html,body{
 	height: 30vw;
+/*
 	background-image: url("../home-images/Home-Images/arkham_knight-wallpaper-1920x1080.jpg");
 	background-position: center;
 	background-repeat: no-repeat;
 	background-attachment: fixed;
-}
+	
 */
+	background-color: rgba(240,240,240,1.00);
+	
+}
 .heading {
 	position: absolute;
 	font-size: 6vw;
@@ -259,25 +262,19 @@ html,body{
 }
 
 .row-heading {
-	width: 50%;
-	background-image: url("../home-images/Home-Images/abc.jpg");
-	color: white;
-	background-size: 10%;
-	height: 5vw;
-	background-size: cover;
-	background-repeat: no-repeat;
-	background-attachment: fixed;
-	border: 1px solid #f1f1f1;
+	width: 70%;
+	color: black;
+	border: 3px solid #000;
 	border-radius: 30%;
-	text-decoration: underline;
-	
+/*	text-decoration: underline;*/
+	font-size: 2.5vw;
 }
 
 
 
-.parallax4 {
+.parallax {
 	height: 30vw;
-	background-image: url("../home-images/Home-Images/assassins_creed_syndicate_twin_assassins-wallpaper-1680x1050.jpg");
+	background-image: url(../home-images/Home-Images/background.jpg);
 	background-position: 50%;
 	background-size: cover;
 	background-repeat: no-repeat;
@@ -286,6 +283,7 @@ html,body{
 	display: flex;
 	align-items: center;
 }
+
 
 
 
@@ -313,4 +311,9 @@ html,body{
 	color: white;
 	display: flex;
 	align-items: center;
+}
+
+.container-fluid {
+/*	background-color: transparent !important;*/
+	
 }
