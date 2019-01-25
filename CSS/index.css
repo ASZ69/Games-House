@@ -259,6 +259,7 @@ html,body{
 }
 
 .row-heading {
+	width: 50%;
 	background-image: url("../home-images/Home-Images/abc.jpg");
 	color: white;
 	background-size: 10%;
@@ -266,8 +267,8 @@ html,body{
 	background-size: cover;
 	background-repeat: no-repeat;
 	background-attachment: fixed;
-	border: 5px solid #f1f1f1;
-	background-color: darkslategrey;
+	border: 1px solid #f1f1f1;
+	border-radius: 30%;
 	text-decoration: underline;
 	
 }
