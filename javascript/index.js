@@ -2,8 +2,7 @@ $(document).ready(function(){
 	$('#video').append('<video id="vedio" loop autoplay><source src="../vedio/vedio.mp4" type="video/mp4"></video>');
 	$('#vedio').get(0).play();
 })
-
-ScrollReveal().reveal('.scroll-up',{duration:3000});
+ScrollReveal().reveal('.scroll-up',{duration:2000});
 
 function btnfol(ref){
 //	alert(btncol);
@@ -26,23 +25,23 @@ function btnfol(ref){
 }
 
 	
-	$(function() {
-
-	  $('.container-fluid').appear();
-
-	  $(document.body).on('appear', '.container-fluid', function(e, $affected) {
-		// this code is executed for each appeared element
-		$affected.each(function() {
-		 $('.container-fluid').addClass('slideInRight');
-		})
-		  
-	  });
-
-	  $(document.body).on('disappear', '.heading-transparent:eq(0)', function(e, $affected) {
-		  $('#background').children().each(function(){
-			  $(this).css("display","none");
-		  });
-		  $('#background img').css('display','block');
-	  });
-		
-	});
+//	$(function() {
+//
+//	  $('.row-heading').appear();
+//
+//	  $(document.body).on('appear', '.row-heading', function(e, $affected) {
+//		// this code is executed for each appeared element
+//		$affected.each(function() {
+//		 $('.row-heading').addClass('rubberBand');
+//		})
+//		  
+//	  });
+//
+//	  $(document.body).on('disappear', '.row-heading:eq(0)', function(e, $affected) {
+//		  $('#bg').children().each(function(){
+//			  $(this).css("display","none");
+//		  });
+//		  $('#bg').css('display','block');
+//	  });
+//		
+//	});
