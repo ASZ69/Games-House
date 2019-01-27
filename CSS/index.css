@@ -72,6 +72,12 @@ html,body{
 	text-decoration: none;
 	color: black;
 	font-size: 1.1vw;
+	margin: 0;
+	padding: 0;
+}
+.link-no-deco:hover{
+	text-decoration: none;
+	color: black;
 }
 
 .popular-download-table:hover{
@@ -200,4 +206,16 @@ html,body{
 .btn:hover{
 	position: relative;
 	animation: heartBeat 5s infinite;
+}
+.ancer:hover {
+	color: white;
+	text-decoration: none;
+}
+.ancer{
+	color: white;	
+}
+
+.ancer-about {
+	text-decoration: none;
+	color: black;
 }

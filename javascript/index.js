@@ -23,16 +23,17 @@ function btnfol(ref){
     }
   }
 }
+
 //                 animation working start
 
-        anim(".row-heading","rubberBand","normal");
-		anim(".actionzl","zoomInUp","slow");
-		anim(".slideinup","slideInUp","fast");
-		anim(".rotatein","rotateIn","slower");
-		anim(".roatadown","rotateInDownLeft","slower");
-		anim(".flipinx","flipInX","slower");
+        variables(".row-heading","rubberBand","normal");
+		variables(".actionzl","zoomInUp","slow");
+		variables(".slideinup","slideInUp","fast");
+		variables(".rotatein","rotateIn","slower");
+		variables(".roatadown","rotateInDownLeft","slower");
+		variables(".flipinx","flipInX","slower");
 
-function anim(id,classList,unRemoveableClasses){
+function variables(id,classList,unRemoveableClasses){
 	
 	$(id).appear();
 	
