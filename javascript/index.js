@@ -2,7 +2,7 @@ $(document).ready(function(){
 	$('#video').append('<video id="vedio" loop autoplay><source src="../vedio/vedio.mp4" type="video/mp4"></video>');
 	$('#vedio').get(0).play();
 })
-ScrollReveal().reveal('.scroll-up',{duration:2000});
+//ScrollReveal().reveal('.scroll-up',{duration:2000});
 
 function btnfol(ref){
 //	alert(btncol);
@@ -24,24 +24,92 @@ function btnfol(ref){
   }
 }
 
-	
-//	$(function() {
+	$(function() {
+
+	  $('.row-heading').appear();
+
+	  $(document.body).on('appear', '.row-heading', function(e, $affected) {
+		// this code is executed for each appeared element
+		 $affected.addClass('animated rubberBand');
+	  });
 //
-//	  $('.row-heading').appear();
-//
-//	  $(document.body).on('appear', '.row-heading', function(e, $affected) {
-//		// this code is executed for each appeared element
-//		$affected.each(function() {
-//		 $('.row-heading').addClass('rubberBand');
-//		})
-//		  
-//	  });
-//
-//	  $(document.body).on('disappear', '.row-heading:eq(0)', function(e, $affected) {
-//		  $('#bg').children().each(function(){
-//			  $(this).css("display","none");
-//		  });
-//		  $('#bg').css('display','block');
-//	  });
+	  $(document.body).on('disappear', '.row-heading', function(e, $affected) {
+		  $affected.removeClass('rubberBand');
+	  });
 //		
-//	});
+	});
+
+	$(function() {
+
+	  $('.actionzl').appear();
+
+	  $(document.body).on('appear', '.actionzl', function(e, $affected) {
+		// this code is executed for each appeared element
+		 $affected.addClass('animated zoomInUp');
+	  });
+//
+	  $(document.body).on('disappear', '.actionzl', function(e, $affected) {
+		  $affected.removeClass('zoomInUp');
+	  });
+//		
+	});
+
+	$(function() {
+
+	  $('.slideinup').appear();
+
+	  $(document.body).on('appear', '.slideinup', function(e, $affected) {
+		// this code is executed for each appeared element
+		 $affected.addClass('animated slideInUp');
+	  });
+//
+	  $(document.body).on('disappear', '.slideinup', function(e, $affected) {
+		  $affected.removeClass('slideInUp');
+	  });
+//		
+	});
+
+	$(function() {
+
+	  $('.rotatein').appear();
+
+	  $(document.body).on('appear', '.rotatein', function(e, $affected) {
+		// this code is executed for each appeared element
+		 $affected.addClass('animated rotateIn');
+	  });
+//
+	  $(document.body).on('disappear', '.rotatein', function(e, $affected) {
+		  $affected.removeClass('rotateIn');
+	  });
+//		
+	});
+
+	$(function() {
+
+	  $('.roatadown').appear();
+
+	  $(document.body).on('appear', '.roatadown', function(e, $affected) {
+		// this code is executed for each appeared element
+		 $affected.addClass('animated rotateInDownLeft');
+	  });
+//
+	  $(document.body).on('disappear', '.roatadown', function(e, $affected) {
+		  $affected.removeClass('rotateInDownLeft');
+	  });
+//		
+	});
+
+	$(function() {
+
+	  $('.flipinx').appear();
+
+	  $(document.body).on('appear', '.flipinx', function(e, $affected) {
+		// this code is executed for each appeared element
+		 $affected.addClass('animated flipInX');
+	  });
+//
+	  $(document.body).on('disappear', '.flipinx', function(e, $affected) {
+		  $affected.removeClass('flipInX');
+	  });
+//		
+	});
