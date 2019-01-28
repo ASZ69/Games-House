@@ -27,8 +27,8 @@ function btnfol(ref){
 //                 animation working start
 
         variables(".row-heading","rubberBand","normal");
-		variables(".actionzl","zoomInUp","slow");
-		variables(".slideinup","slideInUp","fast");
+		variables(".actionzl","slideInLeft","slow");
+		variables(".slideinup","slideInRight","fast");
 		variables(".rotatein","rotateIn","slower");
 		variables(".roatadown","rotateInDownLeft","slower");
 		variables(".flipinx","flipInX","slower");

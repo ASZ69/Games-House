@@ -6,9 +6,10 @@ html,body{
 }
 
 .left-block {
-	 float: left;
+	float: left;
     width: 22%;
     height: 100%;
+	margin-top: 10%;
 }
 
 .main-category {
@@ -66,7 +67,7 @@ html,body{
 }
 
 .menu-dropdown-content {
-	  display: none;
+	display: none;
     position: absolute;
     left: 70%;
     top: 0;
@@ -77,14 +78,17 @@ html,body{
     animation: leftToRight 1s;
     border-radius: 5px;
 }
-@keyframes leftToRight {
-    from {
-        left: 55%;
-    }
+@keyframes leftToRight  {
+  from {
+    -webkit-transform: translate3d(-100%, 0, 0);
+    transform: translate3d(-100%, 0, 0);
+    visibility: visible;
+  }
 
-    to {
-        left: 70%;
-    }
+  to {
+    -webkit-transform: translate3d(0, 0, 0);
+    transform: translate3d(0, 0, 0);
+  }
 }
 .menu-dropdown-content a {
     display: block;
@@ -126,11 +130,6 @@ html,body{
     background-color: var(--hover-pre-color);
     color: var(--text-color);
 }
-
-.menu-dropdown {
-    position: relative;
-}
-
 .menu-dropdown:hover .menu-dropdown-content {
     display: block;
 }
