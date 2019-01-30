@@ -17,8 +17,8 @@ var itemlist = [{name:'Action games',
 				 seasons:[
 					 
 					 {name:'FarCry',
-					  requirements:'www.wiki.com/psl', 
-					  imgSrc:'../images/myimg.jpg',
+					  requirements:'', 
+					  imgSrc:'../windows-games/farcry-ori.jpg',
 					  moreDetails:{
 						  images:[
 							  '../images/my.jpg',
@@ -28,8 +28,8 @@ var itemlist = [{name:'Action games',
 					                 }},
 					 
 					 {name:'Max Payne 3',
-					  requirements:'www.wiki.com/psl', 
-					  imgSrc:'../images/myimg.jpg',
+					  requirements:'', 
+					  imgSrc:'../windows-games/max-paine3-ori.jpg',
 					  moreDetails:{
 						  images:[
 							  '../images/my.jpg',
@@ -37,9 +37,9 @@ var itemlist = [{name:'Action games',
 							  'adsfda'],
 						   videos:'games.mp4'}},
 					 
-					 {name:'Grand Theft Auto: San Andr...',
-					 requirements:'www.wiki.com/psl', 
-					  imgSrc:'../images/myimg.jpg',
+					 {name:'Hitman',
+					 requirements:'', 
+					  imgSrc:'../windows-games/hitman-ori.jpg',
 					  moreDetails:{
 						  images:[
 							  '../images/my.jpg',
@@ -47,9 +47,9 @@ var itemlist = [{name:'Action games',
 							  'adsfda'],
 						  videos:'games.mp4'}},
 					 
-					  {name:'Grand Theft Auto: Vice city',
-					   requirements:'www.wiki.com/psl', 
-					   imgSrc:'../images/myimg.jpg',
+					  {name:'Tekken 7',
+					   requirements:'', 
+					   imgSrc:'../windows-games/Tekken-7-ori.jpg',
 					    moreDetails:{
 						  images:[
 							  '../images/my.jpg',
