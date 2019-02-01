@@ -5,6 +5,7 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<link rel="shortcut icon" href="../gamelogo/unnamed.png">
 	<link rel="stylesheet" type="text/css" href="../CSS/window-games.css">
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css" integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous">
 	<link rel="stylesheet" type="text/css" href="../CSS/shotcut.css">
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.0/animate.min.css">
 	<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.7.6/angular.min.js"></script>
@@ -16,7 +17,7 @@
 	<title>window-games</title>
 </head>
 
-<body>
+<body> 
 	<!--	strt navbar-->
 	<nav class="navbar navbar-expand-lg navbar-dark bg-dark sticky-top">
 		<a class="navbar-brand" href="index.html">
@@ -148,19 +149,24 @@
 				<div class="right-view" ng-repeat="games in evearray">
 					<div ng-repeat="season in games.seasons" class="mr-lr-5 mr-tb-5">
 						<span class="dis-none"></span>
-						<div class="cd-img-p ">
-							<img  src="{{season.imgSrc}}" alt="PIC">
-<!--							<img src="../windows-games/puzzle-games/world-puzzle.png">-->
+						<div class="cd-img-p">
+							<img  src="{{season.imgSrc}}" alt="PIC" class="card-hover">
+							<div class="card-overlay">
+<!--								<i class="fas fa-inbox"></i>-->
+								<a href="" class="dis-blk text-center">Requirements</a>
+								<a href="" class="dis-blk text-center mr-t-2">Download</a>
+<!--								<button class="btn btn-dark btn-sm dis-blk">Requirements</button>-->
+<!--								<button class="btn btn-ou btn-sm dis-blk">Download</button>-->
+							</div>
+							
 						</div>
 						<hr>
-						<div class="card-heading card-hover">
+						<div class="card-heading">
 							<h3>{{season.name}}</h3>
 							<h4>{{season.moreDetails.matchHost}}</h4>
 						</div>
-<!--
-						<a href="" class="dis-blk text-center">Requirements</a>
-						<a href="" class="dis-blk text-center mr-t-2">Download Now!</a>
--->
+						
+						
 					</div>
 				</div>
 				

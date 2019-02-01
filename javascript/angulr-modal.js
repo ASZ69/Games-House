@@ -24,7 +24,7 @@ var itemlist = [{name:'Action games',
 							  '../images/my.jpg',
 							  'asdasda',
 							  'adsfda'],
-						 videos:'games.mp4',
+						 videos:'games.mp4', 
 					                 }},
 					 
 					 {name:'Max Payne 3',

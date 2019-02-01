@@ -52,6 +52,7 @@
 	box-shadow: 0 4px 8px 0 #ccc;
 	border-radius: 5px;
 	overflow: hidden;
+	border: 1px solid #000;
 }
 
 .right-view > div:hover{
@@ -62,14 +63,29 @@
 .cd-img-p img{
 	width: 100%;
 	height: auto;
+	transition: 1s all;
 }
+
+.cd-img-p > img:hover + .card-overlay{
+	display: block;
+}
+
+.card-overlay:hover{
+	display: block;
+}
+
 
 .cd-img-p {
 	width: 100%;
 	border-radius: 5px;
 	overflow: hidden;
+	position: relative;
 }
-
+/*
+.cd-img-p:hover{
+	opacity: 0.5;
+}
+*/
 .card-heading h3,.card-heading h4{
 	display: inline-block;
 	margin: 0;
@@ -91,16 +107,18 @@
 }
 
 .right-view div a{
-	color: black;
+	color: white;
 	text-decoration: none;
-	font-size: 1vw;
+	font-size: 0.8vw;
+	font-size: 400;
 	transition: 3s all;
-	border: 1px solid #ccc;
+	border: 3px solid #000;
 	border-radius: 8px;
 	margin: 0px 30px;
 	overflow: hidden;
+	background-image: none;
+	background-color: #474545;	
 }
-
 .right-view div a:hover{
 	transition: 1s all;
 	transform: scale(1.1);
@@ -111,9 +129,18 @@
 	background-color: #E9E9E9;
 }
 .card-hover:hover {
-	opacity: 0.5%;
+	opacity: 0.3;
 }
 
 .heading {
 	color: white;
+}
+
+.card-overlay {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	overflow: hidden;
+	display: none;
 }
