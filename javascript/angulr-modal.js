@@ -408,7 +408,7 @@ var itemlist = [{name:'Action games',
 							  'adsfda'],
 						  videos:'games.mp4'}},
 					 
-					 {name:'pubj Pc',
+					 {name:'PUBG Pc',
 					  requirements:'www.wiki.com/psl', 
 					  imgSrc:'../windows-games/shooting-games/pubj-pc.jpg',
 					  moreDetails:{
@@ -483,6 +483,186 @@ var itemlist = [{name:'Action games',
 							  'adsfda'],
 						  videos:'games.mp4'}},
 					
+					 {name:'NeedForSpeed',
+					  requirements:'www.wiki.com/psl', 
+					  imgSrc:'../windows-games/sports-games/emT15adY-NFS.jpg',
+					  moreDetails:{
+						  images:[
+							  '../images/my.jpg',
+							  'asdasda',
+							  'adsfda'],
+						  videos:'games.mp4'}},
+					 
+					 {name:'Street Outlaws',
+					  requirements:'www.wiki.com/psl', 
+					  imgSrc:'../windows-games/sports-games/dreft-mania.jpg',
+					  moreDetails:{
+						  images:[
+							  '../images/my.jpg',
+							  'asdasda',
+							  'adsfda'],
+						  videos:'games.mp4'}},
+					 
+					 {name:'Epic Soccer',
+					  requirements:'www.wiki.com/psl', 
+					  imgSrc:'../windows-games/sports-games/epic-soccer.png',
+					  moreDetails:{
+						  images:[
+							  '../images/my.jpg',
+							  'asdasda',
+							  'adsfda'],
+						  videos:'games.mp4'}},
+					 
+					 {name:'FaceOff Banner',
+					  requirements:'www.wiki.com/psl', 
+					  imgSrc:'../windows-games/sports-games/FaceOff-Banner.png',
+					  moreDetails:{
+						  images:[
+							  '../images/my.jpg',
+							  'asdasda',
+							  'adsfda'],
+						  videos:'games.mp4'}},
+					
+					 {name:'FIFA 17',
+					  requirements:'www.wiki.com/psl', 
+					  imgSrc:'../windows-games/sports-games/fifa17.png',
+					  moreDetails:{
+						  images:[
+							  '../images/my.jpg',
+							  'asdasda',
+							  'adsfda'],
+						  videos:'games.mp4'}},
+					 
+					 {name:'FIFA 19',
+					  requirements:'www.wiki.com/psl', 
+					  imgSrc:'../windows-games/sports-games/fifa19.jpg',
+					  moreDetails:{
+						  images:[
+							  '../images/my.jpg',
+							  'asdasda',
+							  'adsfda'],
+						  videos:'games.mp4'}},
+					 
+					 {name:'football-legands 3',
+					  requirements:'www.wiki.com/psl', 
+					  imgSrc:'../windows-games/sports-games/football-legands.jpg',
+					  moreDetails:{
+						  images:[
+							  '../images/my.jpg',
+							  'asdasda',
+							  'adsfda'],
+						  videos:'games.mp4'}},
+					 
+					 {name:'HILL CAR',
+					  requirements:'www.wiki.com/psl', 
+					  imgSrc:'../windows-games/sports-games/hill-car.jpg',
+					  moreDetails:{
+						  images:[
+							  '../images/my.jpg',
+							  'asdasda',
+							  'adsfda'],
+						  videos:'games.mp4'}},
+					
+					 {name:'MotoGP 15',
+					  requirements:'www.wiki.com/psl', 
+					  imgSrc:'../windows-games/sports-games/MotoGP-15.jpg',
+					  moreDetails:{
+						  images:[
+							  '../images/my.jpg',
+							  'asdasda',
+							  'adsfda'],
+						  videos:'games.mp4'}},
+					 
+					 {name:'MotoGP 17',
+					  requirements:'www.wiki.com/psl', 
+					  imgSrc:'../windows-games/sports-games/MotoGP-17.jpg',
+					  moreDetails:{
+						  images:[
+							  '../images/my.jpg',
+							  'asdasda',
+							  'adsfda'],
+						  videos:'games.mp4'}},
+					 
+					 {name:'MotoGP 18',
+					  requirements:'www.wiki.com/psl', 
+					  imgSrc:'../windows-games/sports-games/MotoGP-18.jpg',
+					  moreDetails:{
+						  images:[
+							  '../images/my.jpg',
+							  'asdasda',
+							  'adsfda'],
+						  videos:'games.mp4'}},
+					 
+					 {name:'NFS Most Wanted',
+					  requirements:'www.wiki.com/psl', 
+					  imgSrc:'../windows-games/sports-games/Need-For-Speed-Most-Wanted.jpg',
+					  moreDetails:{
+						  images:[
+							  '../images/my.jpg',
+							  'asdasda',
+							  'adsfda'],
+						  videos:'games.mp4'}},
+					
+					 {name:'NFS No Limits',
+					  requirements:'www.wiki.com/psl', 
+					  imgSrc:'../windows-games/sports-games/need-for-speed-no-limits.jpg',
+					  moreDetails:{
+						  images:[
+							  '../images/my.jpg',
+							  'asdasda',
+							  'adsfda'],
+						  videos:'games.mp4'}},
+					 
+					 {name:'NFS SHIELD Songbird',
+					  requirements:'www.wiki.com/psl', 
+					  imgSrc:'../windows-games/sports-games/NV-SHIELD-Songbird-NFS.jpg',
+					  moreDetails:{
+						  images:[
+							  '../images/my.jpg',
+							  'asdasda',
+							  'adsfda'],
+						  videos:'games.mp4'}},
+					 
+					 {name:'P15 Scout Pr',
+					  requirements:'www.wiki.com/psl', 
+					  imgSrc:'../windows-games/sports-games/p15-scout-pr.jpg',
+					  moreDetails:{
+						  images:[
+							  '../images/my.jpg',
+							  'asdasda',
+							  'adsfda'],
+						  videos:'games.mp4'}},
+					 
+					 {name:'Real Cricket 14',
+					  requirements:'www.wiki.com/psl', 
+					  imgSrc:'../windows-games/sports-games/rc1.png',
+					  moreDetails:{
+						  images:[
+							  '../images/my.jpg',
+							  'asdasda',
+							  'adsfda'],
+						  videos:'games.mp4'}},
+					
+					 {name:'Speed Car',
+					  requirements:'www.wiki.com/psl', 
+					  imgSrc:'../windows-games/sports-games/speed-car.jpg',
+					  moreDetails:{
+						  images:[
+							  '../images/my.jpg',
+							  'asdasda',
+							  'adsfda'],
+						  videos:'games.mp4'}},
+					 
+					 {name:'Soccer Champion',
+					  requirements:'www.wiki.com/psl', 
+					  imgSrc:'../windows-games/sports-games/soccer-cham.jpg',
+					  moreDetails:{
+						  images:[
+							  '../images/my.jpg',
+							  'asdasda',
+							  'adsfda'],
+						  videos:'games.mp4'}},
+					 
 				 ]},
 				
 				{name:'Puzzle games',
@@ -517,41 +697,68 @@ var itemlist = [{name:'Action games',
 							  'asdasda',
 							  'adsfda'],
 						  videos:'games.mp4'}},
+					 
+					 {name:'Jigsaw Car Puzzle',
+					  requirements:'www.wiki.com/psl', 
+					  imgSrc:'../windows-games/puzzle-games/car-puzzle.jpg',
+					  moreDetails:{
+						  images:[
+							  '../images/my.jpg',
+							  'asdasda',
+							  'adsfda'],
+						  videos:'games.mp4'}},
+					 
+					 {name:'Jugle Puzzle',
+					  requirements:'www.wiki.com/psl', 
+					  imgSrc:'../windows-games/puzzle-games/jugle.jpg',
+					  moreDetails:{
+						  images:[
+							  '../images/my.jpg',
+							  'asdasda',
+							  'adsfda'],
+						  videos:'games.mp4'}},
+					 
+					 {name:'Jelly Puzzles',
+					  requirements:'www.wiki.com/psl', 
+					  imgSrc:'../windows-games/puzzle-games/jully-puzzle.jpg',
+					  moreDetails:{
+						  images:[
+							  '../images/my.jpg',
+							  'asdasda',
+							  'adsfda'],
+						  videos:'games.mp4'}},
+					 
+					 {name:'Puzzle Craft 2',
+					  requirements:'www.wiki.com/psl', 
+					  imgSrc:'../windows-games/puzzle-games/puzzle.jpg',
+					  moreDetails:{
+						  images:[
+							  '../images/my.jpg',
+							  'asdasda',
+							  'adsfda'],
+						  videos:'games.mp4'}},
+					 
+					 {name:'Jungle Puzzle',
+					  requirements:'www.wiki.com/psl', 
+					  imgSrc:'../windows-games/puzzle-games/puzzle1.jpg',
+					  moreDetails:{
+						  images:[
+							  '../images/my.jpg',
+							  'asdasda',
+							  'adsfda'],
+						  videos:'games.mp4'}},
+					 
+					 {name:'World Slide Puzzles',
+					  requirements:'www.wiki.com/psl', 
+					  imgSrc:'../windows-games/puzzle-games/world-puzzle.png',
+					  moreDetails:{
+						  images:[
+							  '../images/my.jpg',
+							  'asdasda',
+							  'adsfda'],
+						  videos:'games.mp4'}},
 					
 				 ]}
 				
 				
 			   ];
-
-// var dataList = [
-//		{heading:'FarCry',season:'2004',
-//		 requirements:'bdfddg',
-//		 imgSrc:'../images/myimg.jpg',
-//		 moreDetails:{
-//			 images:{
-//				 image1:'../images/my.jpg',
-//			 	 image2:'asdasda',
-//			 	 image3:'adsfda'}}, 
-//		{heading:'The PSL',season:'2017',
-//			 wiki:'www.wiki.com/psl',
-//			 imgSrc:'../images/myimg.jpg',
-//			 moreDetails:{
-//				 images:{
-//					 image1:'../images/my.jpg',
-//					 image2:'asdasda',
-//					 image3:'adsfda'},
-//				 scoreDefeat:'24/7',
-//				 scoreWin:'12/24',
-//				 matchHost:'landhi'}},
-//		{heading:'The ICC',season:'2017',
-//		 wiki:'www.wiki.com/psl17',
-//		 imgSrc:'../images/myimg17.jpg',
-//		 moreDetails:{
-//			 images:{
-//				 image1:'../images/myfor3.jpg',
-//			 	 image2:'axzxz',
-//			 	 image3:'iii'},
-//			 scoreDefeat:'69/7',
-//			 scoreWin:'1/240',
-//		 	 matchHost:'nadi kinare'}}
-//		];
