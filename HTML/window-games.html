@@ -153,8 +153,8 @@
 							<img  src="{{season.imgSrc}}" alt="PIC" class="card-hover">
 							<div class="card-overlay">
 <!--								<i class="fas fa-inbox"></i>-->
-								<a href="" class="dis-blk text-center">Requirements</a>
-								<a href="" class="dis-blk text-center mr-t-2">Download</a>
+								<a class="dis-blk text-center" ng-click="viewMore($event)">Requirements</a>
+								<a href="{{season.download}}" class="dis-blk text-center mr-t-2">Download</a>
 <!--								<button class="btn btn-dark btn-sm dis-blk">Requirements</button>-->
 <!--								<button class="btn btn-ou btn-sm dis-blk">Download</button>-->
 							</div>
@@ -165,15 +165,21 @@
 							<h3>{{season.name}}</h3>
 							<h4>{{season.moreDetails.matchHost}}</h4>
 						</div>
+                        </div>
+                    </div>
+
+                    <div class="right-page pd-5">
+                        <button onclick="goToBack()" class="btn btn-outline-dark">Go Back</button>
+						{{moredetailsarray}}
+					</div>	
+
+         </div>
 						
-						
-					</div>
-				</div>
-				
-			</div>
-		</div>
 	</div>
-	
+			
+</div>
+				
+			
 	
 <!--	                    links-->	
 <!--	<script src="../javascript/appear.js"></script>-->
