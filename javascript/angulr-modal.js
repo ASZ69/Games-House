@@ -20,6 +20,8 @@ games.controller("cat-ctrl",function($scope,$filter){
         $(".right-page").css("display", "block");
 
         $scope.moredetailsarray = $filter('filter')($scope.evearray[0].seasons, { name: gameName});
+		
+		
     };
 
 	$scope.gamearray = $filter('filter')(itemlist, {name: 'Action games'});
@@ -34,15 +36,13 @@ var itemlist = [{name:'Action games',
 				 seasons:[
 					 
 					 {name:'Far Cry 1',
-					  requirements:'',
 					  download:'',
 					  imgSrc:'../windows-games/farcry.jpg',
-					  moreDetails:{
+					  requirements:{
 						  images:[
 							  '../images/my.jpg',
 							  'asdasda',
 							  'adsfda'],
-						 videos:'games.mp4', 
 					                 }},
 					 
 					 {name:'Max Payne 3',

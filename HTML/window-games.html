@@ -200,7 +200,12 @@
 			
 			<div class="col-md-9">
 <!--				<div class="scroll-container">-->
-				<h2 class="text-center">Action Games</h2>
+<!--
+				<h2 class="text-center " onClick="action()">Action games</h2>
+				<h2 class="text-center shooting" onClick="shooting()">Shooting games</h2>
+				<h2 class="text-center sport" onClick="sport()">Sport Games</h2>
+				<h2 class="text-center puzzle" onClick="puzzle()">Puzzle Games</h2>
+-->
 				<div class="right-view" ng-repeat="games in evearray">
 					<div ng-repeat="season in games.seasons" class="mr-lr-5 mr-tb-5">
 						<span class="dis-none"></span>
@@ -218,22 +223,75 @@
 						<hr>
 						<div class="card-heading">
 							<h3>{{season.name}}</h3>
-							<h4>{{season.moreDetails.matchHost}}</h4>
+							<h4>{{season.moreDetails.requirements}}</h4>
 						</div>
                         </div>
                     </div>
 <!--               </div>-->
 
-                    <div class="right-page pd-5">
+                    <div class="right-page pd-5 dis-none">
                         <button onclick="goToBack()" class="btn btn-outline-dark">Go Back</button>
-						{{moredetailsarray}}
-					</div>	
-
-               
+<!--						{{moredetailsarray}}-->
+						
+						<img id="mainImg" class="main-scs" src="../windows-games/screen-shots/far-cry/main.jpg" alt="iamge">
+						<div class="text-center">
+							<img class="screenshot card-hoverr" onClick="changeImg(this)" src="../windows-games/screen-shots/far-cry/main.jpg" alt="iamge">
+							<img class="screenshot card-hoverr" onClick="changeImg(this)" src="../windows-games/screen-shots/far-cry/1.jpg" alt="iamge">
+							<img class="screenshot card-hoverr" onClick="changeImg(this)" src="../windows-games/screen-shots/far-cry/2.jpg" alt="iamge">
+							<img class="screenshot card-hoverr" onClick="changeImg(this)" src="../windows-games/screen-shots/far-cry/3.jpg" alt="iamge">
+							<img class="screenshot card-hoverr" onClick="changeImg(this)" src="../windows-games/screen-shots/far-cry/4.jpg" alt="iamge">
+							<img class="screenshot card-hoverr" onClick="changeImg(this)" src="../windows-games/screen-shots/far-cry/5.jpg" alt="iamge">
+						</div>
+						<div><hr>
+							
+					   <h1 class="text-center w-heading ">Far Cry 1</h1>
+						<div style="width: 100%">
+						<p class="pog fa-border prg">
+				   <strong>Release date : 2016<br>
+                           Updated On :  9 August, 2017<br>
+                           Genre :   Action</strong><br></p>
+                        <p class="dis-inl-blk prg">
+				   <strong>Category :  Action<br>
+                           Views :  11824<br>
+                           Votes :  N/A</strong></p>
+							
+						</div>
+							
+							<h1 class="text-center htp-heading">Note</h1>
+							<p class="desc-p fa-border">Before Download any game or install it please confirm your Windows is updated and some GAME CRACK alert as virus ..disable your Antivirus before install any game.<br>
+                            IMPORTANT :  Make sure you have enough space in drive C:\ before install any game.<br>
+                            Download Virtual Drive software  Click Here  for iso files</p>
+							
+                       <h1 class="text-center htp-heading">Description</h1>
+							<p class="desc-p fa-border">The award-winning Far Cry franchise that stormed the tropics and the Himalayas now enters the original fight for humanity’s survival with its innovative open-world sandbox gameplay, bringing together massive beasts, breathtaking environments, and unpredictable savage encounters.<br>
+                            Welcome to the Stone Age, a time of extreme danger and limitless adventure, when giant mammoths and sabretooth tigers ruled the Earth and humanity is at the bottom of the food chain. As the last survivor of your hunting group, you will learn to craft a deadly arsenal, fend off fierce predators, and outsmart enemy tribes to conquer the land of Oros and become the Apex Predator.
+                            GAME FEATURES<br>
+                            STONE AGE BY FAR CRY: The rich setting of the Stone Age provides a new setting filled with unpredictable mayhem, dangerous threats, and incredible stories that Far Cry is known for.
+                            RISE ABOVE EXTINCTION: Play as Takkar, a seasoned hunter and the last surviving member of your group. There is one goal: survive in a world where you are the prey.<br>
+                            FIERCE WILDLIFE AND SAVAGE AND MAJESTIC WORLD: This is earth before man laid claim to it, where deadly sabretooth tigers ruled the world, giant woolly mammoths were kings, and herds of massive Elk stormed through the plains. Discover these and many more daunting creatures in the savage open-world of Oros within the towering redwood forests, harsh taiga, cold glacial mountains and humid swamps.....</p>
+                        </div>
+						<div>
+						<h1 class="text-center htp-heading">System Requirments</h1>
+						<p class="fa-border prg"><strong>Minimum:</strong>
+                           OS: Windows 7, Windows 8.1, Windows 10 (64-bit versions only)
+                           Processor: Intel Core i3-550 | AMD Phenom II X4 955 or equivalent
+                           Memory: 4 GB RAM
+                           Graphics: NVIDIA GeForce GTX 460 (1GB VRAM) | AMD Radeon HD 5770 (1GB VRAM) or equivalent
+                           Storage: 20 GB available space<br><br>
+                           <strong>Recommended:</strong>
+                           OS: Windows 7, Windows 8.1, Windows 10 (64-bit versions only)
+                           Processor: Intel Core i7-2600K | AMD FX-8350 or equivalent
+                           Memory: 8 GB RAM
+                           Graphics: NVIDIA GeForce GTX 780 | AMD Radeon R9 280X or equivalent
+                           Storage: 20 GB available space</p>
+						</div>
+						<button class="btn btn-outline-dark btns btn-block">Download This Game</button><br>
+						<button class="btn btn-outline-dark btns btn-block">Go To offical site</button>
          </div>
 						
-	</div>
+	  </div>
 			
+   </div>
 </div>
 				
 			

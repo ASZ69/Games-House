@@ -80,3 +80,15 @@ ul{
 .pd-5 {
 	padding: 5;
 }
+
+.dis-inl {
+	display: inline;
+}
+
+.dis-inl-blk {
+/*	margin-top: -10%;*/
+	display: inline-block;
+	width: 50%;
+	float: right;
+	overflow: hidden;
+}
