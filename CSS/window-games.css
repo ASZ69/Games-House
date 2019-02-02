@@ -147,3 +147,17 @@
 .right-page button{
     margin-top: -70px;
 }
+
+/*
+.scroll-container {
+    height: calc(100vh - 86px);
+    overflow: auto;
+}
+
+@media (max-width:767px) {
+    .scroll-container {
+        height: auto;
+    }
+}*/
+
+

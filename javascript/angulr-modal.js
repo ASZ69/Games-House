@@ -297,7 +297,7 @@ var itemlist = [{name:'Action games',
 							  'adsfda'],
 						  videos:'games.mp4'}},
 					 
-					 {name:'SniperElite',
+					 {name:'SniperElite 1',
 					  requirements:'www.wiki.com/psl',
 					  download:'',
 					  imgSrc:'../windows-games/sniper.jpg',
@@ -444,17 +444,6 @@ var itemlist = [{name:'Action games',
 					  requirements:'www.wiki.com/psl',
 					  download:'',
 					  imgSrc:'../windows-games/shooting-games/Rules-of-Survival.jpg',
-					  moreDetails:{
-						  images:[
-							  '../images/my.jpg',
-							  'asdasda',
-							  'adsfda'],
-						  videos:'games.mp4'}},
-					 
-					  {name:'Sniper Elite 4',
-					  requirements:'www.wiki.com/psl',
-					   download:'',
-					  imgSrc:'../windows-games/shooting-games/sniper-elite-4.jpg',
 					  moreDetails:{
 						  images:[
 							  '../images/my.jpg',
