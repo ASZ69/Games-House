@@ -23,12 +23,25 @@ games.controller("cat-ctrl",function($scope,$filter){
 		
 		
     };
-
-	$scope.gamearray = $filter('filter')(itemlist, {name: 'Action games'});
+      
+	$scope.viewGame = function (games) {
+        var clickref = games.currentTarget;
+        var gameName = clickref.innerHTML;
+		
+		var gameCat = clickref.parentElement.parentElement.getElementsByTagName("h3")[0].innerHTML;
+		$scope.evearray = $filter('filter')(itemlist, {name: gameCat});
+		$(".right-view").css("display", "none");
+        $(".right-page").css("display", "block"); 
+		   
+		   
+        $scope.moredetailsarray = $filter('filter')($scope.evearray[0].seasons, { name: gameName });
+	
+    };
+	
+	$scope.evearray = $filter('filter')(itemlist, {name: 'Action games'});
 	
 	$scope.catarray = itemlist;
-	
-	
+
 });
 
 

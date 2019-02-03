@@ -103,13 +103,13 @@
 		
 		<div class="row">
 			
-			<div class="col-md-3 left-block">
+			<div class="col-md-3 left-block" >
 				<ul>
 					<li>
-						<h3 ng-click="showCat($event)">Action games</h3>
+						<h3 ng-click="showCat($event)" >Action games</h3>
 						<ul>
-							<li>FarCry 1</li>
-							<li>Max Payne 3</li>
+							<li ng-click="viewGame($event)">FarCry 1</li>
+							<li ng-click="viewGame($event)">Max Payne 3</li>
 							<li>Hitman</li>
 							<li>Tekken 7</li>
 							<li>FarCry 2</li>
@@ -218,7 +218,7 @@
 <!--								<button class="btn btn-dark btn-sm dis-blk">Requirements</button>-->
 <!--								<button class="btn btn-ou btn-sm dis-blk">Download</button>-->
 							</div>
-							
+							 
 						</div>
 						<hr>
 						<div class="card-heading">
@@ -232,7 +232,8 @@
                     <div class="right-page pd-5 dis-none">
                         <button onclick="goToBack()" class="btn btn-outline-dark">Go Back</button>
 						
-						<img id="mainImg" class="main-scs" src="../windows-games/screen-shots/far-cry/main.jpg" alt="iamge">
+<!--						<img id="mainImg" class="main-scs" src="../windows-games/screen-shots/far-cry/main.jpg" alt="iamge">-->
+						<img id="mainImg" class="main-scs" src="{{moredetailsarray[0].imgSrc}}" alt="iamge">
 						
 						<div class="text-center">
 							<img class="screenshot card-hoverr" onClick="changeImg(this)" src="../windows-games/screen-shots/far-cry/main.jpg" alt="iamge">
@@ -247,20 +248,24 @@
 					   <h1 class="text-center w-heading ">Far Cry 1</h1>
 						<div class="fa-border" style="width: 100%;height: 6.3vw;">
 						<p class="pog prg">
-					    <b><i class="fas fa-calendar-alt"></i> Release date :</b> 2016<br>
-                        <b><i class="fas fa-calendar-alt"></i> Updated On :</b> 9 August, 2004<br>
+					    <b><i class="fas fa-calendar-alt"></i> Release date :</b> 2004<br>
+                        <b><i class="fas fa-calendar-alt"></i> Updated On :</b> 23 March, 2004<br>
                         <b><i class="fas fa-tags"></i> Genre :</b> Action<br></p>
                         <p class="dis-inl-blk prg">
 				        <b><i class="fas fa-tags"></i> Category :</b> Action<br>
                         <b><i class="fas fa-eye"></i> Views :</b> 11824<br>
                         <b><i class="fas fa-user-friends"></i> Votes :</b> N/A</p>
 						</div>
-							<button class="btn btn-outline-dark btns">Download This Game</button><br>
-						<button class="btn btn-outline-dark btns">Go To offical site</button>
+							
+							<div class="fa-border" style="width: 100%;">
+							<button class="btn btn-outline-dark btnss">Download This Game</button><br>
+						    <button class="btn btn-outline-dark btns btn-dis-inl-blk">Go To offical site</button>
+							</div>
+							
 							
 							<h1 class="text-center htp-heading">Note</h1>
 							<p class="desc-p fa-border">Before Download any game or install it please confirm your Windows is updated and some GAME CRACK alert as virus ..disable your Antivirus before install any game.<br>
-                            IMPORTANT :  Make sure you have enough space in drive C:\ before install any game.<br>
+                            <b>IMPORTANT :</b>  Make sure you have enough space in drive C:\ before install any game.<br>
                             Download Virtual Drive software  Click Here  for iso files</p>
 							
                        <h1 class="text-center htp-heading">Description</h1>

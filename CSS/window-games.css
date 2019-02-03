@@ -18,12 +18,14 @@
 	list-style-type: none;
 	margin-left: -15%;
 }
+/*
 @media (max-width:100px) {
     .left-block ul {
         height: auto;
 		margin-left: -15%;
     }
 }
+*/
 .left-block ul li ul li:hover{
 	box-sizing: border-box;
 	cursor: pointer;
@@ -236,4 +238,16 @@
 	overflow: hidden;
 	width: 50%;
 	display: inline-block;
+}
+
+.btn-dis-inl-blk {
+/*	display: inline-block;*/
+	width: 50%;
+/*	float: right;*/
+	overflow: hidden;
+}
+
+.btnss {
+	overflow: hidden;
+	width: 50%;
 }
