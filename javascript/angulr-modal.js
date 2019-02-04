@@ -44,7 +44,6 @@ games.controller("cat-ctrl",function($scope,$filter){
 
 });
 
-
 var itemlist = [{name:'Action games',
 				 seasons:[
 					 
@@ -53,10 +52,23 @@ var itemlist = [{name:'Action games',
 					  imgSrc:'../windows-games/farcry.jpg',
 					  requirements:{
 						  images:[
-							  '../images/my.jpg',
-							  'asdasda',
-							  'adsfda'],
-					                 }},
+							  '../windows-games/screen-shots/far-cry/1.jpg',
+							  '../windows-games/screen-shots/far-cry/2.jpg',
+                              '../windows-games/screen-shots/far-cry/3.jpg',
+                              '../windows-games/screen-shots/far-cry/4.jpg',
+                              '../windows-games/screen-shots/far-cry/5.jpg'
+                          ],
+                          releaseDate: '2004',
+                          updatedOn: '23 March, 2004',
+                          genre: 'Action',
+                          category: 'Action',
+                          views: '11290',
+                          votes: 'N/A',
+                          officialSite: 'www.site',
+                          minimumRequirment: 'OS: Windows 7 Windows 8.1 Windows 10 (64-bit versions only). Processor: Intel Core i3- 550 | AMD Phenom II X4 955 or equivalent. Memory: 4 GB RAM. Graphics: NVIDIA GeForce GTX 460 (1GB VRAM) | AMD Radeon HD 5770 (1GB VRAM) or equivalent. Storage: 20 GB available space',
+                          recommended: 'OS: Windows 7, Windows 8.1, Windows 10 (64-bit versions only). Processor: Intel Core i7- 2600K | AMD FX-8350 or equivalent. Memory: 8 GB RAM. Graphics: NVIDIA GeForce GTX 780 | AMD Radeon R9 280X or equivalent. Storage: 20 GB available space'
+                      }
+                     },
 					 
 					 {name:'Max Payne 3',
 					  requirements:'',
