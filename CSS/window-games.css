@@ -1,3 +1,21 @@
+
+html,body{
+	scroll-behavior: smooth;
+}
+.image-hover{
+	opacity: 0.1;
+}
+
+@media (min-width:1007px){
+	.left-sc-fix{
+		overflow-y: scroll; 
+		height: calc(100vh - 20px); 
+		position: fixed;
+		top: 65px; 
+		left: 0;
+	}
+}
+
 .left-block {
 	width: 100%;
 	height: auto;
@@ -18,14 +36,13 @@
 	list-style-type: none;
 	margin-left: -15%;
 }
-/*
-@media (max-width:100px) {
-    .left-block ul {
-        height: auto;
-		margin-left: -15%;
-    }
+
+@media (max-width:767px){
+	.left-block ul{
+	margin-left: 0px;
 }
-*/
+}
+
 .left-block ul li ul li:hover{
 	box-sizing: border-box;
 	cursor: pointer;
@@ -250,4 +267,13 @@
 .btnss {
 	overflow: hidden;
 	width: 50%;
+}
+
+.w-ancer {
+	color: black;
+	text-decoration: none !important;
+}
+.w-ancer:hover{
+	color: white !important;
+	text-decoration: none !important;
 }

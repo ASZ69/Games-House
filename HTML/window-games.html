@@ -41,19 +41,15 @@
                         </a>
                         <a class="dropdown-item" href="games.html">
                             <img src="../home-images/dropdown-logo/windows-games/shooting.png" width="30px"
-                                 height="30px" alt="image"> ShootingGames
+                                 height="30px" alt="image"> Shooting-Games
                         </a>
                         <a class="dropdown-item" href="games.html">
                             <img src="../home-images/dropdown-logo/windows-games/car.jpg" width="30px"
-                                 height="30px" alt="image"> CarGames
+                                 height="30px" alt="image"> Sports-Games
                         </a>
                         <a class="dropdown-item" href="games.html">
                             <img src="../home-images/dropdown-logo/windows-games/Puzzle.png" width="30px"
-                                 height="30px" alt="image"> PuzzleGames
-                        </a>
-                        <a class="dropdown-item" href="games.html">
-                            <img src="../home-images/dropdown-logo/windows-games/cwicket.png" width="30px"
-                                 height="30px" alt="image"> Circket07
+                                 height="30px" alt="image"> Puzzle-Games
                         </a>
                     </div>
                 </li>
@@ -139,18 +135,20 @@
         <div class="row">
 
             <div class="col-md-3 left-block">
-                <ul>
+                <div class="left-sc-fix">
+				
+					<ul>
                     <li>
                         <h3 ng-click="showCat($event)">Action games</h3>
                         <ul>
-                            <li ng-click="viewGame($event)">FarCry 1</li>
+                            <li ng-click="viewGame($event)">Far Cry 1</li>
                             <li ng-click="viewGame($event)">Max Payne 3</li>
                             <li ng-click="viewGame($event)">Hitman</li>
                             <li ng-click="viewGame($event)">Tekken 7</li>
-                            <li ng-click="viewGame($event)">FarCry 2</li>
-                            <li ng-click="viewGame($event)">FarCry 3</li>
-                            <li ng-click="viewGame($event)">FarCry 4</li>
-                            <li ng-click="viewGame($event)">FarCry 5</li>
+                            <li ng-click="viewGame($event)">Far Cry 2</li>
+                            <li ng-click="viewGame($event)">Far Cry 3</li>
+                            <li ng-click="viewGame($event)">Far Cry 4</li>
+                            <li ng-click="viewGame($event)">Far Cry 5</li>
                             <li ng-click="viewGame($event)">Max Payne 1</li>
                             <li ng-click="viewGame($event)">Max Payne 2</li>
                             <li ng-click="viewGame($event)">Hitman 2</li>
@@ -186,7 +184,7 @@
                             <li ng-click="viewGame($event)">The Divition</li>
                             <li ng-click="viewGame($event)">Rules of Survival</li>
                             <li ng-click="viewGame($event)">PUBG Pc</li>
-                            <li ng-click="viewGame($event)">CS GO</li>
+                            <li ng-click="viewGame($event)">Cs-Go</li>
                             <li ng-click="viewGame($event)">Delta-Force</li>
                         </ul>
                     </li>
@@ -221,7 +219,6 @@
                         <ul>
                             <li ng-click="viewGame($event)">Jigsaw Puzzles Free</li>
                             <li ng-click="viewGame($event)">The Witness</li>
-                            <li ng-click="viewGame($event)">Puzzle Bobble</li>
                             <li ng-click="viewGame($event)">Jigsaw Car Puzzle</li>
                             <li ng-click="viewGame($event)">Jugle Puzzle</li>
                             <li ng-click="viewGame($event)">Jelly Puzzles</li>
@@ -231,6 +228,8 @@
                         </ul>
                     </li>
                 </ul>
+					
+				</div>
             </div>
 
             <div class="col-md-9">
@@ -245,10 +244,10 @@
                     <div ng-repeat="season in games.seasons" class="mr-lr-5 mr-tb-5">
                         <span class="dis-none"></span>
                         <div class="cd-img-p">
-                            <img src="{{season.imgSrc}}" alt="PIC" class="card-hover">
+                            <img src="{{season.imgSrc}}" alt="PIC" class="card-hover"> 
                             <div class="card-overlay">
                                 <!--								<i class="fas fa-inbox"></i>-->
-                                <a class="dis-blk text-center" ng-click="viewMore($event)">Requirements</a>
+                                <a class="dis-blk text-center my-hover-a" ng-click="viewMore($event)">Requirements</a>
                                 <a href="{{season.download}}" class="dis-blk text-center mr-t-2">Download</a>
                                 <!--								<button class="btn btn-dark btn-sm dis-blk">Requirements</button>-->
                                 <!--								<button class="btn btn-ou btn-sm dis-blk">Download</button>-->
@@ -276,10 +275,9 @@
                         <img class="screenshot card-hoverr" onClick="changeImg(this)" src="{{moredetailsarray[0].requirements.images[1]}}" alt="iamge">
                         <img class="screenshot card-hoverr" onClick="changeImg(this)" src="{{moredetailsarray[0].requirements.images[2]}}" alt="iamge">
                         <img class="screenshot card-hoverr" onClick="changeImg(this)" src="{{moredetailsarray[0].requirements.images[3]}}" alt="iamge">
-                        <img class="screenshot card-hoverr" onClick="changeImg(this)" src="{{moredetailsarray[0].requirements.images[4]}}" alt="iamge">
                     </div>
                     <div>
-                        <hr>
+                        <hr> 
 
                         <h1 class="text-center w-heading ">{{moredetailsarray[0].name}}</h1>
                         <div class="fa-border" style="width: 100%;height: 6.3vw;">
@@ -296,10 +294,11 @@
                         </div>
 
                         <div class="fa-border" style="width: 100%;">
-                            <button class="btn btn-outline-dark btnss"><a href="{{moredetailsarray[0].requirements.officialSite}}">Download This Game</a></button><br>
-                            <button class="btn btn-outline-dark btns btn-dis-inl-blk"><a href="{{moredetailsarray[0].requirements.officialSite}}">Go To offical site</a></button>
+                            <button class="btn btn-outline-dark btnss"><a class="w-ancer" href="{{moredetailsarray[0].requirements.officialSite}}">Download This Game</a></button><br>
+                            <button class="btn btn-outline-dark btns btn-dis-inl-blk"><a class="w-ancer" href="{{moredetailsarray[0].requirements.officialSite}}">Go To offical site</a></button>
                         </div>
-
+						
+<!--                        <img src="../windows-games/screen-shots/game-images/rt-1.jpg">-->
 
                         <h1 class="text-center htp-heading">Note</h1>
                         <p class="desc-p fa-border">
