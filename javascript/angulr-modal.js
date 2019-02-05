@@ -78,7 +78,7 @@ var itemlist = [{name:'Action games',
 				 seasons:[
 					 
 					 {name:'Far Cry 1',
-					  download:'http://www.emasti.pk/view/game/7557',
+					  download:'http://oceanoffgames.com/category/home/',
 					  imgSrc:'../windows-games/farcry.jpg',
 					  requirements:{
 						  images:[
@@ -94,14 +94,14 @@ var itemlist = [{name:'Action games',
                           category: 'Action', 
                           views: '11290',
                           votes: 'N/A',
-                          officialSite: 'www.site',
+                          officialSite: 'http://oceanoffgames.com/category/home/',
                           minimumRequirment: 'OS: Windows 7 Windows 8.1 Windows 10 (64-bit versions only). Processor: Intel Core i3- 550 | AMD Phenom II X4 955 or equivalent. Memory: 4 GB RAM. Graphics: NVIDIA GeForce GTX 460 (1GB VRAM) | AMD Radeon HD 5770 (1GB VRAM) or equivalent. Storage: 20 GB available space',
                           recommended: 'OS: Windows 7, Windows 8.1, Windows 10 (64-bit versions only). Processor: Intel Core i7- 2600K | AMD FX-8350 or equivalent. Memory: 8 GB RAM. Graphics: NVIDIA GeForce GTX 780 | AMD Radeon R9 280X or equivalent. Storage: 20 GB available space'
                       }
                      },
 					 
 					 {name:'Max Payne 3',
-					  download:'',
+					  download:'http://oceanoffgames.com/category/home/',
 					  imgSrc:'../windows-games/max-paine3.jpg',
 					  requirements:{
 						  images:[
@@ -116,14 +116,14 @@ var itemlist = [{name:'Action games',
                           category: 'Action',
                           views: '11290',
                           votes: 'N/A',
-                          officialSite: 'www.site',
+                          officialSite: 'http://oceanoffgames.com/category/home/',
                           minimumRequirment: 'OS: Windows 7 Windows 8.1 Windows 10 (64-bit versions only). Processor: Intel Core i3- 550 | AMD Phenom II X4 955 or equivalent. Memory: 4 GB RAM. Graphics: NVIDIA GeForce GTX 460 (1GB VRAM) | AMD Radeon HD 5770 (1GB VRAM) or equivalent. Storage: 20 GB available space',
                           recommended: 'OS: Windows 7, Windows 8.1, Windows 10 (64-bit versions only). Processor: Intel Core i7- 2600K | AMD FX-8350 or equivalent. Memory: 8 GB RAM. Graphics: NVIDIA GeForce GTX 780 | AMD Radeon R9 280X or equivalent. Storage: 20 GB available space'
                       }
 					 },
 					 
 					 {name:'Hitman 1',
-					  download:'',
+					  download:'http://oceanoffgames.com/category/home/',
 					  imgSrc:'../windows-games/hitman.jpg',
 					 requirements:{
 						  images:[
@@ -138,14 +138,14 @@ var itemlist = [{name:'Action games',
                           category: 'Action', 
                           views: '11290',
                           votes: 'N/A',
-                          officialSite: 'www.site',
+                          officialSite: 'http://oceanoffgames.com/category/home/',
                           minimumRequirment: 'OS: Windows 7 Windows 8.1 Windows 10 (64-bit versions only). Processor: Intel Core i3- 550 | AMD Phenom II X4 955 or equivalent. Memory: 4 GB RAM. Graphics: NVIDIA GeForce GTX 460 (1GB VRAM) | AMD Radeon HD 5770 (1GB VRAM) or equivalent. Storage: 20 GB available space',
                           recommended: 'OS: Windows 7, Windows 8.1, Windows 10 (64-bit versions only). Processor: Intel Core i7- 2600K | AMD FX-8350 or equivalent. Memory: 8 GB RAM. Graphics: NVIDIA GeForce GTX 780 | AMD Radeon R9 280X or equivalent. Storage: 20 GB available space'
                       }
 					 },
 					 
 					  {name:'Tekken 7',
-					   download:'',
+					   download:'http://oceanoffgames.com/category/home/',
 					   imgSrc:'../windows-games/Tekken7.jpg',
 					    requirements:{
 						  images:[
@@ -160,13 +160,13 @@ var itemlist = [{name:'Action games',
                           category: 'Action', 
                           views: '11290',
                           votes: 'N/A',
-                          officialSite: 'www.site',
+                          officialSite: 'http://oceanoffgames.com/category/home/',
                           minimumRequirment: 'OS: Windows 7 Windows 8.1 Windows 10 (64-bit versions only). Processor: Intel Core i3- 550 | AMD Phenom II X4 955 or equivalent. Memory: 4 GB RAM. Graphics: NVIDIA GeForce GTX 460 (1GB VRAM) | AMD Radeon HD 5770 (1GB VRAM) or equivalent. Storage: 20 GB available space',
                           recommended: 'OS: Windows 7, Windows 8.1, Windows 10 (64-bit versions only). Processor: Intel Core i7- 2600K | AMD FX-8350 or equivalent. Memory: 8 GB RAM. Graphics: NVIDIA GeForce GTX 780 | AMD Radeon R9 280X or equivalent. Storage: 20 GB available space'
                       }},
 					 
 					 {name:'Far Cry 2',
-					  download:'',
+					  download:'http://oceanoffgames.com/category/home/',
 					  imgSrc:'../windows-games/far-cry-2.jpg',
 					  requirements:{
 						  images:[
@@ -181,14 +181,14 @@ var itemlist = [{name:'Action games',
                           category: 'Action', 
                           views: '11290',
                           votes: 'N/A',
-                          officialSite: 'www.site',
+                          officialSite: 'http://oceanoffgames.com/category/home/',
                           minimumRequirment: 'OS: Windows 7 Windows 8.1 Windows 10 (64-bit versions only). Processor: Intel Core i3- 550 | AMD Phenom II X4 955 or equivalent. Memory: 4 GB RAM. Graphics: NVIDIA GeForce GTX 460 (1GB VRAM) | AMD Radeon HD 5770 (1GB VRAM) or equivalent. Storage: 20 GB available space',
                           recommended: 'OS: Windows 7, Windows 8.1, Windows 10 (64-bit versions only). Processor: Intel Core i7- 2600K | AMD FX-8350 or equivalent. Memory: 8 GB RAM. Graphics: NVIDIA GeForce GTX 780 | AMD Radeon R9 280X or equivalent. Storage: 20 GB available space'
                       }
 					 },
 					 
 					  {name:'Far Cry 3',
-					   download:'',
+					   download:'http://oceanoffgames.com/category/home/',
 					  imgSrc:'../windows-games/_-Far-Cry-3-PC-_.jpg',
 					  requirements:{
 						  images:[
@@ -203,13 +203,13 @@ var itemlist = [{name:'Action games',
                           category: 'Action', 
                           views: '11290',
                           votes: 'N/A',
-                          officialSite: 'www.site',
+                          officialSite: 'http://oceanoffgames.com/category/home/',
                           minimumRequirment: 'OS: Windows 7 Windows 8.1 Windows 10 (64-bit versions only). Processor: Intel Core i3- 550 | AMD Phenom II X4 955 or equivalent. Memory: 4 GB RAM. Graphics: NVIDIA GeForce GTX 460 (1GB VRAM) | AMD Radeon HD 5770 (1GB VRAM) or equivalent. Storage: 20 GB available space',
                           recommended: 'OS: Windows 7, Windows 8.1, Windows 10 (64-bit versions only). Processor: Intel Core i7- 2600K | AMD FX-8350 or equivalent. Memory: 8 GB RAM. Graphics: NVIDIA GeForce GTX 780 | AMD Radeon R9 280X or equivalent. Storage: 20 GB available space'
                       }},
 					 
 					 {name:'Far Cry 4',
-					  download:'',
+					  download:'http://oceanoffgames.com/category/home/',
 					  imgSrc:'../windows-games/Far-Cry-4.jpg',
 					  requirements:{
 						  images:[
@@ -224,13 +224,13 @@ var itemlist = [{name:'Action games',
                           category: 'Action', 
                           views: '11290',
                           votes: 'N/A',
-                          officialSite: 'www.site',
+                          officialSite: 'http://oceanoffgames.com/category/home/',
                           minimumRequirment: 'OS: Windows 7 Windows 8.1 Windows 10 (64-bit versions only). Processor: Intel Core i3- 550 | AMD Phenom II X4 955 or equivalent. Memory: 4 GB RAM. Graphics: NVIDIA GeForce GTX 460 (1GB VRAM) | AMD Radeon HD 5770 (1GB VRAM) or equivalent. Storage: 20 GB available space',
                           recommended: 'OS: Windows 7, Windows 8.1, Windows 10 (64-bit versions only). Processor: Intel Core i7- 2600K | AMD FX-8350 or equivalent. Memory: 8 GB RAM. Graphics: NVIDIA GeForce GTX 780 | AMD Radeon R9 280X or equivalent. Storage: 20 GB available space'
                       }},
 					 
 					   {name:'Far Cry 5',
-						download:'',
+						download:'http://oceanoffgames.com/category/home/',
 					  imgSrc:'../windows-games/far-cry-5.jpg',
 					 requirements:{
 						  images:[
@@ -245,13 +245,13 @@ var itemlist = [{name:'Action games',
                           category: 'Action', 
                           views: '11290',
                           votes: 'N/A',
-                          officialSite: 'www.site',
+                          officialSite: 'http://oceanoffgames.com/category/home/',
                           minimumRequirment: 'OS: Windows 7 Windows 8.1 Windows 10 (64-bit versions only). Processor: Intel Core i3- 550 | AMD Phenom II X4 955 or equivalent. Memory: 4 GB RAM. Graphics: NVIDIA GeForce GTX 460 (1GB VRAM) | AMD Radeon HD 5770 (1GB VRAM) or equivalent. Storage: 20 GB available space',
                           recommended: 'OS: Windows 7, Windows 8.1, Windows 10 (64-bit versions only). Processor: Intel Core i7- 2600K | AMD FX-8350 or equivalent. Memory: 8 GB RAM. Graphics: NVIDIA GeForce GTX 780 | AMD Radeon R9 280X or equivalent. Storage: 20 GB available space'
                       }},
 					 
 					  {name:'Max Payne 1',
-					   download:'',
+					   download:'http://oceanoffgames.com/category/home/',
 					  imgSrc:'../windows-games/Max-Payne-1.jpg',
 					 requirements:{
 						  images:[
@@ -267,13 +267,13 @@ var itemlist = [{name:'Action games',
                           category: 'Action', 
                           views: '11290',
                           votes: 'N/A',
-                          officialSite: 'www.site',
+                          officialSite: 'http://oceanoffgames.com/category/home/',
                           minimumRequirment: 'OS: Windows 7 Windows 8.1 Windows 10 (64-bit versions only). Processor: Intel Core i3- 550 | AMD Phenom II X4 955 or equivalent. Memory: 4 GB RAM. Graphics: NVIDIA GeForce GTX 460 (1GB VRAM) | AMD Radeon HD 5770 (1GB VRAM) or equivalent. Storage: 20 GB available space',
                           recommended: 'OS: Windows 7, Windows 8.1, Windows 10 (64-bit versions only). Processor: Intel Core i7- 2600K | AMD FX-8350 or equivalent. Memory: 8 GB RAM. Graphics: NVIDIA GeForce GTX 780 | AMD Radeon R9 280X or equivalent. Storage: 20 GB available space'
                       }},
 					 
 					  {name:'Max Payne 2',
-					   download:'',
+					   download:'http://oceanoffgames.com/category/home/',
 					  imgSrc:'../windows-games/max-payne-2.jpg',
 					  requirements:{
 						  images:[
@@ -288,13 +288,13 @@ var itemlist = [{name:'Action games',
                           category: 'Action', 
                           views: '11290',
                           votes: 'N/A',
-                          officialSite: 'www.site',
+                          officialSite: 'http://oceanoffgames.com/category/home/',
                           minimumRequirment: 'OS: Windows 7 Windows 8.1 Windows 10 (64-bit versions only). Processor: Intel Core i3- 550 | AMD Phenom II X4 955 or equivalent. Memory: 4 GB RAM. Graphics: NVIDIA GeForce GTX 460 (1GB VRAM) | AMD Radeon HD 5770 (1GB VRAM) or equivalent. Storage: 20 GB available space',
                           recommended: 'OS: Windows 7, Windows 8.1, Windows 10 (64-bit versions only). Processor: Intel Core i7- 2600K | AMD FX-8350 or equivalent. Memory: 8 GB RAM. Graphics: NVIDIA GeForce GTX 780 | AMD Radeon R9 280X or equivalent. Storage: 20 GB available space'
                       }},
 					 
 					 {name:'Hitman 2',
-					  download:'',
+					  download:'http://oceanoffgames.com/category/home/',
 					  imgSrc:'../windows-games/Hitman-2.jpg',
 					  requirements:{
 						  images:[
@@ -309,13 +309,13 @@ var itemlist = [{name:'Action games',
                           category: 'Action', 
                           views: '11290',
                           votes: 'N/A',
-                          officialSite: 'www.site',
+                          officialSite: 'http://oceanoffgames.com/category/home/',
                           minimumRequirment: 'OS: Windows 7 Windows 8.1 Windows 10 (64-bit versions only). Processor: Intel Core i3- 550 | AMD Phenom II X4 955 or equivalent. Memory: 4 GB RAM. Graphics: NVIDIA GeForce GTX 460 (1GB VRAM) | AMD Radeon HD 5770 (1GB VRAM) or equivalent. Storage: 20 GB available space',
                           recommended: 'OS: Windows 7, Windows 8.1, Windows 10 (64-bit versions only). Processor: Intel Core i7- 2600K | AMD FX-8350 or equivalent. Memory: 8 GB RAM. Graphics: NVIDIA GeForce GTX 780 | AMD Radeon R9 280X or equivalent. Storage: 20 GB available space'
                       }},
 					 
 					   {name:'Hitman 3 Contracts',
-						download:'',
+						download:'http://oceanoffgames.com/category/home/',
 					  imgSrc:'../windows-games/Hitman-3-Contracts.jpg',
 					  requirements:{
 						  images:[
@@ -330,13 +330,13 @@ var itemlist = [{name:'Action games',
                           category: 'Action', 
                           views: '11290',
                           votes: 'N/A',
-                          officialSite: 'www.site',
+                          officialSite: 'http://oceanoffgames.com/category/home/',
                           minimumRequirment: 'OS: Windows 7 Windows 8.1 Windows 10 (64-bit versions only). Processor: Intel Core i3- 550 | AMD Phenom II X4 955 or equivalent. Memory: 4 GB RAM. Graphics: NVIDIA GeForce GTX 460 (1GB VRAM) | AMD Radeon HD 5770 (1GB VRAM) or equivalent. Storage: 20 GB available space',
                           recommended: 'OS: Windows 7, Windows 8.1, Windows 10 (64-bit versions only). Processor: Intel Core i7- 2600K | AMD FX-8350 or equivalent. Memory: 8 GB RAM. Graphics: NVIDIA GeForce GTX 780 | AMD Radeon R9 280X or equivalent. Storage: 20 GB available space'
                       }},
 					 
 					 {name:'Hitman Blood Money',
-					  download:'',
+					  download:'http://oceanoffgames.com/category/home/',
 					  imgSrc:'../windows-games/Hitman-Blood-Money.jpg',
 					  requirements:{
 						  images:[
@@ -351,13 +351,13 @@ var itemlist = [{name:'Action games',
                           category: 'Action', 
                           views: '11290',
                           votes: 'N/A',
-                          officialSite: 'www.site',
+                          officialSite: 'http://oceanoffgames.com/category/home/',
                           minimumRequirment: 'OS: Windows 7 Windows 8.1 Windows 10 (64-bit versions only). Processor: Intel Core i3- 550 | AMD Phenom II X4 955 or equivalent. Memory: 4 GB RAM. Graphics: NVIDIA GeForce GTX 460 (1GB VRAM) | AMD Radeon HD 5770 (1GB VRAM) or equivalent. Storage: 20 GB available space',
                           recommended: 'OS: Windows 7, Windows 8.1, Windows 10 (64-bit versions only). Processor: Intel Core i7- 2600K | AMD FX-8350 or equivalent. Memory: 8 GB RAM. Graphics: NVIDIA GeForce GTX 780 | AMD Radeon R9 280X or equivalent. Storage: 20 GB available space'
                       }},
 					 
 					  {name:'Tekken 3',
-					   download:'',
+					   download:'http://oceanoffgames.com/category/home/',
 					  imgSrc:'../windows-games/Tekken-3.jpg',
 					 requirements:{
 						  images:[
@@ -372,13 +372,13 @@ var itemlist = [{name:'Action games',
                           category: 'Action', 
                           views: '11290',
                           votes: 'N/A',
-                          officialSite: 'www.site',
+                          officialSite: 'http://oceanoffgames.com/category/home/',
                           minimumRequirment: 'OS: Windows 7 Windows 8.1 Windows 10 (64-bit versions only). Processor: Intel Core i3- 550 | AMD Phenom II X4 955 or equivalent. Memory: 4 GB RAM. Graphics: NVIDIA GeForce GTX 460 (1GB VRAM) | AMD Radeon HD 5770 (1GB VRAM) or equivalent. Storage: 20 GB available space',
                           recommended: 'OS: Windows 7, Windows 8.1, Windows 10 (64-bit versions only). Processor: Intel Core i7- 2600K | AMD FX-8350 or equivalent. Memory: 8 GB RAM. Graphics: NVIDIA GeForce GTX 780 | AMD Radeon R9 280X or equivalent. Storage: 20 GB available space'
                       }},
 					 
 					 {name:'Tekken 5',
-					  download:'',
+					  download:'http://oceanoffgames.com/category/home/',
 					  imgSrc:'../windows-games/Tekken-5.jpg',
 					  requirements:{
 						  images:[
@@ -393,13 +393,13 @@ var itemlist = [{name:'Action games',
                           category: 'Action', 
                           views: '11290',
                           votes: 'N/A',
-                          officialSite: 'www.site',
+                          officialSite: 'http://oceanoffgames.com/category/home/',
                           minimumRequirment: 'OS: Windows 7 Windows 8.1 Windows 10 (64-bit versions only). Processor: Intel Core i3- 550 | AMD Phenom II X4 955 or equivalent. Memory: 4 GB RAM. Graphics: NVIDIA GeForce GTX 460 (1GB VRAM) | AMD Radeon HD 5770 (1GB VRAM) or equivalent. Storage: 20 GB available space',
                           recommended: 'OS: Windows 7, Windows 8.1, Windows 10 (64-bit versions only). Processor: Intel Core i7- 2600K | AMD FX-8350 or equivalent. Memory: 8 GB RAM. Graphics: NVIDIA GeForce GTX 780 | AMD Radeon R9 280X or equivalent. Storage: 20 GB available space'
                       }},
 					 
 					   {name:'SpaceJet',
-						download:'',
+						download:'http://oceanoffgames.com/category/home/',
 					  imgSrc:'../windows-games/space-jet-action.jpg',
 					  requirements:{
 						  images:[
@@ -414,13 +414,13 @@ var itemlist = [{name:'Action games',
                           category: 'Action', 
                           views: '11290',
                           votes: 'N/A',
-                          officialSite: 'www.site',
+                          officialSite: 'http://oceanoffgames.com/category/home/',
                           minimumRequirment: 'OS: Windows 7 Windows 8.1 Windows 10 (64-bit versions only). Processor: Intel Core i3- 550 | AMD Phenom II X4 955 or equivalent. Memory: 4 GB RAM. Graphics: NVIDIA GeForce GTX 460 (1GB VRAM) | AMD Radeon HD 5770 (1GB VRAM) or equivalent. Storage: 20 GB available space',
                           recommended: 'OS: Windows 7, Windows 8.1, Windows 10 (64-bit versions only). Processor: Intel Core i7- 2600K | AMD FX-8350 or equivalent. Memory: 8 GB RAM. Graphics: NVIDIA GeForce GTX 780 | AMD Radeon R9 280X or equivalent. Storage: 20 GB available space'
                       }},
 					 
 					  {name:'Rise of Tom Rider',
-					   download:'',
+					   download:'http://oceanoffgames.com/category/home/',
 					  imgSrc:'../windows-games/rise-of-tom-rider-action.jpg',
 					 requirements:{
 						  images:[
@@ -435,13 +435,13 @@ var itemlist = [{name:'Action games',
                           category: 'Action', 
                           views: '11290',
                           votes: 'N/A',
-                          officialSite: 'www.site',
+                          officialSite: 'http://oceanoffgames.com/category/home/',
                           minimumRequirment: 'OS: Windows 7 Windows 8.1 Windows 10 (64-bit versions only). Processor: Intel Core i3- 550 | AMD Phenom II X4 955 or equivalent. Memory: 4 GB RAM. Graphics: NVIDIA GeForce GTX 460 (1GB VRAM) | AMD Radeon HD 5770 (1GB VRAM) or equivalent. Storage: 20 GB available space',
                           recommended: 'OS: Windows 7, Windows 8.1, Windows 10 (64-bit versions only). Processor: Intel Core i7- 2600K | AMD FX-8350 or equivalent. Memory: 8 GB RAM. Graphics: NVIDIA GeForce GTX 780 | AMD Radeon R9 280X or equivalent. Storage: 20 GB available space'
                       }},
 					 
 					  {name:'Pandda Cammender',
-					   download:'',
+					   download:'http://oceanoffgames.com/category/home/',
 					  imgSrc:'../windows-games/pandda-cammender-action.jpg',
 					 requirements:{
 						  images:[
@@ -456,13 +456,13 @@ var itemlist = [{name:'Action games',
                           category: 'Action', 
                           views: '11290',
                           votes: 'N/A',
-                          officialSite: 'www.site',
+                          officialSite: 'http://oceanoffgames.com/category/home/',
                           minimumRequirment: 'OS: Windows 7 Windows 8.1 Windows 10 (64-bit versions only). Processor: Intel Core i3- 550 | AMD Phenom II X4 955 or equivalent. Memory: 4 GB RAM. Graphics: NVIDIA GeForce GTX 460 (1GB VRAM) | AMD Radeon HD 5770 (1GB VRAM) or equivalent. Storage: 20 GB available space',
                           recommended: 'OS: Windows 7, Windows 8.1, Windows 10 (64-bit versions only). Processor: Intel Core i7- 2600K | AMD FX-8350 or equivalent. Memory: 8 GB RAM. Graphics: NVIDIA GeForce GTX 780 | AMD Radeon R9 280X or equivalent. Storage: 20 GB available space'
                       }},
 					 
 					 {name:'Ninja Mission',
-					  download:'',
+					  download:'http://oceanoffgames.com/category/home/',
 					  imgSrc:'../windows-games/ninja-mission-action.jpg',
 					  requirements:{
 						  images:[
@@ -477,13 +477,13 @@ var itemlist = [{name:'Action games',
                           category: 'Action', 
                           views: '11290',
                           votes: 'N/A',
-                          officialSite: 'www.site',
+                          officialSite: 'http://oceanoffgames.com/category/home/',
                           minimumRequirment: 'OS: Windows 7 Windows 8.1 Windows 10 (64-bit versions only). Processor: Intel Core i3- 550 | AMD Phenom II X4 955 or equivalent. Memory: 4 GB RAM. Graphics: NVIDIA GeForce GTX 460 (1GB VRAM) | AMD Radeon HD 5770 (1GB VRAM) or equivalent. Storage: 20 GB available space',
                           recommended: 'OS: Windows 7, Windows 8.1, Windows 10 (64-bit versions only). Processor: Intel Core i7- 2600K | AMD FX-8350 or equivalent. Memory: 8 GB RAM. Graphics: NVIDIA GeForce GTX 780 | AMD Radeon R9 280X or equivalent. Storage: 20 GB available space'
                       }},
 					 
 					   {name:'Clash Atlantis',
-						download:'',
+						download:'http://oceanoffgames.com/category/home/',
 					  imgSrc:'../windows-games/clash-atlantis-action.jpg',
 					  requirements:{
 						  images:[
@@ -499,7 +499,7 @@ var itemlist = [{name:'Action games',
                           category: 'Action', 
                           views: '11290',
                           votes: 'N/A',
-                          officialSite: 'www.site',
+                          officialSite: 'http://oceanoffgames.com/category/home/',
                           minimumRequirment: 'OS: Windows 7 Windows 8.1 Windows 10 (64-bit versions only). Processor: Intel Core i3- 550 | AMD Phenom II X4 955 or equivalent. Memory: 4 GB RAM. Graphics: NVIDIA GeForce GTX 460 (1GB VRAM) | AMD Radeon HD 5770 (1GB VRAM) or equivalent. Storage: 20 GB available space',
                           recommended: 'OS: Windows 7, Windows 8.1, Windows 10 (64-bit versions only). Processor: Intel Core i7- 2600K | AMD FX-8350 or equivalent. Memory: 8 GB RAM. Graphics: NVIDIA GeForce GTX 780 | AMD Radeon R9 280X or equivalent. Storage: 20 GB available space'
                       }
@@ -511,15 +511,14 @@ var itemlist = [{name:'Action games',
 				 seasons:[
 					 
 					 {name:'CallofDuty',
-					  download:'',
+					  download:'http://oceanoffgames.com/category/home/',
 					  imgSrc:'../windows-games/callofduty.jpg',
 					  requirements:{
 						  images:[
-							  '../windows-games/screen-shots/far-cry/1.jpg',
-							  '../windows-games/screen-shots/far-cry/2.jpg',
-                              '../windows-games/screen-shots/far-cry/3.jpg',
-                              '../windows-games/screen-shots/far-cry/4.jpg',
-                              '../windows-games/screen-shots/far-cry/5.jpg'
+							  '../windows-games/screen-shots/game-images/cod-1.jpg',
+							  '../windows-games/screen-shots/game-images/cod-2.jpg',
+                              '../windows-games/screen-shots/game-images/cod-3.jpg',
+                              '../windows-games/screen-shots/game-images/cod-4.jpg',
                           ],
                           releaseDate: '2004',
                           updatedOn: '23 March, 2004',
@@ -527,21 +526,20 @@ var itemlist = [{name:'Action games',
                           category: 'Action', 
                           views: '11290',
                           votes: 'N/A',
-                          officialSite: 'www.site',
+                          officialSite: 'http://oceanoffgames.com/category/home/',
                           minimumRequirment: 'OS: Windows 7 Windows 8.1 Windows 10 (64-bit versions only). Processor: Intel Core i3- 550 | AMD Phenom II X4 955 or equivalent. Memory: 4 GB RAM. Graphics: NVIDIA GeForce GTX 460 (1GB VRAM) | AMD Radeon HD 5770 (1GB VRAM) or equivalent. Storage: 20 GB available space',
                           recommended: 'OS: Windows 7, Windows 8.1, Windows 10 (64-bit versions only). Processor: Intel Core i7- 2600K | AMD FX-8350 or equivalent. Memory: 8 GB RAM. Graphics: NVIDIA GeForce GTX 780 | AMD Radeon R9 280X or equivalent. Storage: 20 GB available space'
                       }},
 					 
 					 {name:'Battlefield 1',
-					  download:'',
+					  download:'http://oceanoffgames.com/category/home/',
 					  imgSrc:'../windows-games/Battlefield_1.jpg',
 					  requirements:{
 						  images:[
-							  '../windows-games/screen-shots/far-cry/1.jpg',
-							  '../windows-games/screen-shots/far-cry/2.jpg',
-                              '../windows-games/screen-shots/far-cry/3.jpg',
-                              '../windows-games/screen-shots/far-cry/4.jpg',
-                              '../windows-games/screen-shots/far-cry/5.jpg'
+							  '../windows-games/screen-shots/game-images/b-1.jpg',
+							  '../windows-games/screen-shots/game-images/b-2.jpg',
+                              '../windows-games/screen-shots/game-images/b-3.jpg',
+                              '../windows-games/screen-shots/game-images/b-4.jpg',
                           ],
                           releaseDate: '2004',
                           updatedOn: '23 March, 2004',
@@ -549,21 +547,20 @@ var itemlist = [{name:'Action games',
                           category: 'Action', 
                           views: '11290',
                           votes: 'N/A',
-                          officialSite: 'www.site',
+                          officialSite: 'http://oceanoffgames.com/category/home/',
                           minimumRequirment: 'OS: Windows 7 Windows 8.1 Windows 10 (64-bit versions only). Processor: Intel Core i3- 550 | AMD Phenom II X4 955 or equivalent. Memory: 4 GB RAM. Graphics: NVIDIA GeForce GTX 460 (1GB VRAM) | AMD Radeon HD 5770 (1GB VRAM) or equivalent. Storage: 20 GB available space',
                           recommended: 'OS: Windows 7, Windows 8.1, Windows 10 (64-bit versions only). Processor: Intel Core i7- 2600K | AMD FX-8350 or equivalent. Memory: 8 GB RAM. Graphics: NVIDIA GeForce GTX 780 | AMD Radeon R9 280X or equivalent. Storage: 20 GB available space'
                       }},
 					 
 					 {name:'SniperElite 1',
-					  download:'',
+					  download:'http://oceanoffgames.com/category/home/',
 					  imgSrc:'../windows-games/sniper.jpg',
 					  requirements:{
 						  images:[
-							  '../windows-games/screen-shots/far-cry/1.jpg',
-							  '../windows-games/screen-shots/far-cry/2.jpg',
-                              '../windows-games/screen-shots/far-cry/3.jpg',
-                              '../windows-games/screen-shots/far-cry/4.jpg',
-                              '../windows-games/screen-shots/far-cry/5.jpg'
+							  '../windows-games/screen-shots/game-images/sp-1.jpg',
+							  '../windows-games/screen-shots/game-images/sp-2.jpg',
+                              '../windows-games/screen-shots/game-images/sp-3.jpg',
+                              '../windows-games/screen-shots/game-images/sp-4.jpg',
                           ],
                           releaseDate: '2004',
                           updatedOn: '23 March, 2004',
@@ -571,21 +568,20 @@ var itemlist = [{name:'Action games',
                           category: 'Action', 
                           views: '11290',
                           votes: 'N/A',
-                          officialSite: 'www.site',
+                          officialSite: 'http://oceanoffgames.com/category/home/',
                           minimumRequirment: 'OS: Windows 7 Windows 8.1 Windows 10 (64-bit versions only). Processor: Intel Core i3- 550 | AMD Phenom II X4 955 or equivalent. Memory: 4 GB RAM. Graphics: NVIDIA GeForce GTX 460 (1GB VRAM) | AMD Radeon HD 5770 (1GB VRAM) or equivalent. Storage: 20 GB available space',
                           recommended: 'OS: Windows 7, Windows 8.1, Windows 10 (64-bit versions only). Processor: Intel Core i7- 2600K | AMD FX-8350 or equivalent. Memory: 8 GB RAM. Graphics: NVIDIA GeForce GTX 780 | AMD Radeon R9 280X or equivalent. Storage: 20 GB available space'
                       }},
 					 
 					 {name:'FallOut 1',
-					  download:'',
+					  download:'http://oceanoffgames.com/category/home/',
 					  imgSrc:'../windows-games/Fallout-76.jpg',
 					 requirements:{
 						  images:[
-							  '../windows-games/screen-shots/far-cry/1.jpg',
-							  '../windows-games/screen-shots/far-cry/2.jpg',
-                              '../windows-games/screen-shots/far-cry/3.jpg',
-                              '../windows-games/screen-shots/far-cry/4.jpg',
-                              '../windows-games/screen-shots/far-cry/5.jpg'
+							  '../windows-games/screen-shots/game-images/f-1.jpg',
+							  '../windows-games/screen-shots/game-images/f-2.jpg',
+                              '../windows-games/screen-shots/game-images/f-3.jpg',
+                              '../windows-games/screen-shots/game-images/f-4.jpg',
                           ],
                           releaseDate: '2004',
                           updatedOn: '23 March, 2004',
@@ -593,21 +589,20 @@ var itemlist = [{name:'Action games',
                           category: 'Action', 
                           views: '11290',
                           votes: 'N/A',
-                          officialSite: 'www.site',
+                          officialSite: 'http://oceanoffgames.com/category/home/',
                           minimumRequirment: 'OS: Windows 7 Windows 8.1 Windows 10 (64-bit versions only). Processor: Intel Core i3- 550 | AMD Phenom II X4 955 or equivalent. Memory: 4 GB RAM. Graphics: NVIDIA GeForce GTX 460 (1GB VRAM) | AMD Radeon HD 5770 (1GB VRAM) or equivalent. Storage: 20 GB available space',
                           recommended: 'OS: Windows 7, Windows 8.1, Windows 10 (64-bit versions only). Processor: Intel Core i7- 2600K | AMD FX-8350 or equivalent. Memory: 8 GB RAM. Graphics: NVIDIA GeForce GTX 780 | AMD Radeon R9 280X or equivalent. Storage: 20 GB available space'
                       }},
 					 
 					 {name:'Battlefield 2',
-					  download:'',
+					  download:'http://oceanoffgames.com/category/home/',
 					  imgSrc:'../windows-games/shooting-games/Battlefield-2.jpg',
 					 requirements:{
 						  images:[
-							  '../windows-games/screen-shots/far-cry/1.jpg',
-							  '../windows-games/screen-shots/far-cry/2.jpg',
-                              '../windows-games/screen-shots/far-cry/3.jpg',
-                              '../windows-games/screen-shots/far-cry/4.jpg',
-                              '../windows-games/screen-shots/far-cry/5.jpg'
+							  '../windows-games/screen-shots/game-images/b2-1.jpg',
+							  '../windows-games/screen-shots/game-images/b2-2.jpg',
+                              '../windows-games/screen-shots/game-images/b2-3.jpg',
+                              '../windows-games/screen-shots/game-images/b2-1.jpg',
                           ],
                           releaseDate: '2004',
                           updatedOn: '23 March, 2004',
@@ -615,21 +610,20 @@ var itemlist = [{name:'Action games',
                           category: 'Action', 
                           views: '11290',
                           votes: 'N/A',
-                          officialSite: 'www.site',
+                          officialSite: 'http://oceanoffgames.com/category/home/',
                           minimumRequirment: 'OS: Windows 7 Windows 8.1 Windows 10 (64-bit versions only). Processor: Intel Core i3- 550 | AMD Phenom II X4 955 or equivalent. Memory: 4 GB RAM. Graphics: NVIDIA GeForce GTX 460 (1GB VRAM) | AMD Radeon HD 5770 (1GB VRAM) or equivalent. Storage: 20 GB available space',
                           recommended: 'OS: Windows 7, Windows 8.1, Windows 10 (64-bit versions only). Processor: Intel Core i7- 2600K | AMD FX-8350 or equivalent. Memory: 8 GB RAM. Graphics: NVIDIA GeForce GTX 780 | AMD Radeon R9 280X or equivalent. Storage: 20 GB available space'
                       }},
 					 
 					 {name:'Battlefield 3',
-					  download:'',
+					  download:'http://oceanoffgames.com/category/home/',
 					  imgSrc:'../windows-games/shooting-games/Battlefield_3.jpg',
 					  requirements:{
 						  images:[
-							  '../windows-games/screen-shots/far-cry/1.jpg',
-							  '../windows-games/screen-shots/far-cry/2.jpg',
-                              '../windows-games/screen-shots/far-cry/3.jpg',
-                              '../windows-games/screen-shots/far-cry/4.jpg',
-                              '../windows-games/screen-shots/far-cry/5.jpg'
+							  '../windows-games/screen-shots/game-images/b2-1.jpg',
+							  '../windows-games/screen-shots/game-images/b-1.jpg',
+                              '../windows-games/screen-shots/game-images/b-2.jpg',
+                              '../windows-games/screen-shots/game-images/b-3.jpg',
                           ],
                           releaseDate: '2004',
                           updatedOn: '23 March, 2004',
@@ -637,21 +631,20 @@ var itemlist = [{name:'Action games',
                           category: 'Action', 
                           views: '11290',
                           votes: 'N/A',
-                          officialSite: 'www.site',
+                          officialSite: 'http://oceanoffgames.com/category/home/',
                           minimumRequirment: 'OS: Windows 7 Windows 8.1 Windows 10 (64-bit versions only). Processor: Intel Core i3- 550 | AMD Phenom II X4 955 or equivalent. Memory: 4 GB RAM. Graphics: NVIDIA GeForce GTX 460 (1GB VRAM) | AMD Radeon HD 5770 (1GB VRAM) or equivalent. Storage: 20 GB available space',
                           recommended: 'OS: Windows 7, Windows 8.1, Windows 10 (64-bit versions only). Processor: Intel Core i7- 2600K | AMD FX-8350 or equivalent. Memory: 8 GB RAM. Graphics: NVIDIA GeForce GTX 780 | AMD Radeon R9 280X or equivalent. Storage: 20 GB available space'
                       }},
 					 
 					 {name:'Battlefield 4',
-					  download:'',
+					  download:'http://oceanoffgames.com/category/home/',
 					  imgSrc:'../windows-games/shooting-games/Battlefield-4.jpg',
 					  requirements:{
 						  images:[
-							  '../windows-games/screen-shots/far-cry/1.jpg',
+							  '../windows-games/screen-shots/game-images/b-1.jpg',
 							  '../windows-games/screen-shots/far-cry/2.jpg',
-                              '../windows-games/screen-shots/far-cry/3.jpg',
+                              '../windows-games/screen-shots/game-images/b-3.jpg',
                               '../windows-games/screen-shots/far-cry/4.jpg',
-                              '../windows-games/screen-shots/far-cry/5.jpg'
                           ],
                           releaseDate: '2004',
                           updatedOn: '23 March, 2004',
@@ -659,13 +652,13 @@ var itemlist = [{name:'Action games',
                           category: 'Action', 
                           views: '11290',
                           votes: 'N/A',
-                          officialSite: 'www.site',
+                          officialSite: 'http://oceanoffgames.com/category/home/',
                           minimumRequirment: 'OS: Windows 7 Windows 8.1 Windows 10 (64-bit versions only). Processor: Intel Core i3- 550 | AMD Phenom II X4 955 or equivalent. Memory: 4 GB RAM. Graphics: NVIDIA GeForce GTX 460 (1GB VRAM) | AMD Radeon HD 5770 (1GB VRAM) or equivalent. Storage: 20 GB available space',
                           recommended: 'OS: Windows 7, Windows 8.1, Windows 10 (64-bit versions only). Processor: Intel Core i7- 2600K | AMD FX-8350 or equivalent. Memory: 8 GB RAM. Graphics: NVIDIA GeForce GTX 780 | AMD Radeon R9 280X or equivalent. Storage: 20 GB available space'
                       }},
 					 
 					 {name:'Call of Duty WWII',
-					  download:'',
+					  download:'http://oceanoffgames.com/category/home/',
 					  imgSrc:'../windows-games/shooting-games/Call-of-Duty-WWII.jpg',
 					  requirements:{
 						  images:[
@@ -681,21 +674,20 @@ var itemlist = [{name:'Action games',
                           category: 'Action', 
                           views: '11290',
                           votes: 'N/A',
-                          officialSite: 'www.site',
+                          officialSite: 'http://oceanoffgames.com/category/home/',
                           minimumRequirment: 'OS: Windows 7 Windows 8.1 Windows 10 (64-bit versions only). Processor: Intel Core i3- 550 | AMD Phenom II X4 955 or equivalent. Memory: 4 GB RAM. Graphics: NVIDIA GeForce GTX 460 (1GB VRAM) | AMD Radeon HD 5770 (1GB VRAM) or equivalent. Storage: 20 GB available space',
                           recommended: 'OS: Windows 7, Windows 8.1, Windows 10 (64-bit versions only). Processor: Intel Core i7- 2600K | AMD FX-8350 or equivalent. Memory: 8 GB RAM. Graphics: NVIDIA GeForce GTX 780 | AMD Radeon R9 280X or equivalent. Storage: 20 GB available space'
                       }},
 					 
 					 {name:'Call of duty MWF',
-					  download:'',
+					  download:'http://oceanoffgames.com/category/home/',
 					  imgSrc:'../windows-games/shooting-games/callofdutymodernwarfareremastered.jpg',
 					  requirements:{
 						  images:[
-							  '../windows-games/screen-shots/far-cry/1.jpg',
-							  '../windows-games/screen-shots/far-cry/2.jpg',
-                              '../windows-games/screen-shots/far-cry/3.jpg',
-                              '../windows-games/screen-shots/far-cry/4.jpg',
-                              '../windows-games/screen-shots/far-cry/5.jpg'
+							  '../windows-games/screen-shots/game-images/codmwf-1.jpg',
+							  '../windows-games/screen-shots/game-images/codmwf-2.jpg',
+                              '../windows-games/screen-shots/game-images/codmwf-3.jpg',
+                              '../windows-games/screen-shots/game-images/codmwf-4.jpg',
                           ],
                           releaseDate: '2004',
                           updatedOn: '23 March, 2004',
@@ -703,21 +695,20 @@ var itemlist = [{name:'Action games',
                           category: 'Action', 
                           views: '11290',
                           votes: 'N/A',
-                          officialSite: 'www.site',
+                          officialSite: 'http://oceanoffgames.com/category/home/',
                           minimumRequirment: 'OS: Windows 7 Windows 8.1 Windows 10 (64-bit versions only). Processor: Intel Core i3- 550 | AMD Phenom II X4 955 or equivalent. Memory: 4 GB RAM. Graphics: NVIDIA GeForce GTX 460 (1GB VRAM) | AMD Radeon HD 5770 (1GB VRAM) or equivalent. Storage: 20 GB available space',
                           recommended: 'OS: Windows 7, Windows 8.1, Windows 10 (64-bit versions only). Processor: Intel Core i7- 2600K | AMD FX-8350 or equivalent. Memory: 8 GB RAM. Graphics: NVIDIA GeForce GTX 780 | AMD Radeon R9 280X or equivalent. Storage: 20 GB available space'
                       }},
 					 
 					 {name:'Call of duty MWF 2',
-					  download:'',
+					  download:'http://oceanoffgames.com/category/home/',
 					  imgSrc:'../windows-games/shooting-games/Call-of-Duty-Modern-Warfare-2.jpg',
 					  requirements:{
 						  images:[
-							  '../windows-games/screen-shots/far-cry/1.jpg',
-							  '../windows-games/screen-shots/far-cry/2.jpg',
-                              '../windows-games/screen-shots/far-cry/3.jpg',
-                              '../windows-games/screen-shots/far-cry/4.jpg',
-                              '../windows-games/screen-shots/far-cry/5.jpg'
+							  '../windows-games/screen-shots/game-images/codww2.jpg',
+							  '../windows-games/screen-shots/game-images/codww2-2.jpg',
+                              '../windows-games/screen-shots/game-images/codww2-3.jpg',
+                              '../windows-games/screen-shots/game-images/codww2-4.jpg',
                           ],
                           releaseDate: '2004',
                           updatedOn: '23 March, 2004',
@@ -725,21 +716,20 @@ var itemlist = [{name:'Action games',
                           category: 'Action', 
                           views: '11290',
                           votes: 'N/A',
-                          officialSite: 'www.site',
+                          officialSite: 'http://oceanoffgames.com/category/home/',
                           minimumRequirment: 'OS: Windows 7 Windows 8.1 Windows 10 (64-bit versions only). Processor: Intel Core i3- 550 | AMD Phenom II X4 955 or equivalent. Memory: 4 GB RAM. Graphics: NVIDIA GeForce GTX 460 (1GB VRAM) | AMD Radeon HD 5770 (1GB VRAM) or equivalent. Storage: 20 GB available space',
                           recommended: 'OS: Windows 7, Windows 8.1, Windows 10 (64-bit versions only). Processor: Intel Core i7- 2600K | AMD FX-8350 or equivalent. Memory: 8 GB RAM. Graphics: NVIDIA GeForce GTX 780 | AMD Radeon R9 280X or equivalent. Storage: 20 GB available space'
                       }},
 					 
 					 {name:'Call of Duty Ghosts',
-					  download:'',
+					  download:'http://oceanoffgames.com/category/home/',
 					  imgSrc:'../windows-games/shooting-games/callofduty-gosut.jpg',
 					  requirements:{
 						  images:[
-							  '../windows-games/screen-shots/far-cry/1.jpg',
-							  '../windows-games/screen-shots/far-cry/2.jpg',
-                              '../windows-games/screen-shots/far-cry/3.jpg',
-                              '../windows-games/screen-shots/far-cry/4.jpg',
-                              '../windows-games/screen-shots/far-cry/5.jpg'
+							  '../windows-games/screen-shots/game-images/codg-1.jpg',
+							  '../windows-games/screen-shots/game-images/codg-2.jpg',
+                              '../windows-games/screen-shots/game-images/codg-3.jpg',
+                              '../windows-games/screen-shots/game-images/codg-4.jpg',
                           ],
                           releaseDate: '2004',
                           updatedOn: '23 March, 2004',
@@ -747,21 +737,20 @@ var itemlist = [{name:'Action games',
                           category: 'Action', 
                           views: '11290',
                           votes: 'N/A',
-                          officialSite: 'www.site',
+                          officialSite: 'http://oceanoffgames.com/category/home/',
                           minimumRequirment: 'OS: Windows 7 Windows 8.1 Windows 10 (64-bit versions only). Processor: Intel Core i3- 550 | AMD Phenom II X4 955 or equivalent. Memory: 4 GB RAM. Graphics: NVIDIA GeForce GTX 460 (1GB VRAM) | AMD Radeon HD 5770 (1GB VRAM) or equivalent. Storage: 20 GB available space',
                           recommended: 'OS: Windows 7, Windows 8.1, Windows 10 (64-bit versions only). Processor: Intel Core i7- 2600K | AMD FX-8350 or equivalent. Memory: 8 GB RAM. Graphics: NVIDIA GeForce GTX 780 | AMD Radeon R9 280X or equivalent. Storage: 20 GB available space'
                       }},
 					 
 					 {name:'Sniper Elite 3',
-					  download:'',
+					  download:'http://oceanoffgames.com/category/home/',
 					  imgSrc:'../windows-games/shooting-games/sniper_Elite_3.jpg',
 					  requirements:{
 						  images:[
-							  '../windows-games/screen-shots/far-cry/1.jpg',
-							  '../windows-games/screen-shots/far-cry/2.jpg',
-                              '../windows-games/screen-shots/far-cry/3.jpg',
-                              '../windows-games/screen-shots/far-cry/4.jpg',
-                              '../windows-games/screen-shots/far-cry/5.jpg'
+							  '../windows-games/screen-shots/game-images/sp4-1.jpg',
+							  '../windows-games/screen-shots/game-images/sp4-2.jpg',
+                              '../windows-games/screen-shots/game-images/sp4-3.jpg',
+                              '../windows-games/screen-shots/game-images/sp4-4.jpg',
                           ],
                           releaseDate: '2004',
                           updatedOn: '23 March, 2004',
@@ -769,21 +758,20 @@ var itemlist = [{name:'Action games',
                           category: 'Action', 
                           views: '11290',
                           votes: 'N/A',
-                          officialSite: 'www.site',
+                          officialSite: 'http://oceanoffgames.com/category/home/',
                           minimumRequirment: 'OS: Windows 7 Windows 8.1 Windows 10 (64-bit versions only). Processor: Intel Core i3- 550 | AMD Phenom II X4 955 or equivalent. Memory: 4 GB RAM. Graphics: NVIDIA GeForce GTX 460 (1GB VRAM) | AMD Radeon HD 5770 (1GB VRAM) or equivalent. Storage: 20 GB available space',
                           recommended: 'OS: Windows 7, Windows 8.1, Windows 10 (64-bit versions only). Processor: Intel Core i7- 2600K | AMD FX-8350 or equivalent. Memory: 8 GB RAM. Graphics: NVIDIA GeForce GTX 780 | AMD Radeon R9 280X or equivalent. Storage: 20 GB available space'
                       }},
 					 
 					  {name:'Sniper Elite 4',
-					   download:'',
+					   download:'http://oceanoffgames.com/category/home/',
 					  imgSrc:'../windows-games/shooting-games/sniper-elite-4.jpg',
 					  requirements:{
 						  images:[
-							  '../windows-games/screen-shots/far-cry/1.jpg',
+							  '../windows-games/screen-shots/game-images/sp4-3.jpg',
 							  '../windows-games/screen-shots/far-cry/2.jpg',
-                              '../windows-games/screen-shots/far-cry/3.jpg',
+                              '../windows-games/screen-shots/game-images/sp4-1.jpg',
                               '../windows-games/screen-shots/far-cry/4.jpg',
-                              '../windows-games/screen-shots/far-cry/5.jpg'
                           ],
                           releaseDate: '2004',
                           updatedOn: '23 March, 2004',
@@ -791,21 +779,20 @@ var itemlist = [{name:'Action games',
                           category: 'Action', 
                           views: '11290',
                           votes: 'N/A',
-                          officialSite: 'www.site',
+                          officialSite: 'http://oceanoffgames.com/category/home/',
                           minimumRequirment: 'OS: Windows 7 Windows 8.1 Windows 10 (64-bit versions only). Processor: Intel Core i3- 550 | AMD Phenom II X4 955 or equivalent. Memory: 4 GB RAM. Graphics: NVIDIA GeForce GTX 460 (1GB VRAM) | AMD Radeon HD 5770 (1GB VRAM) or equivalent. Storage: 20 GB available space',
                           recommended: 'OS: Windows 7, Windows 8.1, Windows 10 (64-bit versions only). Processor: Intel Core i7- 2600K | AMD FX-8350 or equivalent. Memory: 8 GB RAM. Graphics: NVIDIA GeForce GTX 780 | AMD Radeon R9 280X or equivalent. Storage: 20 GB available space'
                       }},
 					 
 					 {name:'Tom Clancys Splinter Cell',
-					  download:'',
+					  download:'http://oceanoffgames.com/category/home/',
 					  imgSrc:'../windows-games/shooting-games/tom-clancys-splinter-cell-blacklist.jpg',
 					  requirements:{
 						  images:[
-							  '../windows-games/screen-shots/far-cry/1.jpg',
-							  '../windows-games/screen-shots/far-cry/2.jpg',
-                              '../windows-games/screen-shots/far-cry/3.jpg',
-                              '../windows-games/screen-shots/far-cry/4.jpg',
-                              '../windows-games/screen-shots/far-cry/5.jpg'
+							  '../windows-games/screen-shots/game-images/tom-1.jpg',
+							  '../windows-games/screen-shots/game-images/tom-2.jpg',
+                              '../windows-games/screen-shots/game-images/tom-3.jpg',
+                              '../windows-games/screen-shots/game-images/tom-4.jpg',
                           ],
                           releaseDate: '2004',
                           updatedOn: '23 March, 2004',
@@ -813,21 +800,20 @@ var itemlist = [{name:'Action games',
                           category: 'Action', 
                           views: '11290',
                           votes: 'N/A',
-                          officialSite: 'www.site',
+                          officialSite: 'http://oceanoffgames.com/category/home/',
                           minimumRequirment: 'OS: Windows 7 Windows 8.1 Windows 10 (64-bit versions only). Processor: Intel Core i3- 550 | AMD Phenom II X4 955 or equivalent. Memory: 4 GB RAM. Graphics: NVIDIA GeForce GTX 460 (1GB VRAM) | AMD Radeon HD 5770 (1GB VRAM) or equivalent. Storage: 20 GB available space',
                           recommended: 'OS: Windows 7, Windows 8.1, Windows 10 (64-bit versions only). Processor: Intel Core i7- 2600K | AMD FX-8350 or equivalent. Memory: 8 GB RAM. Graphics: NVIDIA GeForce GTX 780 | AMD Radeon R9 280X or equivalent. Storage: 20 GB available space'
                       }},
 					 
 					 {name:'The Divition',
-					  download:'',
+					  download:'http://oceanoffgames.com/category/home/',
 					  imgSrc:'../windows-games/shooting-games/the-divition.png',
 					  requirements:{
 						  images:[
-							  '../windows-games/screen-shots/far-cry/1.jpg',
-							  '../windows-games/screen-shots/far-cry/2.jpg',
-                              '../windows-games/screen-shots/far-cry/3.jpg',
-                              '../windows-games/screen-shots/far-cry/4.jpg',
-                              '../windows-games/screen-shots/far-cry/5.jpg'
+							  '../windows-games/screen-shots/game-images/tomd-1.jpg',
+							  '../windows-games/screen-shots/game-images/tomd-2.jpg',
+                              '../windows-games/screen-shots/game-images/tomd-3.jpg',
+                              '../windows-games/screen-shots/game-images/tomd-1.jpg',
                           ],
                           releaseDate: '2004',
                           updatedOn: '23 March, 2004',
@@ -835,21 +821,20 @@ var itemlist = [{name:'Action games',
                           category: 'Action', 
                           views: '11290',
                           votes: 'N/A',
-                          officialSite: 'www.site',
+                          officialSite: 'http://oceanoffgames.com/category/home/',
                           minimumRequirment: 'OS: Windows 7 Windows 8.1 Windows 10 (64-bit versions only). Processor: Intel Core i3- 550 | AMD Phenom II X4 955 or equivalent. Memory: 4 GB RAM. Graphics: NVIDIA GeForce GTX 460 (1GB VRAM) | AMD Radeon HD 5770 (1GB VRAM) or equivalent. Storage: 20 GB available space',
                           recommended: 'OS: Windows 7, Windows 8.1, Windows 10 (64-bit versions only). Processor: Intel Core i7- 2600K | AMD FX-8350 or equivalent. Memory: 8 GB RAM. Graphics: NVIDIA GeForce GTX 780 | AMD Radeon R9 280X or equivalent. Storage: 20 GB available space'
                       }},
 					 
 					 {name:'Rules of Survival',
-					  download:'',
+					  download:'http://oceanoffgames.com/category/home/',
 					  imgSrc:'../windows-games/shooting-games/Rules-of-Survival.jpg',
 					  requirements:{
 						  images:[
-							  '../windows-games/screen-shots/far-cry/1.jpg',
-							  '../windows-games/screen-shots/far-cry/2.jpg',
-                              '../windows-games/screen-shots/far-cry/3.jpg',
-                              '../windows-games/screen-shots/far-cry/4.jpg',
-                              '../windows-games/screen-shots/far-cry/5.jpg'
+							  '../windows-games/screen-shots/game-images/ros-1.jpg',
+							  '../windows-games/screen-shots/game-images/ros-2.jpg',
+                              '../windows-games/screen-shots/game-images/ros-3.jpg',
+                              '../windows-games/screen-shots/game-images/ros-4.jpg',
                           ],
                           releaseDate: '2004',
                           updatedOn: '23 March, 2004',
@@ -857,21 +842,20 @@ var itemlist = [{name:'Action games',
                           category: 'Action', 
                           views: '11290',
                           votes: 'N/A',
-                          officialSite: 'www.site',
+                          officialSite: 'http://oceanoffgames.com/category/home/',
                           minimumRequirment: 'OS: Windows 7 Windows 8.1 Windows 10 (64-bit versions only). Processor: Intel Core i3- 550 | AMD Phenom II X4 955 or equivalent. Memory: 4 GB RAM. Graphics: NVIDIA GeForce GTX 460 (1GB VRAM) | AMD Radeon HD 5770 (1GB VRAM) or equivalent. Storage: 20 GB available space',
                           recommended: 'OS: Windows 7, Windows 8.1, Windows 10 (64-bit versions only). Processor: Intel Core i7- 2600K | AMD FX-8350 or equivalent. Memory: 8 GB RAM. Graphics: NVIDIA GeForce GTX 780 | AMD Radeon R9 280X or equivalent. Storage: 20 GB available space'
                       }},
 					 
 					 {name:'PUBG Pc',
-					  download:'',
+					  download:'http://oceanoffgames.com/category/home/',
 					  imgSrc:'../windows-games/shooting-games/pubj-pc.jpg',
 					  requirements:{
 						  images:[
-							  '../windows-games/screen-shots/far-cry/1.jpg',
-							  '../windows-games/screen-shots/far-cry/2.jpg',
-                              '../windows-games/screen-shots/far-cry/3.jpg',
-                              '../windows-games/screen-shots/far-cry/4.jpg',
-                              '../windows-games/screen-shots/far-cry/5.jpg'
+							  '../windows-games/screen-shots/game-images/pubg-1.jpg',
+							  '../windows-games/screen-shots/game-images/pubg-2.jpg',
+                              '../windows-games/screen-shots/game-images/pubg-3.jpg',
+                              '../windows-games/screen-shots/game-images/pubg-4.jpg',
                           ],
                           releaseDate: '2004',
                           updatedOn: '23 March, 2004',
@@ -879,21 +863,20 @@ var itemlist = [{name:'Action games',
                           category: 'Action', 
                           views: '11290',
                           votes: 'N/A',
-                          officialSite: 'www.site',
+                          officialSite: 'http://oceanoffgames.com/category/home/',
                           minimumRequirment: 'OS: Windows 7 Windows 8.1 Windows 10 (64-bit versions only). Processor: Intel Core i3- 550 | AMD Phenom II X4 955 or equivalent. Memory: 4 GB RAM. Graphics: NVIDIA GeForce GTX 460 (1GB VRAM) | AMD Radeon HD 5770 (1GB VRAM) or equivalent. Storage: 20 GB available space',
                           recommended: 'OS: Windows 7, Windows 8.1, Windows 10 (64-bit versions only). Processor: Intel Core i7- 2600K | AMD FX-8350 or equivalent. Memory: 8 GB RAM. Graphics: NVIDIA GeForce GTX 780 | AMD Radeon R9 280X or equivalent. Storage: 20 GB available space'
                       }},
 					 
 					 {name:'Fallout 4',
-					  download:'',
+					  download:'http://oceanoffgames.com/category/home/',
 					  imgSrc:'../windows-games/shooting-games/fallout-4.jpg',
 					  requirements:{
 						  images:[
-							  '../windows-games/screen-shots/far-cry/1.jpg',
-							  '../windows-games/screen-shots/far-cry/2.jpg',
-                              '../windows-games/screen-shots/far-cry/3.jpg',
-                              '../windows-games/screen-shots/far-cry/4.jpg',
-                              '../windows-games/screen-shots/far-cry/5.jpg'
+							  '../windows-games/screen-shots/game-images/f4-1.jpg',
+							  '../windows-games/screen-shots/game-images/f4-2.jpg',
+                              '../windows-games/screen-shots/game-images/f4-3.jpg',
+                              '../windows-games/screen-shots/game-images/f4-4.jpg',
                           ],
                           releaseDate: '2004',
                           updatedOn: '23 March, 2004',
@@ -901,13 +884,13 @@ var itemlist = [{name:'Action games',
                           category: 'Action', 
                           views: '11290',
                           votes: 'N/A',
-                          officialSite: 'www.site',
+                          officialSite: 'http://oceanoffgames.com/category/home/',
                           minimumRequirment: 'OS: Windows 7 Windows 8.1 Windows 10 (64-bit versions only). Processor: Intel Core i3- 550 | AMD Phenom II X4 955 or equivalent. Memory: 4 GB RAM. Graphics: NVIDIA GeForce GTX 460 (1GB VRAM) | AMD Radeon HD 5770 (1GB VRAM) or equivalent. Storage: 20 GB available space',
                           recommended: 'OS: Windows 7, Windows 8.1, Windows 10 (64-bit versions only). Processor: Intel Core i7- 2600K | AMD FX-8350 or equivalent. Memory: 8 GB RAM. Graphics: NVIDIA GeForce GTX 780 | AMD Radeon R9 280X or equivalent. Storage: 20 GB available space'
                       }},
 					 
 					 {name:'Delta-Force',
-					  download:'',
+					  download:'http://oceanoffgames.com/category/home/',
 					  imgSrc:'../windows-games/shooting-games/Delta-Forc.jpg',
 					  requirements:{
 						  images:[
@@ -923,21 +906,20 @@ var itemlist = [{name:'Action games',
                           category: 'Action', 
                           views: '11290',
                           votes: 'N/A',
-                          officialSite: 'www.site',
+                          officialSite: 'http://oceanoffgames.com/category/home/',
                           minimumRequirment: 'OS: Windows 7 Windows 8.1 Windows 10 (64-bit versions only). Processor: Intel Core i3- 550 | AMD Phenom II X4 955 or equivalent. Memory: 4 GB RAM. Graphics: NVIDIA GeForce GTX 460 (1GB VRAM) | AMD Radeon HD 5770 (1GB VRAM) or equivalent. Storage: 20 GB available space',
                           recommended: 'OS: Windows 7, Windows 8.1, Windows 10 (64-bit versions only). Processor: Intel Core i7- 2600K | AMD FX-8350 or equivalent. Memory: 8 GB RAM. Graphics: NVIDIA GeForce GTX 780 | AMD Radeon R9 280X or equivalent. Storage: 20 GB available space'
                       }},
 					 
 					 {name:'Cs-Go',
-					  download:'',
+					  download:'http://oceanoffgames.com/category/home/',
 					  imgSrc:'../windows-games/shooting-games/cs-go.jpg',
 					  requirements:{
 						  images:[
-							  '../windows-games/screen-shots/far-cry/1.jpg',
-							  '../windows-games/screen-shots/far-cry/2.jpg',
-                              '../windows-games/screen-shots/far-cry/3.jpg',
-                              '../windows-games/screen-shots/far-cry/4.jpg',
-                              '../windows-games/screen-shots/far-cry/5.jpg'
+							  '../windows-games/screen-shots/game-images/csgo-1.jpg',
+							  '../windows-games/screen-shots/game-images/csgo-2.jpg',
+                              '../windows-games/screen-shots/game-images/csgo-3.jpg',
+                              '../windows-games/screen-shots/game-images/csgo-4.jpg',
                           ],
                           releaseDate: '2004',
                           updatedOn: '23 March, 2004',
@@ -945,7 +927,7 @@ var itemlist = [{name:'Action games',
                           category: 'Action', 
                           views: '11290',
                           votes: 'N/A',
-                          officialSite: 'www.site',
+                          officialSite: 'http://oceanoffgames.com/category/home/',
                           minimumRequirment: 'OS: Windows 7 Windows 8.1 Windows 10 (64-bit versions only). Processor: Intel Core i3- 550 | AMD Phenom II X4 955 or equivalent. Memory: 4 GB RAM. Graphics: NVIDIA GeForce GTX 460 (1GB VRAM) | AMD Radeon HD 5770 (1GB VRAM) or equivalent. Storage: 20 GB available space',
                           recommended: 'OS: Windows 7, Windows 8.1, Windows 10 (64-bit versions only). Processor: Intel Core i7- 2600K | AMD FX-8350 or equivalent. Memory: 8 GB RAM. Graphics: NVIDIA GeForce GTX 780 | AMD Radeon R9 280X or equivalent. Storage: 20 GB available space'
                       }},
@@ -956,15 +938,14 @@ var itemlist = [{name:'Action games',
 				 seasons:[
 					 
 					 {name:'Circket07',
-					  download:'',
+					  download:'http://oceanoffgames.com/category/home/',
 					  imgSrc:'../windows-games/circket07.jpg',
 					  requirements:{
 						  images:[
-							  '../windows-games/screen-shots/far-cry/1.jpg',
-							  '../windows-games/screen-shots/far-cry/2.jpg',
-                              '../windows-games/screen-shots/far-cry/3.jpg',
-                              '../windows-games/screen-shots/far-cry/4.jpg',
-                              '../windows-games/screen-shots/far-cry/5.jpg'
+							  '../windows-games/screen-shots/sports-game/c7-1.jpg',
+							  '../windows-games/screen-shots/sports-game/c7-2.jpg',
+                              '../windows-games/screen-shots/sports-game/c7-3.jpg',
+                              '../windows-games/screen-shots/sports-game/c7-4.jpg',
                           ],
                           releaseDate: '2004',
                           updatedOn: '23 March, 2004',
@@ -972,21 +953,20 @@ var itemlist = [{name:'Action games',
                           category: 'Action', 
                           views: '11290',
                           votes: 'N/A',
-                          officialSite: 'www.site',
+                          officialSite: 'http://oceanoffgames.com/category/home/',
                           minimumRequirment: 'OS: Windows 7 Windows 8.1 Windows 10 (64-bit versions only). Processor: Intel Core i3- 550 | AMD Phenom II X4 955 or equivalent. Memory: 4 GB RAM. Graphics: NVIDIA GeForce GTX 460 (1GB VRAM) | AMD Radeon HD 5770 (1GB VRAM) or equivalent. Storage: 20 GB available space',
                           recommended: 'OS: Windows 7, Windows 8.1, Windows 10 (64-bit versions only). Processor: Intel Core i7- 2600K | AMD FX-8350 or equivalent. Memory: 8 GB RAM. Graphics: NVIDIA GeForce GTX 780 | AMD Radeon R9 280X or equivalent. Storage: 20 GB available space'
                       }},
 					 
 					 {name:'FIFA 18',
-					  download:'',
+					  download:'http://oceanoffgames.com/category/home/',
 					  imgSrc:'../windows-games/fifa18.jpg',
 					 requirements:{
 						  images:[
-							  '../windows-games/screen-shots/far-cry/1.jpg',
-							  '../windows-games/screen-shots/far-cry/2.jpg',
-                              '../windows-games/screen-shots/far-cry/3.jpg',
-                              '../windows-games/screen-shots/far-cry/4.jpg',
-                              '../windows-games/screen-shots/far-cry/5.jpg'
+							  '../windows-games/screen-shots/sports-game/fifa-1.jpg',
+							  '../windows-games/screen-shots/sports-game/fifa-2.jpg',
+                              '../windows-games/screen-shots/sports-game/fifa-3.jpg',
+                              '../windows-games/screen-shots/sports-game/fifa-4.jpg',
                           ],
                           releaseDate: '2004',
                           updatedOn: '23 March, 2004',
@@ -994,43 +974,21 @@ var itemlist = [{name:'Action games',
                           category: 'Action', 
                           views: '11290',
                           votes: 'N/A',
-                          officialSite: 'www.site',
+                          officialSite: 'http://oceanoffgames.com/category/home/',
                           minimumRequirment: 'OS: Windows 7 Windows 8.1 Windows 10 (64-bit versions only). Processor: Intel Core i3- 550 | AMD Phenom II X4 955 or equivalent. Memory: 4 GB RAM. Graphics: NVIDIA GeForce GTX 460 (1GB VRAM) | AMD Radeon HD 5770 (1GB VRAM) or equivalent. Storage: 20 GB available space',
                           recommended: 'OS: Windows 7, Windows 8.1, Windows 10 (64-bit versions only). Processor: Intel Core i7- 2600K | AMD FX-8350 or equivalent. Memory: 8 GB RAM. Graphics: NVIDIA GeForce GTX 780 | AMD Radeon R9 280X or equivalent. Storage: 20 GB available space'
                       }},
 					 
-					 {name:'NBA Playground',
-					  download:'',
-					  imgSrc:'../windows-games/NBA_Playgrounds.jpg',
-					 requirements:{
-						  images:[
-							  '../windows-games/screen-shots/far-cry/1.jpg',
-							  '../windows-games/screen-shots/far-cry/2.jpg',
-                              '../windows-games/screen-shots/far-cry/3.jpg',
-                              '../windows-games/screen-shots/far-cry/4.jpg',
-                              '../windows-games/screen-shots/far-cry/5.jpg'
-                          ],
-                          releaseDate: '2004',
-                          updatedOn: '23 March, 2004',
-                          genre: 'Action',
-                          category: 'Action', 
-                          views: '11290',
-                          votes: 'N/A',
-                          officialSite: 'www.site',
-                          minimumRequirment: 'OS: Windows 7 Windows 8.1 Windows 10 (64-bit versions only). Processor: Intel Core i3- 550 | AMD Phenom II X4 955 or equivalent. Memory: 4 GB RAM. Graphics: NVIDIA GeForce GTX 460 (1GB VRAM) | AMD Radeon HD 5770 (1GB VRAM) or equivalent. Storage: 20 GB available space',
-                          recommended: 'OS: Windows 7, Windows 8.1, Windows 10 (64-bit versions only). Processor: Intel Core i7- 2600K | AMD FX-8350 or equivalent. Memory: 8 GB RAM. Graphics: NVIDIA GeForce GTX 780 | AMD Radeon R9 280X or equivalent. Storage: 20 GB available space'
-                      }},
 					
 					 {name:'NeedForSpeed',
-					  download:'',
+					  download:'http://oceanoffgames.com/category/home/',
 					  imgSrc:'../windows-games/sports-games/emT15adY-NFS.jpg',
 					  requirements:{
 						  images:[
-							  '../windows-games/screen-shots/far-cry/1.jpg',
-							  '../windows-games/screen-shots/far-cry/2.jpg',
-                              '../windows-games/screen-shots/far-cry/3.jpg',
-                              '../windows-games/screen-shots/far-cry/4.jpg',
-                              '../windows-games/screen-shots/far-cry/5.jpg'
+							  '../windows-games/screen-shots/sports-game/nfs-1.jpg',
+							  '../windows-games/screen-shots/sports-game/nfs-2.jpg',
+                              '../windows-games/screen-shots/sports-game/nfs-3.jpg',
+                              '../windows-games/screen-shots/sports-game/nfs-4.jpg',
                           ],
                           releaseDate: '2004',
                           updatedOn: '23 March, 2004',
@@ -1038,175 +996,21 @@ var itemlist = [{name:'Action games',
                           category: 'Action', 
                           views: '11290',
                           votes: 'N/A',
-                          officialSite: 'www.site',
+                          officialSite: 'http://oceanoffgames.com/category/home/',
                           minimumRequirment: 'OS: Windows 7 Windows 8.1 Windows 10 (64-bit versions only). Processor: Intel Core i3- 550 | AMD Phenom II X4 955 or equivalent. Memory: 4 GB RAM. Graphics: NVIDIA GeForce GTX 460 (1GB VRAM) | AMD Radeon HD 5770 (1GB VRAM) or equivalent. Storage: 20 GB available space',
                           recommended: 'OS: Windows 7, Windows 8.1, Windows 10 (64-bit versions only). Processor: Intel Core i7- 2600K | AMD FX-8350 or equivalent. Memory: 8 GB RAM. Graphics: NVIDIA GeForce GTX 780 | AMD Radeon R9 280X or equivalent. Storage: 20 GB available space'
                       }},
-					 
-					 {name:'Street Outlaws',
-					  download:'',
-					  imgSrc:'../windows-games/sports-games/dreft-mania.jpg',
-					  requirements:{
-						  images:[
-							  '../windows-games/screen-shots/far-cry/1.jpg',
-							  '../windows-games/screen-shots/far-cry/2.jpg',
-                              '../windows-games/screen-shots/far-cry/3.jpg',
-                              '../windows-games/screen-shots/far-cry/4.jpg',
-                              '../windows-games/screen-shots/far-cry/5.jpg'
-                          ],
-                          releaseDate: '2004',
-                          updatedOn: '23 March, 2004',
-                          genre: 'Action',
-                          category: 'Action', 
-                          views: '11290',
-                          votes: 'N/A',
-                          officialSite: 'www.site',
-                          minimumRequirment: 'OS: Windows 7 Windows 8.1 Windows 10 (64-bit versions only). Processor: Intel Core i3- 550 | AMD Phenom II X4 955 or equivalent. Memory: 4 GB RAM. Graphics: NVIDIA GeForce GTX 460 (1GB VRAM) | AMD Radeon HD 5770 (1GB VRAM) or equivalent. Storage: 20 GB available space',
-                          recommended: 'OS: Windows 7, Windows 8.1, Windows 10 (64-bit versions only). Processor: Intel Core i7- 2600K | AMD FX-8350 or equivalent. Memory: 8 GB RAM. Graphics: NVIDIA GeForce GTX 780 | AMD Radeon R9 280X or equivalent. Storage: 20 GB available space'
-                      }},
-					 
-					 {name:'Epic Soccer',
-					  download:'',
-					  imgSrc:'../windows-games/sports-games/epic-soccer.png',
-					 requirements:{
-						  images:[
-							  '../windows-games/screen-shots/far-cry/1.jpg',
-							  '../windows-games/screen-shots/far-cry/2.jpg',
-                              '../windows-games/screen-shots/far-cry/3.jpg',
-                              '../windows-games/screen-shots/far-cry/4.jpg',
-                              '../windows-games/screen-shots/far-cry/5.jpg'
-                          ],
-                          releaseDate: '2004',
-                          updatedOn: '23 March, 2004',
-                          genre: 'Action',
-                          category: 'Action', 
-                          views: '11290',
-                          votes: 'N/A',
-                          officialSite: 'www.site',
-                          minimumRequirment: 'OS: Windows 7 Windows 8.1 Windows 10 (64-bit versions only). Processor: Intel Core i3- 550 | AMD Phenom II X4 955 or equivalent. Memory: 4 GB RAM. Graphics: NVIDIA GeForce GTX 460 (1GB VRAM) | AMD Radeon HD 5770 (1GB VRAM) or equivalent. Storage: 20 GB available space',
-                          recommended: 'OS: Windows 7, Windows 8.1, Windows 10 (64-bit versions only). Processor: Intel Core i7- 2600K | AMD FX-8350 or equivalent. Memory: 8 GB RAM. Graphics: NVIDIA GeForce GTX 780 | AMD Radeon R9 280X or equivalent. Storage: 20 GB available space'
-                      }},
-					 
-					 {name:'FaceOff Banner',
-					  download:'',
-					  imgSrc:'../windows-games/sports-games/FaceOff-Banner.png',
-					  requirements:{
-						  images:[
-							  '../windows-games/screen-shots/far-cry/1.jpg',
-							  '../windows-games/screen-shots/far-cry/2.jpg',
-                              '../windows-games/screen-shots/far-cry/3.jpg',
-                              '../windows-games/screen-shots/far-cry/4.jpg',
-                              '../windows-games/screen-shots/far-cry/5.jpg'
-                          ],
-                          releaseDate: '2004',
-                          updatedOn: '23 March, 2004',
-                          genre: 'Action',
-                          category: 'Action', 
-                          views: '11290',
-                          votes: 'N/A',
-                          officialSite: 'www.site',
-                          minimumRequirment: 'OS: Windows 7 Windows 8.1 Windows 10 (64-bit versions only). Processor: Intel Core i3- 550 | AMD Phenom II X4 955 or equivalent. Memory: 4 GB RAM. Graphics: NVIDIA GeForce GTX 460 (1GB VRAM) | AMD Radeon HD 5770 (1GB VRAM) or equivalent. Storage: 20 GB available space',
-                          recommended: 'OS: Windows 7, Windows 8.1, Windows 10 (64-bit versions only). Processor: Intel Core i7- 2600K | AMD FX-8350 or equivalent. Memory: 8 GB RAM. Graphics: NVIDIA GeForce GTX 780 | AMD Radeon R9 280X or equivalent. Storage: 20 GB available space'
-                      }},
-					
-					 {name:'FIFA 17',
-					  download:'',
-					  imgSrc:'../windows-games/sports-games/fifa17.png',
-					 requirements:{
-						  images:[
-							  '../windows-games/screen-shots/far-cry/1.jpg',
-							  '../windows-games/screen-shots/far-cry/2.jpg',
-                              '../windows-games/screen-shots/far-cry/3.jpg',
-                              '../windows-games/screen-shots/far-cry/4.jpg',
-                              '../windows-games/screen-shots/far-cry/5.jpg'
-                          ],
-                          releaseDate: '2004',
-                          updatedOn: '23 March, 2004',
-                          genre: 'Action',
-                          category: 'Action', 
-                          views: '11290',
-                          votes: 'N/A',
-                          officialSite: 'www.site',
-                          minimumRequirment: 'OS: Windows 7 Windows 8.1 Windows 10 (64-bit versions only). Processor: Intel Core i3- 550 | AMD Phenom II X4 955 or equivalent. Memory: 4 GB RAM. Graphics: NVIDIA GeForce GTX 460 (1GB VRAM) | AMD Radeon HD 5770 (1GB VRAM) or equivalent. Storage: 20 GB available space',
-                          recommended: 'OS: Windows 7, Windows 8.1, Windows 10 (64-bit versions only). Processor: Intel Core i7- 2600K | AMD FX-8350 or equivalent. Memory: 8 GB RAM. Graphics: NVIDIA GeForce GTX 780 | AMD Radeon R9 280X or equivalent. Storage: 20 GB available space'
-                      }},
-					 
-					 {name:'FIFA 19',
-					  download:'',
-					  imgSrc:'../windows-games/sports-games/fifa19.jpg',
-					  requirements:{
-						  images:[
-							  '../windows-games/screen-shots/far-cry/1.jpg',
-							  '../windows-games/screen-shots/far-cry/2.jpg',
-                              '../windows-games/screen-shots/far-cry/3.jpg',
-                              '../windows-games/screen-shots/far-cry/4.jpg',
-                              '../windows-games/screen-shots/far-cry/5.jpg'
-                          ],
-                          releaseDate: '2004',
-                          updatedOn: '23 March, 2004',
-                          genre: 'Action',
-                          category: 'Action', 
-                          views: '11290',
-                          votes: 'N/A',
-                          officialSite: 'www.site',
-                          minimumRequirment: 'OS: Windows 7 Windows 8.1 Windows 10 (64-bit versions only). Processor: Intel Core i3- 550 | AMD Phenom II X4 955 or equivalent. Memory: 4 GB RAM. Graphics: NVIDIA GeForce GTX 460 (1GB VRAM) | AMD Radeon HD 5770 (1GB VRAM) or equivalent. Storage: 20 GB available space',
-                          recommended: 'OS: Windows 7, Windows 8.1, Windows 10 (64-bit versions only). Processor: Intel Core i7- 2600K | AMD FX-8350 or equivalent. Memory: 8 GB RAM. Graphics: NVIDIA GeForce GTX 780 | AMD Radeon R9 280X or equivalent. Storage: 20 GB available space'
-                      }},
-					 
-					 {name:'football-legands 3',
-					  download:'',
-					  imgSrc:'../windows-games/sports-games/football-legands.jpg',
-					 requirements:{
-						  images:[
-							  '../windows-games/screen-shots/far-cry/1.jpg',
-							  '../windows-games/screen-shots/far-cry/2.jpg',
-                              '../windows-games/screen-shots/far-cry/3.jpg',
-                              '../windows-games/screen-shots/far-cry/4.jpg',
-                              '../windows-games/screen-shots/far-cry/5.jpg'
-                          ],
-                          releaseDate: '2004',
-                          updatedOn: '23 March, 2004',
-                          genre: 'Action',
-                          category: 'Action', 
-                          views: '11290',
-                          votes: 'N/A',
-                          officialSite: 'www.site',
-                          minimumRequirment: 'OS: Windows 7 Windows 8.1 Windows 10 (64-bit versions only). Processor: Intel Core i3- 550 | AMD Phenom II X4 955 or equivalent. Memory: 4 GB RAM. Graphics: NVIDIA GeForce GTX 460 (1GB VRAM) | AMD Radeon HD 5770 (1GB VRAM) or equivalent. Storage: 20 GB available space',
-                          recommended: 'OS: Windows 7, Windows 8.1, Windows 10 (64-bit versions only). Processor: Intel Core i7- 2600K | AMD FX-8350 or equivalent. Memory: 8 GB RAM. Graphics: NVIDIA GeForce GTX 780 | AMD Radeon R9 280X or equivalent. Storage: 20 GB available space'
-                      }},
-					 
-					 {name:'HILL CAR',
-					  download:'',
-					  imgSrc:'../windows-games/sports-games/hill-car.jpg',
-					  requirements:{
-						  images:[
-							  '../windows-games/screen-shots/far-cry/1.jpg',
-							  '../windows-games/screen-shots/far-cry/2.jpg',
-                              '../windows-games/screen-shots/far-cry/3.jpg',
-                              '../windows-games/screen-shots/far-cry/4.jpg',
-                              '../windows-games/screen-shots/far-cry/5.jpg'
-                          ],
-                          releaseDate: '2004',
-                          updatedOn: '23 March, 2004',
-                          genre: 'Action',
-                          category: 'Action', 
-                          views: '11290',
-                          votes: 'N/A',
-                          officialSite: 'www.site',
-                          minimumRequirment: 'OS: Windows 7 Windows 8.1 Windows 10 (64-bit versions only). Processor: Intel Core i3- 550 | AMD Phenom II X4 955 or equivalent. Memory: 4 GB RAM. Graphics: NVIDIA GeForce GTX 460 (1GB VRAM) | AMD Radeon HD 5770 (1GB VRAM) or equivalent. Storage: 20 GB available space',
-                          recommended: 'OS: Windows 7, Windows 8.1, Windows 10 (64-bit versions only). Processor: Intel Core i7- 2600K | AMD FX-8350 or equivalent. Memory: 8 GB RAM. Graphics: NVIDIA GeForce GTX 780 | AMD Radeon R9 280X or equivalent. Storage: 20 GB available space'
-                      }},
+										 
 					
 					 {name:'MotoGP 15',
-					  download:'',
+					  download:'http://oceanoffgames.com/category/home/',
 					  imgSrc:'../windows-games/sports-games/MotoGP-15.jpg',
 					  requirements:{
 						  images:[
-							  '../windows-games/screen-shots/far-cry/1.jpg',
-							  '../windows-games/screen-shots/far-cry/2.jpg',
-                              '../windows-games/screen-shots/far-cry/3.jpg',
-                              '../windows-games/screen-shots/far-cry/4.jpg',
-                              '../windows-games/screen-shots/far-cry/5.jpg'
+							  '../windows-games/screen-shots/sports-game/m-1.jpg',
+							  '../windows-games/screen-shots/sports-game/m-2.jpg',
+                              '../windows-games/screen-shots/sports-game/m-3.jpg',
+                              '../windows-games/screen-shots/sports-game/m-4.jpg',
                           ],
                           releaseDate: '2004',
                           updatedOn: '23 March, 2004',
@@ -1214,65 +1018,21 @@ var itemlist = [{name:'Action games',
                           category: 'Action', 
                           views: '11290',
                           votes: 'N/A',
-                          officialSite: 'www.site',
+                          officialSite: 'http://oceanoffgames.com/category/home/',
                           minimumRequirment: 'OS: Windows 7 Windows 8.1 Windows 10 (64-bit versions only). Processor: Intel Core i3- 550 | AMD Phenom II X4 955 or equivalent. Memory: 4 GB RAM. Graphics: NVIDIA GeForce GTX 460 (1GB VRAM) | AMD Radeon HD 5770 (1GB VRAM) or equivalent. Storage: 20 GB available space',
                           recommended: 'OS: Windows 7, Windows 8.1, Windows 10 (64-bit versions only). Processor: Intel Core i7- 2600K | AMD FX-8350 or equivalent. Memory: 8 GB RAM. Graphics: NVIDIA GeForce GTX 780 | AMD Radeon R9 280X or equivalent. Storage: 20 GB available space'
                       }},
 					 
-					 {name:'MotoGP 17',
-					  download:'',
-					  imgSrc:'../windows-games/sports-games/MotoGP-17.jpg',
-					 requirements:{
-						  images:[
-							  '../windows-games/screen-shots/far-cry/1.jpg',
-							  '../windows-games/screen-shots/far-cry/2.jpg',
-                              '../windows-games/screen-shots/far-cry/3.jpg',
-                              '../windows-games/screen-shots/far-cry/4.jpg',
-                              '../windows-games/screen-shots/far-cry/5.jpg'
-                          ],
-                          releaseDate: '2004',
-                          updatedOn: '23 March, 2004',
-                          genre: 'Action',
-                          category: 'Action', 
-                          views: '11290',
-                          votes: 'N/A',
-                          officialSite: 'www.site',
-                          minimumRequirment: 'OS: Windows 7 Windows 8.1 Windows 10 (64-bit versions only). Processor: Intel Core i3- 550 | AMD Phenom II X4 955 or equivalent. Memory: 4 GB RAM. Graphics: NVIDIA GeForce GTX 460 (1GB VRAM) | AMD Radeon HD 5770 (1GB VRAM) or equivalent. Storage: 20 GB available space',
-                          recommended: 'OS: Windows 7, Windows 8.1, Windows 10 (64-bit versions only). Processor: Intel Core i7- 2600K | AMD FX-8350 or equivalent. Memory: 8 GB RAM. Graphics: NVIDIA GeForce GTX 780 | AMD Radeon R9 280X or equivalent. Storage: 20 GB available space'
-                      }},
-					 
-					 {name:'MotoGP 18',
-					  download:'',
-					  imgSrc:'../windows-games/sports-games/MotoGP-18.jpg',
-					  requirements:{
-						  images:[
-							  '../windows-games/screen-shots/far-cry/1.jpg',
-							  '../windows-games/screen-shots/far-cry/2.jpg',
-                              '../windows-games/screen-shots/far-cry/3.jpg',
-                              '../windows-games/screen-shots/far-cry/4.jpg',
-                              '../windows-games/screen-shots/far-cry/5.jpg'
-                          ],
-                          releaseDate: '2004',
-                          updatedOn: '23 March, 2004',
-                          genre: 'Action',
-                          category: 'Action', 
-                          views: '11290',
-                          votes: 'N/A',
-                          officialSite: 'www.site',
-                          minimumRequirment: 'OS: Windows 7 Windows 8.1 Windows 10 (64-bit versions only). Processor: Intel Core i3- 550 | AMD Phenom II X4 955 or equivalent. Memory: 4 GB RAM. Graphics: NVIDIA GeForce GTX 460 (1GB VRAM) | AMD Radeon HD 5770 (1GB VRAM) or equivalent. Storage: 20 GB available space',
-                          recommended: 'OS: Windows 7, Windows 8.1, Windows 10 (64-bit versions only). Processor: Intel Core i7- 2600K | AMD FX-8350 or equivalent. Memory: 8 GB RAM. Graphics: NVIDIA GeForce GTX 780 | AMD Radeon R9 280X or equivalent. Storage: 20 GB available space'
-                      }},
 					 
 					 {name:'NFS Most Wanted',
-					  download:'',
+					  download:'http://oceanoffgames.com/category/home/',
 					  imgSrc:'../windows-games/sports-games/Need-For-Speed-Most-Wanted.jpg',
 					 requirements:{
 						  images:[
-							  '../windows-games/screen-shots/far-cry/1.jpg',
-							  '../windows-games/screen-shots/far-cry/2.jpg',
-                              '../windows-games/screen-shots/far-cry/3.jpg',
-                              '../windows-games/screen-shots/far-cry/4.jpg',
-                              '../windows-games/screen-shots/far-cry/5.jpg'
+							  '../windows-games/screen-shots/sports-game/nfsmw-1.jpg',
+							  '../windows-games/screen-shots/sports-game/nfsmw-2.jpg',
+                              '../windows-games/screen-shots/sports-game/nfsmw-3.jpg',
+                              '../windows-games/screen-shots/sports-game/nfsmw-4.jpg',
                           ],
                           releaseDate: '2004',
                           updatedOn: '23 March, 2004',
@@ -1280,142 +1040,13 @@ var itemlist = [{name:'Action games',
                           category: 'Action', 
                           views: '11290',
                           votes: 'N/A',
-                          officialSite: 'www.site',
+                          officialSite: 'http://oceanoffgames.com/category/home/',
                           minimumRequirment: 'OS: Windows 7 Windows 8.1 Windows 10 (64-bit versions only). Processor: Intel Core i3- 550 | AMD Phenom II X4 955 or equivalent. Memory: 4 GB RAM. Graphics: NVIDIA GeForce GTX 460 (1GB VRAM) | AMD Radeon HD 5770 (1GB VRAM) or equivalent. Storage: 20 GB available space',
                           recommended: 'OS: Windows 7, Windows 8.1, Windows 10 (64-bit versions only). Processor: Intel Core i7- 2600K | AMD FX-8350 or equivalent. Memory: 8 GB RAM. Graphics: NVIDIA GeForce GTX 780 | AMD Radeon R9 280X or equivalent. Storage: 20 GB available space'
                       }},
 					
-					 {name:'NFS No Limits',
-					  download:'',
-					  imgSrc:'../windows-games/sports-games/need-for-speed-no-limits.jpg',
-					  requirements:{
-						  images:[
-							  '../windows-games/screen-shots/far-cry/1.jpg',
-							  '../windows-games/screen-shots/far-cry/2.jpg',
-                              '../windows-games/screen-shots/far-cry/3.jpg',
-                              '../windows-games/screen-shots/far-cry/4.jpg',
-                              '../windows-games/screen-shots/far-cry/5.jpg'
-                          ],
-                          releaseDate: '2004',
-                          updatedOn: '23 March, 2004',
-                          genre: 'Action',
-                          category: 'Action', 
-                          views: '11290',
-                          votes: 'N/A',
-                          officialSite: 'www.site',
-                          minimumRequirment: 'OS: Windows 7 Windows 8.1 Windows 10 (64-bit versions only). Processor: Intel Core i3- 550 | AMD Phenom II X4 955 or equivalent. Memory: 4 GB RAM. Graphics: NVIDIA GeForce GTX 460 (1GB VRAM) | AMD Radeon HD 5770 (1GB VRAM) or equivalent. Storage: 20 GB available space',
-                          recommended: 'OS: Windows 7, Windows 8.1, Windows 10 (64-bit versions only). Processor: Intel Core i7- 2600K | AMD FX-8350 or equivalent. Memory: 8 GB RAM. Graphics: NVIDIA GeForce GTX 780 | AMD Radeon R9 280X or equivalent. Storage: 20 GB available space'
-                      }},
-					 
-					 {name:'NFS SHIELD Songbird',
-					  download:'',
-					  imgSrc:'../windows-games/sports-games/NV-SHIELD-Songbird-NFS.jpg',
-					  requirements:{
-						  images:[
-							  '../windows-games/screen-shots/far-cry/1.jpg',
-							  '../windows-games/screen-shots/far-cry/2.jpg',
-                              '../windows-games/screen-shots/far-cry/3.jpg',
-                              '../windows-games/screen-shots/far-cry/4.jpg',
-                              '../windows-games/screen-shots/far-cry/5.jpg'
-                          ],
-                          releaseDate: '2004',
-                          updatedOn: '23 March, 2004',
-                          genre: 'Action',
-                          category: 'Action', 
-                          views: '11290',
-                          votes: 'N/A',
-                          officialSite: 'www.site',
-                          minimumRequirment: 'OS: Windows 7 Windows 8.1 Windows 10 (64-bit versions only). Processor: Intel Core i3- 550 | AMD Phenom II X4 955 or equivalent. Memory: 4 GB RAM. Graphics: NVIDIA GeForce GTX 460 (1GB VRAM) | AMD Radeon HD 5770 (1GB VRAM) or equivalent. Storage: 20 GB available space',
-                          recommended: 'OS: Windows 7, Windows 8.1, Windows 10 (64-bit versions only). Processor: Intel Core i7- 2600K | AMD FX-8350 or equivalent. Memory: 8 GB RAM. Graphics: NVIDIA GeForce GTX 780 | AMD Radeon R9 280X or equivalent. Storage: 20 GB available space'
-                      }},
-					 
-					 {name:'P15 Scout Pr',
-					  download:'',
-					  imgSrc:'../windows-games/sports-games/p15-scout-pr.jpg',
-					  requirements:{
-						  images:[
-							  '../windows-games/screen-shots/far-cry/1.jpg',
-							  '../windows-games/screen-shots/far-cry/2.jpg',
-                              '../windows-games/screen-shots/far-cry/3.jpg',
-                              '../windows-games/screen-shots/far-cry/4.jpg',
-                              '../windows-games/screen-shots/far-cry/5.jpg'
-                          ],
-                          releaseDate: '2004',
-                          updatedOn: '23 March, 2004',
-                          genre: 'Action',
-                          category: 'Action', 
-                          views: '11290',
-                          votes: 'N/A',
-                          officialSite: 'www.site',
-                          minimumRequirment: 'OS: Windows 7 Windows 8.1 Windows 10 (64-bit versions only). Processor: Intel Core i3- 550 | AMD Phenom II X4 955 or equivalent. Memory: 4 GB RAM. Graphics: NVIDIA GeForce GTX 460 (1GB VRAM) | AMD Radeon HD 5770 (1GB VRAM) or equivalent. Storage: 20 GB available space',
-                          recommended: 'OS: Windows 7, Windows 8.1, Windows 10 (64-bit versions only). Processor: Intel Core i7- 2600K | AMD FX-8350 or equivalent. Memory: 8 GB RAM. Graphics: NVIDIA GeForce GTX 780 | AMD Radeon R9 280X or equivalent. Storage: 20 GB available space'
-                      }},
-					 
-					 {name:'Real Cricket 14',
-					  download:'',
-					  imgSrc:'../windows-games/sports-games/rc1.png',
-					 requirements:{
-						  images:[
-							  '../windows-games/screen-shots/far-cry/1.jpg',
-							  '../windows-games/screen-shots/far-cry/2.jpg',
-                              '../windows-games/screen-shots/far-cry/3.jpg',
-                              '../windows-games/screen-shots/far-cry/4.jpg',
-                              '../windows-games/screen-shots/far-cry/5.jpg'
-                          ],
-                          releaseDate: '2004',
-                          updatedOn: '23 March, 2004',
-                          genre: 'Action',
-                          category: 'Action', 
-                          views: '11290',
-                          votes: 'N/A',
-                          officialSite: 'www.site',
-                          minimumRequirment: 'OS: Windows 7 Windows 8.1 Windows 10 (64-bit versions only). Processor: Intel Core i3- 550 | AMD Phenom II X4 955 or equivalent. Memory: 4 GB RAM. Graphics: NVIDIA GeForce GTX 460 (1GB VRAM) | AMD Radeon HD 5770 (1GB VRAM) or equivalent. Storage: 20 GB available space',
-                          recommended: 'OS: Windows 7, Windows 8.1, Windows 10 (64-bit versions only). Processor: Intel Core i7- 2600K | AMD FX-8350 or equivalent. Memory: 8 GB RAM. Graphics: NVIDIA GeForce GTX 780 | AMD Radeon R9 280X or equivalent. Storage: 20 GB available space'
-                      }},
 					
-					 {name:'Speed Car',
-					  download:'',
-					  imgSrc:'../windows-games/sports-games/speed-car.jpg',
-					 requirements:{
-						  images:[
-							  '../windows-games/screen-shots/far-cry/1.jpg',
-							  '../windows-games/screen-shots/far-cry/2.jpg',
-                              '../windows-games/screen-shots/far-cry/3.jpg',
-                              '../windows-games/screen-shots/far-cry/4.jpg',
-                              '../windows-games/screen-shots/far-cry/5.jpg'
-                          ],
-                          releaseDate: '2004',
-                          updatedOn: '23 March, 2004',
-                          genre: 'Action',
-                          category: 'Action', 
-                          views: '11290',
-                          votes: 'N/A',
-                          officialSite: 'www.site',
-                          minimumRequirment: 'OS: Windows 7 Windows 8.1 Windows 10 (64-bit versions only). Processor: Intel Core i3- 550 | AMD Phenom II X4 955 or equivalent. Memory: 4 GB RAM. Graphics: NVIDIA GeForce GTX 460 (1GB VRAM) | AMD Radeon HD 5770 (1GB VRAM) or equivalent. Storage: 20 GB available space',
-                          recommended: 'OS: Windows 7, Windows 8.1, Windows 10 (64-bit versions only). Processor: Intel Core i7- 2600K | AMD FX-8350 or equivalent. Memory: 8 GB RAM. Graphics: NVIDIA GeForce GTX 780 | AMD Radeon R9 280X or equivalent. Storage: 20 GB available space'
-                      }},
-					 
-					 {name:'Soccer Champion',
-					  download:'',
-					  imgSrc:'../windows-games/sports-games/soccer-cham.jpg',
-					 requirements:{
-						  images:[
-							  '../windows-games/screen-shots/far-cry/1.jpg',
-							  '../windows-games/screen-shots/far-cry/2.jpg',
-                              '../windows-games/screen-shots/far-cry/3.jpg',
-                              '../windows-games/screen-shots/far-cry/4.jpg',
-                              '../windows-games/screen-shots/far-cry/5.jpg'
-                          ],
-                          releaseDate: '2004',
-                          updatedOn: '23 March, 2004',
-                          genre: 'Action',
-                          category: 'Action', 
-                          views: '11290',
-                          votes: 'N/A',
-                          officialSite: 'www.site',
-                          minimumRequirment: 'OS: Windows 7 Windows 8.1 Windows 10 (64-bit versions only). Processor: Intel Core i3- 550 | AMD Phenom II X4 955 or equivalent. Memory: 4 GB RAM. Graphics: NVIDIA GeForce GTX 460 (1GB VRAM) | AMD Radeon HD 5770 (1GB VRAM) or equivalent. Storage: 20 GB available space',
-                          recommended: 'OS: Windows 7, Windows 8.1, Windows 10 (64-bit versions only). Processor: Intel Core i7- 2600K | AMD FX-8350 or equivalent. Memory: 8 GB RAM. Graphics: NVIDIA GeForce GTX 780 | AMD Radeon R9 280X or equivalent. Storage: 20 GB available space'
-                      }},
+					
 					 
 				 ]},
 				
@@ -1423,15 +1054,14 @@ var itemlist = [{name:'Action games',
 				 seasons:[
 					 
 					 {name:'Jigsaw Puzzles Free',
-					  download:'',
+					  download:'http://oceanoffgames.com/category/home/',
 					  imgSrc:'../windows-games/jigsaw-puzzle.jpg',
 					 requirements:{
 						  images:[
-							  '../windows-games/screen-shots/far-cry/1.jpg',
-							  '../windows-games/screen-shots/far-cry/2.jpg',
-                              '../windows-games/screen-shots/far-cry/3.jpg',
-                              '../windows-games/screen-shots/far-cry/4.jpg',
-                              '../windows-games/screen-shots/far-cry/5.jpg'
+							  '../windows-games/screen-shots/puzzle-game/1.jpg',
+							  '../windows-games/screen-shots/puzzle-game/2.jpg',
+                              '../windows-games/screen-shots/puzzle-game/3.jpg',
+                              '../windows-games/screen-shots/puzzle-game/4.jpg',
                           ],
                           releaseDate: '2004',
                           updatedOn: '23 March, 2004',
@@ -1439,21 +1069,20 @@ var itemlist = [{name:'Action games',
                           category: 'Action', 
                           views: '11290',
                           votes: 'N/A',
-                          officialSite: 'www.site',
+                          officialSite: 'http://oceanoffgames.com/category/home/',
                           minimumRequirment: 'OS: Windows 7 Windows 8.1 Windows 10 (64-bit versions only). Processor: Intel Core i3- 550 | AMD Phenom II X4 955 or equivalent. Memory: 4 GB RAM. Graphics: NVIDIA GeForce GTX 460 (1GB VRAM) | AMD Radeon HD 5770 (1GB VRAM) or equivalent. Storage: 20 GB available space',
                           recommended: 'OS: Windows 7, Windows 8.1, Windows 10 (64-bit versions only). Processor: Intel Core i7- 2600K | AMD FX-8350 or equivalent. Memory: 8 GB RAM. Graphics: NVIDIA GeForce GTX 780 | AMD Radeon R9 280X or equivalent. Storage: 20 GB available space'
                       }},
 					 
 					 {name:'The Witness',
-					  download:'',
+					  download:'http://oceanoffgames.com/category/home/',
 					  imgSrc:'../windows-games/preview.jpg',
 					  requirements:{
 						  images:[
-							  '../windows-games/screen-shots/far-cry/1.jpg',
-							  '../windows-games/screen-shots/far-cry/2.jpg',
-                              '../windows-games/screen-shots/far-cry/3.jpg',
-                              '../windows-games/screen-shots/far-cry/4.jpg',
-                              '../windows-games/screen-shots/far-cry/5.jpg'
+							   '../windows-games/screen-shots/puzzle-game/1.jpg',
+							  '../windows-games/screen-shots/puzzle-game/2.jpg',
+                              '../windows-games/screen-shots/puzzle-game/3.jpg',
+                              '../windows-games/screen-shots/puzzle-game/4.jpg',
                           ],
                           releaseDate: '2004',
                           updatedOn: '23 March, 2004',
@@ -1461,21 +1090,20 @@ var itemlist = [{name:'Action games',
                           category: 'Action', 
                           views: '11290',
                           votes: 'N/A',
-                          officialSite: 'www.site',
+                          officialSite: 'http://oceanoffgames.com/category/home/',
                           minimumRequirment: 'OS: Windows 7 Windows 8.1 Windows 10 (64-bit versions only). Processor: Intel Core i3- 550 | AMD Phenom II X4 955 or equivalent. Memory: 4 GB RAM. Graphics: NVIDIA GeForce GTX 460 (1GB VRAM) | AMD Radeon HD 5770 (1GB VRAM) or equivalent. Storage: 20 GB available space',
                           recommended: 'OS: Windows 7, Windows 8.1, Windows 10 (64-bit versions only). Processor: Intel Core i7- 2600K | AMD FX-8350 or equivalent. Memory: 8 GB RAM. Graphics: NVIDIA GeForce GTX 780 | AMD Radeon R9 280X or equivalent. Storage: 20 GB available space'
                       }},
 					 
 					 {name:'Magic Jigsaw Puzzles',
-					  download:'',
+					  download:'http://oceanoffgames.com/category/home/',
 					  imgSrc:'../windows-games/Puzzle-Bobble-2.jpg',
 					 requirements:{
 						  images:[
-							  '../windows-games/screen-shots/far-cry/1.jpg',
-							  '../windows-games/screen-shots/far-cry/2.jpg',
-                              '../windows-games/screen-shots/far-cry/3.jpg',
-                              '../windows-games/screen-shots/far-cry/4.jpg',
-                              '../windows-games/screen-shots/far-cry/5.jpg'
+							   '../windows-games/screen-shots/puzzle-game/1.jpg',
+							  '../windows-games/screen-shots/puzzle-game/2.jpg',
+                              '../windows-games/screen-shots/puzzle-game/3.jpg',
+                              '../windows-games/screen-shots/puzzle-game/4.jpg',
                           ],
                           releaseDate: '2004',
                           updatedOn: '23 March, 2004',
@@ -1483,21 +1111,20 @@ var itemlist = [{name:'Action games',
                           category: 'Action', 
                           views: '11290',
                           votes: 'N/A',
-                          officialSite: 'www.site',
+                          officialSite: 'http://oceanoffgames.com/category/home/',
                           minimumRequirment: 'OS: Windows 7 Windows 8.1 Windows 10 (64-bit versions only). Processor: Intel Core i3- 550 | AMD Phenom II X4 955 or equivalent. Memory: 4 GB RAM. Graphics: NVIDIA GeForce GTX 460 (1GB VRAM) | AMD Radeon HD 5770 (1GB VRAM) or equivalent. Storage: 20 GB available space',
                           recommended: 'OS: Windows 7, Windows 8.1, Windows 10 (64-bit versions only). Processor: Intel Core i7- 2600K | AMD FX-8350 or equivalent. Memory: 8 GB RAM. Graphics: NVIDIA GeForce GTX 780 | AMD Radeon R9 280X or equivalent. Storage: 20 GB available space'
                       }},
 					 
 					 {name:'Jigsaw Car Puzzle',
-					  download:'',
+					  download:'http://oceanoffgames.com/category/home/',
 					  imgSrc:'../windows-games/puzzle-games/car-puzzle.jpg',
 					  requirements:{
 						  images:[
-							  '../windows-games/screen-shots/far-cry/1.jpg',
-							  '../windows-games/screen-shots/far-cry/2.jpg',
-                              '../windows-games/screen-shots/far-cry/3.jpg',
-                              '../windows-games/screen-shots/far-cry/4.jpg',
-                              '../windows-games/screen-shots/far-cry/5.jpg'
+							   '../windows-games/screen-shots/puzzle-game/1.jpg',
+							  '../windows-games/screen-shots/puzzle-game/2.jpg',
+                              '../windows-games/screen-shots/puzzle-game/3.jpg',
+                              '../windows-games/screen-shots/puzzle-game/4.jpg',
                           ],
                           releaseDate: '2004',
                           updatedOn: '23 March, 2004',
@@ -1505,21 +1132,20 @@ var itemlist = [{name:'Action games',
                           category: 'Action', 
                           views: '11290',
                           votes: 'N/A',
-                          officialSite: 'www.site',
+                          officialSite: 'http://oceanoffgames.com/category/home/',
                           minimumRequirment: 'OS: Windows 7 Windows 8.1 Windows 10 (64-bit versions only). Processor: Intel Core i3- 550 | AMD Phenom II X4 955 or equivalent. Memory: 4 GB RAM. Graphics: NVIDIA GeForce GTX 460 (1GB VRAM) | AMD Radeon HD 5770 (1GB VRAM) or equivalent. Storage: 20 GB available space',
                           recommended: 'OS: Windows 7, Windows 8.1, Windows 10 (64-bit versions only). Processor: Intel Core i7- 2600K | AMD FX-8350 or equivalent. Memory: 8 GB RAM. Graphics: NVIDIA GeForce GTX 780 | AMD Radeon R9 280X or equivalent. Storage: 20 GB available space'
                       }},
 					 
 					 {name:'Jugle Puzzle',
-					  download:'',
+					  download:'http://oceanoffgames.com/category/home/',
 					  imgSrc:'../windows-games/puzzle-games/jugle.jpg',
 					  requirements:{
 						  images:[
-							  '../windows-games/screen-shots/far-cry/1.jpg',
-							  '../windows-games/screen-shots/far-cry/2.jpg',
-                              '../windows-games/screen-shots/far-cry/3.jpg',
-                              '../windows-games/screen-shots/far-cry/4.jpg',
-                              '../windows-games/screen-shots/far-cry/5.jpg'
+							  '../windows-games/screen-shots/puzzle-game/1.jpg',
+							  '../windows-games/screen-shots/puzzle-game/2.jpg',
+                              '../windows-games/screen-shots/puzzle-game/3.jpg',
+                              '../windows-games/screen-shots/puzzle-game/4.jpg',
                           ],
                           releaseDate: '2004',
                           updatedOn: '23 March, 2004',
@@ -1527,21 +1153,20 @@ var itemlist = [{name:'Action games',
                           category: 'Action', 
                           views: '11290',
                           votes: 'N/A',
-                          officialSite: 'www.site',
+                          officialSite: 'http://oceanoffgames.com/category/home/',
                           minimumRequirment: 'OS: Windows 7 Windows 8.1 Windows 10 (64-bit versions only). Processor: Intel Core i3- 550 | AMD Phenom II X4 955 or equivalent. Memory: 4 GB RAM. Graphics: NVIDIA GeForce GTX 460 (1GB VRAM) | AMD Radeon HD 5770 (1GB VRAM) or equivalent. Storage: 20 GB available space',
                           recommended: 'OS: Windows 7, Windows 8.1, Windows 10 (64-bit versions only). Processor: Intel Core i7- 2600K | AMD FX-8350 or equivalent. Memory: 8 GB RAM. Graphics: NVIDIA GeForce GTX 780 | AMD Radeon R9 280X or equivalent. Storage: 20 GB available space'
                       }},
 					 
 					 {name:'Jelly Puzzles',
-					  download:'',
+					  download:'http://oceanoffgames.com/category/home/',
 					  imgSrc:'../windows-games/puzzle-games/jully-puzzle.jpg',
 					  requirements:{
 						  images:[
-							  '../windows-games/screen-shots/far-cry/1.jpg',
-							  '../windows-games/screen-shots/far-cry/2.jpg',
-                              '../windows-games/screen-shots/far-cry/3.jpg',
-                              '../windows-games/screen-shots/far-cry/4.jpg',
-                              '../windows-games/screen-shots/far-cry/5.jpg'
+							   '../windows-games/screen-shots/puzzle-game/1.jpg',
+							  '../windows-games/screen-shots/puzzle-game/2.jpg',
+                              '../windows-games/screen-shots/puzzle-game/3.jpg',
+                              '../windows-games/screen-shots/puzzle-game/4.jpg',
                           ],
                           releaseDate: '2004',
                           updatedOn: '23 March, 2004',
@@ -1549,21 +1174,20 @@ var itemlist = [{name:'Action games',
                           category: 'Action', 
                           views: '11290',
                           votes: 'N/A',
-                          officialSite: 'www.site',
+                          officialSite: 'http://oceanoffgames.com/category/home/',
                           minimumRequirment: 'OS: Windows 7 Windows 8.1 Windows 10 (64-bit versions only). Processor: Intel Core i3- 550 | AMD Phenom II X4 955 or equivalent. Memory: 4 GB RAM. Graphics: NVIDIA GeForce GTX 460 (1GB VRAM) | AMD Radeon HD 5770 (1GB VRAM) or equivalent. Storage: 20 GB available space',
                           recommended: 'OS: Windows 7, Windows 8.1, Windows 10 (64-bit versions only). Processor: Intel Core i7- 2600K | AMD FX-8350 or equivalent. Memory: 8 GB RAM. Graphics: NVIDIA GeForce GTX 780 | AMD Radeon R9 280X or equivalent. Storage: 20 GB available space'
                       }},
 					 
 					 {name:'Puzzle Craft 2',
-					  download:'',
+					  download:'http://oceanoffgames.com/category/home/',
 					  imgSrc:'../windows-games/puzzle-games/puzzle.jpg',
 					 requirements:{
 						  images:[
-							  '../windows-games/screen-shots/far-cry/1.jpg',
-							  '../windows-games/screen-shots/far-cry/2.jpg',
-                              '../windows-games/screen-shots/far-cry/3.jpg',
-                              '../windows-games/screen-shots/far-cry/4.jpg',
-                              '../windows-games/screen-shots/far-cry/5.jpg'
+							   '../windows-games/screen-shots/puzzle-game/1.jpg',
+							  '../windows-games/screen-shots/puzzle-game/2.jpg',
+                              '../windows-games/screen-shots/puzzle-game/3.jpg',
+                              '../windows-games/screen-shots/puzzle-game/4.jpg',
                           ],
                           releaseDate: '2004',
                           updatedOn: '23 March, 2004',
@@ -1571,21 +1195,20 @@ var itemlist = [{name:'Action games',
                           category: 'Action', 
                           views: '11290',
                           votes: 'N/A',
-                          officialSite: 'www.site',
+                          officialSite: 'http://oceanoffgames.com/category/home/',
                           minimumRequirment: 'OS: Windows 7 Windows 8.1 Windows 10 (64-bit versions only). Processor: Intel Core i3- 550 | AMD Phenom II X4 955 or equivalent. Memory: 4 GB RAM. Graphics: NVIDIA GeForce GTX 460 (1GB VRAM) | AMD Radeon HD 5770 (1GB VRAM) or equivalent. Storage: 20 GB available space',
                           recommended: 'OS: Windows 7, Windows 8.1, Windows 10 (64-bit versions only). Processor: Intel Core i7- 2600K | AMD FX-8350 or equivalent. Memory: 8 GB RAM. Graphics: NVIDIA GeForce GTX 780 | AMD Radeon R9 280X or equivalent. Storage: 20 GB available space'
                       }},
 					 
 					 {name:'Jungle Puzzle',
-					  download:'',
+					  download:'http://oceanoffgames.com/category/home/',
 					  imgSrc:'../windows-games/puzzle-games/puzzle1.jpg',
 					  requirements:{
 						  images:[
-							  '../windows-games/screen-shots/far-cry/1.jpg',
-							  '../windows-games/screen-shots/far-cry/2.jpg',
-                              '../windows-games/screen-shots/far-cry/3.jpg',
-                              '../windows-games/screen-shots/far-cry/4.jpg',
-                              '../windows-games/screen-shots/far-cry/5.jpg'
+							   '../windows-games/screen-shots/puzzle-game/1.jpg',
+							  '../windows-games/screen-shots/puzzle-game/2.jpg',
+                              '../windows-games/screen-shots/puzzle-game/3.jpg',
+                              '../windows-games/screen-shots/puzzle-game/4.jpg',
                           ],
                           releaseDate: '2004',
                           updatedOn: '23 March, 2004',
@@ -1593,21 +1216,20 @@ var itemlist = [{name:'Action games',
                           category: 'Action', 
                           views: '11290',
                           votes: 'N/A',
-                          officialSite: 'www.site',
+                          officialSite: 'http://oceanoffgames.com/category/home/',
                           minimumRequirment: 'OS: Windows 7 Windows 8.1 Windows 10 (64-bit versions only). Processor: Intel Core i3- 550 | AMD Phenom II X4 955 or equivalent. Memory: 4 GB RAM. Graphics: NVIDIA GeForce GTX 460 (1GB VRAM) | AMD Radeon HD 5770 (1GB VRAM) or equivalent. Storage: 20 GB available space',
                           recommended: 'OS: Windows 7, Windows 8.1, Windows 10 (64-bit versions only). Processor: Intel Core i7- 2600K | AMD FX-8350 or equivalent. Memory: 8 GB RAM. Graphics: NVIDIA GeForce GTX 780 | AMD Radeon R9 280X or equivalent. Storage: 20 GB available space'
                       }},
 					 
 					 {name:'World Slide Puzzles',
-					  download:'',
+					  download:'http://oceanoffgames.com/category/home/',
 					  imgSrc:'../windows-games/puzzle-games/world-puzzle.png',
 					  requirements:{
 						  images:[
-							  '../windows-games/screen-shots/far-cry/1.jpg',
-							  '../windows-games/screen-shots/far-cry/2.jpg',
-                              '../windows-games/screen-shots/far-cry/3.jpg',
-                              '../windows-games/screen-shots/far-cry/4.jpg',
-                              '../windows-games/screen-shots/far-cry/5.jpg'
+							  '../windows-games/screen-shots/puzzle-game/1.jpg',
+							  '../windows-games/screen-shots/puzzle-game/2.jpg',
+                              '../windows-games/screen-shots/puzzle-game/3.jpg',
+                              '../windows-games/screen-shots/puzzle-game/4.jpg',
                           ],
                           releaseDate: '2004',
                           updatedOn: '23 March, 2004',
@@ -1615,7 +1237,7 @@ var itemlist = [{name:'Action games',
                           category: 'Action', 
                           views: '11290',
                           votes: 'N/A',
-                          officialSite: 'www.site',
+                          officialSite: 'http://oceanoffgames.com/category/home/',
                           minimumRequirment: 'OS: Windows 7 Windows 8.1 Windows 10 (64-bit versions only). Processor: Intel Core i3- 550 | AMD Phenom II X4 955 or equivalent. Memory: 4 GB RAM. Graphics: NVIDIA GeForce GTX 460 (1GB VRAM) | AMD Radeon HD 5770 (1GB VRAM) or equivalent. Storage: 20 GB available space',
                           recommended: 'OS: Windows 7, Windows 8.1, Windows 10 (64-bit versions only). Processor: Intel Core i7- 2600K | AMD FX-8350 or equivalent. Memory: 8 GB RAM. Graphics: NVIDIA GeForce GTX 780 | AMD Radeon R9 280X or equivalent. Storage: 20 GB available space'
                       }},
