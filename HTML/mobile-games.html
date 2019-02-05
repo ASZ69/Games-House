@@ -9,14 +9,14 @@
     <link rel="stylesheet" type="text/css" href="../CSS/shotcut.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.0/animate.min.css">
     <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.7.6/angular.min.js"></script>
-    <script src="../javascript/angulr-modal.js"></script>
+<!--    <script src="../javascript/angulr-modal.js"></script>-->
     <meta charset="utf-8">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"></script>
-    <title>window-games</title>
+    <title>mobile-games</title>
 </head>
-
+ 
 <body>
     <!--	strt navbar-->
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark sticky-top">
@@ -33,7 +33,7 @@
                     <a class="nav-link" href="index.html">Home</a>
                 </li>
                 <li class="nav-item dropdown">
-                    <a class="nav-link dropdown-toggle active" data-toggle="dropdown">Window-games</a>
+                    <a class="nav-link dropdown-toggle" data-toggle="dropdown">Window-games</a>
                     <div class="dropdown-menu">
                         <a class="dropdown-item" href="window-games.html">
                             <img src="../home-images/dropdown-logo/windows-games/action.jpg" width="30px"
@@ -55,15 +55,13 @@
                 </li>
 
                 <li class="nav-item dropdown">
-                    <a class="nav-link dropdown-toggle" href="#" data-toggle="dropdown">
-                        Mobile-Games
-                    </a>
+                    <a class="nav-link dropdown-toggle active" href="#" data-toggle="dropdown"> Mobile-Games</a>
                     <div class="dropdown-menu">
-                        <a class="dropdown-item" href="games.html">
+                        <a class="dropdown-item" href="mobile-games.html">
                             <img src="../home-images/dropdown-logo/mobile-games/temple-run.jpg" width="30px"
                                  height="30px" alt="image"> Tample Run
                         </a>
-                        <a class="dropdown-item" href="games.html">
+                        <a class="dropdown-item" href="mobile-games.html">
                             <img src="../home-images/dropdown-logo/mobile-games/motogp.jpg" width="30px"
                                  height="30px" alt="image"> MotoGp
                         </a>
@@ -71,15 +69,15 @@
                             <img src="../home-images/dropdown-logo/mobile-games/subwaysurfers.jpg" width="30px"
                                  height="30px" alt="image"> Subwaysurfers
                         </a>
-                        <a class="dropdown-item" href="games.html">
+                        <a class="dropdown-item" href="mobile-games.html">
                             <img src="../home-images/dropdown-logo/mobile-games/football.png" width="30px"
                                  height="30px" alt="image"> FootBall
                         </a>
-                        <a class="dropdown-item" href="games.html">
+                        <a class="dropdown-item" href="mobile-games.html">
                             <img src="../home-images/dropdown-logo/mobile-games/mmo.jpg" width="30px"
                                  height="30px" alt="image"> MMOGames
                         </a>
-                        <a class="dropdown-item" href="games.html">
+                        <a class="dropdown-item" href="mobile-games.html">
                             <img src="../home-images/dropdown-logo/mobile-games/8balpull.png" width="30px"
                                  height="30px" alt="image"> 8BallPool
                         </a>
@@ -136,107 +134,64 @@
 
             <div class="col-md-3 left-block">
                 <div class="left-sc-fix">
-				
-					<ul>
-                    <li>
-                        <h3 ng-click="showCat($event)">Action games</h3>
-                        <ul>
-                            <li ng-click="viewGame($event)">Far Cry 1</li>
-                            <li ng-click="viewGame($event)">Max Payne 3</li>
-                            <li ng-click="viewGame($event)">Hitman</li>
-                            <li ng-click="viewGame($event)">Tekken 7</li>
-                            <li ng-click="viewGame($event)">Far Cry 2</li>
-                            <li ng-click="viewGame($event)">Far Cry 3</li>
-                            <li ng-click="viewGame($event)">Far Cry 4</li>
-                            <li ng-click="viewGame($event)">Far Cry 5</li>
-                            <li ng-click="viewGame($event)">Max Payne 1</li>
-                            <li ng-click="viewGame($event)">Max Payne 2</li>
-                            <li ng-click="viewGame($event)">Hitman 2</li>
-                            <li ng-click="viewGame($event)">Hitman 3 Contracts</li>
-                            <li ng-click="viewGame($event)">Hitman Blood Money</li>
-                            <li ng-click="viewGame($event)">Tekken 3</li>
-                            <li ng-click="viewGame($event)">Tekken 5</li>
-                            <li ng-click="viewGame($event)">SpaceJet</li>
-                            <li ng-click="viewGame($event)">Rise of Tom Rider</li>
-                            <li ng-click="viewGame($event)">Pandda Cammender</li>
-                            <li ng-click="viewGame($event)">Ninja Mission</li>
-                            <li ng-click="viewGame($event)">Clash Atlantis</li>
-                        </ul>
-                    </li>
-                    <li>
-                        <h3 ng-click="showCat($event)">Shooting games</h3>
-                        <ul>
-                            <li ng-click="viewGame($event)">CallofDuty</li>
-                            <li ng-click="viewGame($event)">Battlefield</li>
-                            <li ng-click="viewGame($event)">SniperElite 1</li>
-                            <li ng-click="viewGame($event)">FallOut 1</li>
-                            <li ng-click="viewGame($event)">FallOut 4</li>
-                            <li ng-click="viewGame($event)">Battlefield 2</li>
-                            <li ng-click="viewGame($event)">Battlefield 3</li>
-                            <li ng-click="viewGame($event)">Battlefield 4</li>
-                            <li ng-click="viewGame($event)">Call of Duty WWII</li>
-                            <li ng-click="viewGame($event)">Call of duty MWF</li>
-                            <li ng-click="viewGame($event)">Call of duty MWF 2</li>
-                            <li ng-click="viewGame($event)">Call of Duty Ghosts</li>
-                            <li ng-click="viewGame($event)">Sniper Elite 3</li>
-                            <li ng-click="viewGame($event)">Sniper Elite 4</li>
-                            <li ng-click="viewGame($event)">Tom Clancys Splinter Cell</li>
-                            <li ng-click="viewGame($event)">The Divition</li>
-                            <li ng-click="viewGame($event)">Rules of Survival</li>
-                            <li ng-click="viewGame($event)">PUBG Pc</li>
-                            <li ng-click="viewGame($event)">Cs-Go</li>
-                            <li ng-click="viewGame($event)">Delta-Force</li>
-                        </ul>
-                    </li>
-                    <li>
-                        <h3 ng-click="showCat($event)">Sport games</h3>
-                        <ul>
-                            <li ng-click="viewGame($event)">Circket07</li>
-                            <li ng-click="viewGame($event)">FIFA 18</li>
-                            <li ng-click="viewGame($event)">NeedForSpeed</li>
-                            <li ng-click="viewGame($event)">MotoGP 15</li>
-                            <li ng-click="viewGame($event)">NFS Most Wanted</li>
-                        </ul>
-                    </li>
-                    <li>
-                        <h3 ng-click="showCat($event)">Puzzle games</h3>
-                        <ul>
-                            <li ng-click="viewGame($event)">Jigsaw Puzzles Free</li>
-                            <li ng-click="viewGame($event)">The Witness</li>
-                            <li ng-click="viewGame($event)">Jigsaw Car Puzzle</li>
-                            <li ng-click="viewGame($event)">Jugle Puzzle</li>
-                            <li ng-click="viewGame($event)">Jelly Puzzles</li>
-                            <li ng-click="viewGame($event)">Puzzle Craft 2</li>
-                            <li ng-click="viewGame($event)">Jungle Puzzle</li>
-                            <li ng-click="viewGame($event)">World Slide Puzzles</li>
-                        </ul>
-                    </li>
-                </ul>
-					
-				</div>
+
+                    <ul>
+                        <li>
+                            <h3 ng-click="showCat($event)">Arcade games</h3>
+                            <ul>
+                                <li ng-click="viewGame($event)">Fruit Ninja</li>
+                                <li ng-click="viewGame($event)">Tample Run</li>
+                                <li ng-click="viewGame($event)">Subway surfers</li>
+                                <li ng-click="viewGame($event)">Angry Birds</li>
+                                <li ng-click="viewGame($event)">Angry Birds 2</li>
+                            </ul>
+                        </li>
+                        <li>
+                            <h3 ng-click="showCat($event)">Racing & flying</h3>
+                            <ul>
+                                <li ng-click="viewGame($event)">Asphalt8: Airborne</li>
+                                <li ng-click="viewGame($event)">Traffic Racer</li>
+                                <li ng-click="viewGame($event)">Traffic Rider</li>
+                                <li ng-click="viewGame($event)">Apocalypse</li>
+                                <li ng-click="viewGame($event)">Inosane</li>
+                                <li ng-click="viewGame($event)">Sega game</li>
+                            </ul>
+                        </li>
+                        <li>
+                            <h3 ng-click="showCat($event)">Fighting games</h3>
+                            <ul>
+                                <li ng-click="viewGame($event)">Shadow Fight 2</li>
+                                <li ng-click="viewGame($event)">Shadow Fight 3</li>
+                                <li ng-click="viewGame($event)">Stickman Legends</li>
+                                <li ng-click="viewGame($event)">XenoShyft</li>
+                                <li ng-click="viewGame($event)">Soul Calibur 4</li>
+                            </ul>
+                        </li>
+                        <li>
+                            <h3 ng-click="showCat($event)">Strategy games</h3>
+                            <ul>
+                                <li ng-click="viewGame($event)">Rool of galaxy</li>
+                                <li ng-click="viewGame($event)">RadIand Historia</li>
+                                <li ng-click="viewGame($event)">Shadow Guardian</li>
+                                <li ng-click="viewGame($event)">Strike Tactics</li>
+                            </ul>
+                        </li>
+                    </ul>
+
+                </div>
             </div>
 
             <div class="col-md-9">
-                <!--				<div class="scroll-container">-->
-                <!--
-                                <h2 class="text-center " onClick="action()">Action games</h2>
-                                <h2 class="text-center shooting" onClick="shooting()">Shooting games</h2>
-                                <h2 class="text-center sport" onClick="sport()">Sport Games</h2>
-                                <h2 class="text-center puzzle" onClick="puzzle()">Puzzle Games</h2>
-                -->
+              
                 <div class="right-view" ng-repeat="games in evearray">
                     <div ng-repeat="season in games.seasons" class="mr-lr-5 mr-tb-5">
                         <span class="dis-none"></span>
                         <div class="cd-img-p">
-                            <img src="{{season.imgSrc}}" alt="PIC" class="card-hover"> 
+                            <img src="{{season.imgSrc}}" alt="PIC" class="card-hover">
                             <div class="card-overlay">
-                                <!--								<i class="fas fa-inbox"></i>-->
                                 <a class="dis-blk text-center my-hover-a" ng-click="viewMore($event)">Requirements</a>
                                 <a href="{{season.download}}" target="new" class="dis-blk text-center mr-t-2">Download</a>
-                                <!--								<button class="btn btn-dark btn-sm dis-blk">Requirements</button>-->
-                                <!--								<button class="btn btn-ou btn-sm dis-blk">Download</button>-->
                             </div>
-
                         </div>
                         <hr>
                         <div class="card-heading">
@@ -245,12 +200,9 @@
                         </div>
                     </div>
                 </div>
-                <!--               </div>-->
 
                 <div class="right-page pd-5 dis-none">
                     <button onclick="goToBack()" class="btn btn-outline-dark">Go Back</button>
-
-                    <!--						<img id="mainImg" class="main-scs" src="../windows-games/screen-shots/far-cry/main.jpg" alt="iamge">-->
                     <img id="mainImg" class="main-scs" src="{{moredetailsarray[0].imgSrc}}" alt="iamge">
 
                     <div class="text-center">
@@ -261,7 +213,7 @@
                         <img class="screenshot card-hoverr" onClick="changeImg(this)" src="{{moredetailsarray[0].requirements.images[3]}}" alt="iamge">
                     </div>
                     <div>
-                        <hr> 
+                        <hr>
 
                         <h1 class="text-center w-heading ">{{moredetailsarray[0].name}}</h1>
                         <div class="fa-border" style="width: 100%;height: 6.3vw;">
@@ -282,10 +234,11 @@
                             <button class="btn btn-outline-dark btns btn-dis-inl-blk"><a class="w-ancer" href="{{moredetailsarray[0].requirements.officialSite}}" target="new">Go To offical site</a></button>
                         </div>
 
+
                         <h1 class="text-center htp-heading">Note</h1>
                         <p class="desc-p fa-border">
-                            Before Download any game or install it please confirm your Windows is updated and some GAME CRACK alert as virus ..disable your Antivirus before install any game.<br>
-                            <b>IMPORTANT :</b>  Make sure you have enough space in drive C:\ before install any game.<br>
+                            Before Download any game or install it please confirm your Mobile is updated and some GAME CRACK alert as virus ..disable your Antivirus before install any game.<br>
+                            <b>IMPORTANT :</b>  Make sure you have enough space in drive before install any game.<br>
                             Download Virtual Drive software  Click Here  for iso files
                         </p>
 
@@ -299,6 +252,7 @@
                             FIERCE WILDLIFE AND SAVAGE AND MAJESTIC WORLD: This is earth before man laid claim to it, where deadly sabretooth tigers ruled the world, giant woolly mammoths were kings, and herds of massive Elk stormed through the plains. Discover these and many more daunting creatures in the savage open-world of Oros within the towering redwood forests, harsh taiga, cold glacial mountains and humid swamps.....
                         </p>
                     </div>
+<!--
                     <div>
                         <h1 class="text-center htp-heading">System Requirments</h1>
                         <p class="fa-border prg">
@@ -308,6 +262,7 @@
                             {{moredetailsarray[0].requirements.recommended}}
                         </p>
                     </div>
+-->
                 </div>
 
             </div>
@@ -320,6 +275,7 @@
     <!--	                    links-->
     <!--	<script src="../javascript/appear.js"></script>-->
     <script src="../javascript/window-games.js"></script>
+    <script src="../javascript/mobile.js"></script>
 
 </body>
 </html>
