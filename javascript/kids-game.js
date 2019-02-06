@@ -11,10 +11,10 @@ games.controller("cat-ctrl", function ($scope, $filter) {
         $(".right-page").css("display", "none");
 
         hoverSetting();
-
+ 
     };
 
-    $scope.evearray = $filter('filter')(itemlist, { name: 'Arcade games' });
+    $scope.evearray = $filter('filter')(itemlist, { name: 'Barbie games' });
 
     $scope.viewMore = function (game) {
         var clikeRf = game.currentTarget;
@@ -22,7 +22,7 @@ games.controller("cat-ctrl", function ($scope, $filter) {
 
 
         $(".right-view").css("display", "none");
-        $(".right-page").css("display", "block"); 
+        $(".right-page").css("display", "block");
 
         $scope.moredetailsarray = $filter('filter')($scope.evearray[0].seasons, { name: gameName });
 
@@ -44,11 +44,11 @@ games.controller("cat-ctrl", function ($scope, $filter) {
         }, 70);
 
         scrollUp();
-        hoverSetting();
+        hoverSetting(); 
 
     };
 
-    $scope.evearray = $filter('filter')(itemlist, { name: 'Arcade games' });
+    $scope.evearray = $filter('filter')(itemlist, { name: 'Barbie games' });
 
     $scope.catarray = itemlist;
     hoverSetting();
@@ -57,7 +57,7 @@ games.controller("cat-ctrl", function ($scope, $filter) {
 
 function scrollUp() {
     $(window).scrollTop(0);
-}
+} 
 
 function hoverSetting() {
     setTimeout(function () {
@@ -75,19 +75,19 @@ function hoverSetting() {
 }
 
 var itemlist = [{
-    name: 'Arcade games',
+    name: 'Barbie games',
     seasons: [
 
         {
-            name: 'Fruit Ninja',
+            name: 'Style Your Crew',
             download: 'http://oceanoffgames.com/category/home/',
-            imgSrc: '../mobile-games/arcade-games/fruitninja.jpg',
+            imgSrc: '../kids-games/barbie-1.jpg',
             requirements: {
                 images: [
-                    '../mobile-games/screenshots/F-1.jpg',
-                    '../mobile-games/screenshots/F-2.jpg',
-                    '../mobile-games/screenshots/F-3.jpg',
-                    '../mobile-games/screenshots/F-4.jpg',
+                    '../kids-games/barbie-1.jpg',
+                    '../kids-games/barbie-1.jpg',
+                    '../kids-games/barbie-1.jpg',
+                    '../kids-games/barbie-1.jpg',
                 ],
                 releaseDate: '2010',
                 updatedOn: '11 jun, 2010',
@@ -100,15 +100,15 @@ var itemlist = [{
         },
 
         {
-            name: 'Tample Run',
+            name: 'You Can Be A Chef',
             download: 'http://oceanoffgames.com/category/home/',
-            imgSrc: '../mobile-games/arcade-games/temple-run.jpg',
+            imgSrc: '../kids-games/barbie-2.jpg',
             requirements: {
                 images: [
-                    '../mobile-games/screenshots/t-1.jpg',
-                    '../mobile-games/screenshots/t-2.jpg',
-                    '../mobile-games/screenshots/t-3.jpg',
-                    '../mobile-games/screenshots/t-4.jpg',
+                    '../kids-games/barbie-2.jpg',
+                    '../kids-games/barbie-2.jpg',
+                    '../kids-games/barbie-2.jpg',
+                    '../kids-games/barbie-2.jpg',
                 ],
                 releaseDate: '2004',
                 updatedOn: '23 March, 2004',
@@ -121,15 +121,15 @@ var itemlist = [{
         },
 
         {
-            name: 'Subway surfers',
+            name: 'Dolphin Magic',
             download: 'http://oceanoffgames.com/category/home/',
-            imgSrc: '../mobile-games/arcade-games/subway.jpg',
+            imgSrc: '../kids-games/barbie-3.jpg',
             requirements: {
                 images: [
-                    '../mobile-games/screenshots/sw-1.jpg',
-                    '../mobile-games/screenshots/sw-2.jpg',
-                    '../mobile-games/screenshots/sw-3.jpg',
-                    '../mobile-games/screenshots/sw-4.jpg',
+                    '../kids-games/barbie-3.jpg',
+                    '../kids-games/barbie-3.jpg',
+                    '../kids-games/barbie-3.jpg',
+                    '../kids-games/barbie-3.jpg',
                 ],
                 releaseDate: '2004',
                 updatedOn: '23 March, 2004',
@@ -142,36 +142,15 @@ var itemlist = [{
         },
 
         {
-            name: 'Angry Birds',
+            name: 'Spy Squad Academy',
             download: 'http://oceanoffgames.com/category/home/',
-            imgSrc: '../mobile-games/arcade-games/angrybirds.jpg',
+            imgSrc: '../kids-games/barbie-4.jpg',
             requirements: {
                 images: [
-                    '../mobile-games/screenshots/ab-1.jpg',
-                    '../mobile-games/screenshots/ab-2.jpg',
-                    '../mobile-games/screenshots/ab-3.jpg',
-                    '../mobile-games/screenshots/ab-4.jpg',
-                ],
-                releaseDate: '2004',
-                updatedOn: '23 March, 2004',
-                genre: 'Action',
-                category: 'Action',
-                views: '11290',
-                votes: 'N/A',
-                officialSite: 'http://oceanoffgames.com/category/home/',
-            }
-        },
-
-        {
-            name: 'Angry Birds 2',
-            download: 'http://oceanoffgames.com/category/home/',
-            imgSrc: '../mobile-games/arcade-games/angrybirds 2.jpg',
-            requirements: {
-                images: [
-                    '../mobile-games/screenshots/ab2-1.jpg',
-                    '../mobile-games/screenshots/ab2-2.jpg',
-                    '../mobile-games/screenshots/ab2-3.jpg',
-                    '../mobile-games/screenshots/ab2-4.jpg',
+                    '../kids-games/barbie-4.jpg',
+                    '../kids-games/barbie-4.jpg',
+                    '../kids-games/barbie-4.jpg',
+                    '../kids-games/barbie-4.jpg',
                 ],
                 releaseDate: '2004',
                 updatedOn: '23 March, 2004',
@@ -188,19 +167,19 @@ var itemlist = [{
 
 
 {
-    name: 'Racing &amp; flying',
+    name: 'Tom &amp; Jerry',
     seasons: [
 
         {
-            name: 'Asphalt8: Airborne',
+            name: 'Trap-O-Matic',
             download: 'http://oceanoffgames.com/category/home/',
-            imgSrc: '../mobile-games/racing-game/asphalts.jpg',
+            imgSrc: '../kids-games/tom-1.jpg',
             requirements: {
                 images: [
-                    '../mobile-games/screenshots/as-1.jpg',
-                    '../mobile-games/screenshots/as-2.jpg',
-                    '../mobile-games/screenshots/as-3.jpg',
-                    '../mobile-games/screenshots/as-4.jpg',
+                    '../kids-games/tom-1.jpg',
+                    '../kids-games/tom-1.jpg',
+                    '../kids-games/tom-1.jpg',
+                    '../kids-games/tom-1.jpg',
                 ],
                 releaseDate: '2004',
                 updatedOn: '23 March, 2004',
@@ -213,15 +192,15 @@ var itemlist = [{
         },
 
         {
-            name: 'Traffic Racer',
+            name: 'Whats The Catch',
             download: 'http://oceanoffgames.com/category/home/',
-            imgSrc: '../mobile-games/racing-game/traffic-racer.jpg',
+            imgSrc: '../kids-games/tom-2.jpg',
             requirements: {
                 images: [
-                    '../mobile-games/screenshots/tr-1.jpg',
-                    '../mobile-games/screenshots/tr-2.jpg',
-                    '../mobile-games/screenshots/tr-3.jpg',
-                    '../mobile-games/screenshots/tr-4.jpg',
+                    '../kids-games/tom-2.jpg',
+                    '../kids-games/tom-2.jpg',
+                    '../kids-games/tom-2.jpg',
+                    '../kids-games/tom-2.jpg',
                 ],
                 releaseDate: '2004',
                 updatedOn: '23 March, 2004',
@@ -234,15 +213,15 @@ var itemlist = [{
         },
 
         {
-            name: 'Traffic Rider',
+            name: 'Food Fight',
             download: 'http://oceanoffgames.com/category/home/',
-            imgSrc: '../mobile-games/racing-game/traffic-rider.jpg',
+            imgSrc: '../kids-games/tom-3.jpg',
             requirements: {
                 images: [
-                    '../mobile-games/screenshots/trf-1.jpg',
-                    '../mobile-games/screenshots/trf-2.jpg',
-                    '../mobile-games/screenshots/trf-3.jpg',
-                    '../mobile-games/screenshots/trf-4.jpg',
+                    '../kids-games/tom-3.jpg',
+                    '../kids-games/tom-3.jpg',
+                    '../kids-games/tom-3.jpg',
+                    '../kids-games/tom-3.jpg',
                 ],
                 releaseDate: '2004',
                 updatedOn: '23 March, 2004',
@@ -255,15 +234,15 @@ var itemlist = [{
         },
 
         {
-            name: 'Apocalypse',
+            name: 'Run Jerry Run',
             download: 'http://oceanoffgames.com/category/home/',
-            imgSrc: '../mobile-games/racing-game/apolo.jpg',
+            imgSrc: '../kids-games/tom-4.jpg',
             requirements: {
                 images: [
-                    '../mobile-games/screenshots/apo-1.jpg',
-                    '../mobile-games/screenshots/apo-2.jpg',
-                    '../mobile-games/screenshots/apo-3.jpg',
-                    '../mobile-games/screenshots/apo-4.jpg',
+                    '../kids-games/tom-4.jpg',
+                    '../kids-games/tom-4.jpg',
+                    '../kids-games/tom-4.jpg',
+                    '../kids-games/tom-4.jpg',
                 ],
                 releaseDate: '2004',
                 updatedOn: '23 March, 2004',
@@ -275,64 +254,23 @@ var itemlist = [{
             }
         },
 
-        {
-            name: 'Inosane',
-            download: 'http://oceanoffgames.com/category/home/',
-            imgSrc: '../mobile-games/racing-game/inosane.jpg',
-            requirements: {
-                images: [
-                    '../mobile-games/screenshots/ino-1.jpg',
-                    '../mobile-games/screenshots/ino-2.jpg',
-                    '../mobile-games/screenshots/ino-3.jpg',
-                    '../mobile-games/screenshots/ino-4.jpg',
-                ],
-                releaseDate: '2004',
-                updatedOn: '23 March, 2004',
-                genre: 'Action',
-                category: 'Action',
-                views: '11290',
-                votes: 'N/A',
-                officialSite: 'http://oceanoffgames.com/category/home/',
-            }
-        },
-
-        {
-            name: 'Sega game',
-            download: 'http://oceanoffgames.com/category/home/',
-            imgSrc: '../mobile-games/racing-game/sega-game.jpg',
-            requirements: {
-                images: [
-                    '../mobile-games/screenshots/se-1.jpg',
-                    '../mobile-games/screenshots/se-2.jpg',
-                    '../mobile-games/screenshots/se-3.jpg',
-                    '../mobile-games/screenshots/se-1.jpg',
-                ],
-                releaseDate: '2004',
-                updatedOn: '23 March, 2004',
-                genre: 'Action',
-                category: 'Action',
-                views: '11290',
-                votes: 'N/A',
-                officialSite: 'http://oceanoffgames.com/category/home/',
-            }
-        },
     ]
 },
 
 {
-    name: 'Fighting games',
+    name: 'Bubble Shooter',
     seasons: [
 
         {
-            name: 'Shadow Fight 2',
+            name: 'Bubble Shooter',
             download: 'http://oceanoffgames.com/category/home/',
-            imgSrc: '../mobile-games/fighting-game/shedow 2.jpg',
+            imgSrc: '../kids-games/b-1.jpg',
             requirements: {
                 images: [
-                    '../mobile-games/screenshots/she-1.jpg',
-                    '../mobile-games/screenshots/she-2.jpg',
-                    '../mobile-games/screenshots/she-3.jpg',
-                    '../mobile-games/screenshots/she-4.jpg',
+                    '../kids-games/b-1.jpg',
+                    '../kids-games/b-1.jpg',
+                    '../kids-games/b-1.jpg',
+                    '../kids-games/b-1.jpg',
                 ],
                 releaseDate: '2004',
                 updatedOn: '23 March, 2004',
@@ -345,15 +283,15 @@ var itemlist = [{
         },
 
         {
-            name: 'Shadow Fight 3',
+            name: 'Bubble Machine',
             download: 'http://oceanoffgames.com/category/home/',
-            imgSrc: '../mobile-games/fighting-game/shedow 3.jpg',
+            imgSrc: '../kids-games/b-2.jpg',
             requirements: {
                 images: [
-                    '../mobile-games/screenshots/shew-1.jpg',
-                    '../mobile-games/screenshots/shew-2.jpg',
-                    '../mobile-games/screenshots/shew-3.jpg',
-                    '../mobile-games/screenshots/shew-4.jpg',
+                    '../kids-games/b-2.jpg',
+                    '../kids-games/b-2.jpg',
+                    '../kids-games/b-2.jpg',
+                    '../kids-games/b-2.jpg',
                 ],
                 releaseDate: '2004',
                 updatedOn: '23 March, 2004',
@@ -366,15 +304,15 @@ var itemlist = [{
 
 
         {
-            name: 'Stickman Legends',
+            name: 'Smarty Bubble',
             download: 'http://oceanoffgames.com/category/home/',
-            imgSrc: '../mobile-games/fighting-game/stickman.jpg',
+            imgSrc: '../kids-games/b-3.jpg',
             requirements: {
                 images: [
-                    '../mobile-games/screenshots/stick.jpg',
-                    '../mobile-games/screenshots/stick-2.jpg',
-                    '../mobile-games/screenshots/stick-3.jpg',
-                    '../mobile-games/screenshots/stick-4.jpg',
+                    '../kids-games/b-3.jpg',
+                    '../kids-games/b-3.jpg',
+                    '../kids-games/b-3.jpg',
+                    '../kids-games/b-3.jpg',
                 ],
                 releaseDate: '2004',
                 updatedOn: '23 March, 2004',
@@ -388,15 +326,15 @@ var itemlist = [{
 
 
         {
-            name: 'XenoShyft',
+            name: 'Candy Bubble',
             download: 'http://oceanoffgames.com/category/home/',
-            imgSrc: '../mobile-games/fighting-game/x.jpg',
+            imgSrc: '../kids-games/b-4.jpg',
             requirements: {
                 images: [
-                    '../mobile-games/screenshots/x-1.jpg',
-                    '../mobile-games/fighting-game/x.jpg',
-                    '../mobile-games/screenshots/x-1.jpg',
-                    '../mobile-games/fighting-game/x.jpg',
+                    '../kids-games/b-4.jpg',
+                    '../kids-games/b-4.jpg',
+                    '../kids-games/b-4.jpg',
+                    '../kids-games/b-4.jpg',
                 ],
                 releaseDate: '2004',
                 updatedOn: '23 March, 2004',
@@ -407,49 +345,24 @@ var itemlist = [{
                 officialSite: 'http://oceanoffgames.com/category/home/',
             }
         },
-
-
-        {
-            name: 'Soul Calibur 4',
-            download: 'http://oceanoffgames.com/category/home/',
-            imgSrc: '../mobile-games/fighting-game/soul-caliber.jpg',
-            requirements: {
-                images: [
-                    '../mobile-games/screenshots/soul-1.jpg',
-                    '../mobile-games/screenshots/soul-2.jpg',
-                    '../mobile-games/screenshots/soul-3.jpg',
-                    '../mobile-games/screenshots/soul-4.jpg',
-                ],
-                releaseDate: '2004',
-                updatedOn: '23 March, 2004',
-                genre: 'Action',
-                category: 'Action',
-                views: '11290',
-                votes: 'N/A',
-                officialSite: 'http://oceanoffgames.com/category/home/',
-            }
-        },
-
-
-
 
     ]
 },
 
 {
-    name: 'Strategy games',
+    name: 'Piano KiDs',
     seasons: [
 
         {
-            name: 'Rool of galaxy',
+            name: 'Piano Tiles',
             download: 'http://oceanoffgames.com/category/home/',
-            imgSrc: '../mobile-games/strategy-games/galaxy.jpg',
+            imgSrc: '../kids-games/p-1.jpg',
             requirements: {
                 images: [
-                    '../windows-games/screen-shots/puzzle-game/1.jpg',
-                    '../mobile-games/strategy-games/galaxy.jpg',
-                    '../windows-games/screen-shots/puzzle-game/3.jpg',
-                    '../windows-games/screen-shots/puzzle-game/4.jpg',
+                    '../kids-games/p-1.jpg',
+                    '../kids-games/p-1.jpg',
+                    '../kids-games/p-1.jpg',
+                    '../kids-games/p-1.jpg',
                 ],
                 releaseDate: '2004',
                 updatedOn: '23 March, 2004',
@@ -463,15 +376,15 @@ var itemlist = [{
         },
 
         {
-            name: 'RadIand Historia',
+            name: 'Virtual Keybored',
             download: 'http://oceanoffgames.com/category/home/',
-            imgSrc: '../mobile-games/strategy-games/red.jpg',
+            imgSrc: '../kids-games/p-2.jpg',
             requirements: {
                 images: [
-                    '../windows-games/screen-shots/puzzle-game/1.jpg',
-                    '../windows-games/screen-shots/puzzle-game/2.jpg',
-                    '../windows-games/screen-shots/puzzle-game/3.jpg',
-                    '../mobile-games/strategy-games/red.jpg',
+                    '../kids-games/p-2.jpg',
+                    '../kids-games/p-2.jpg',
+                    '../kids-games/p-2.jpg',
+                    '../kids-games/p-2.jpg',
                 ],
                 releaseDate: '2004',
                 updatedOn: '23 March, 2004',
@@ -484,15 +397,15 @@ var itemlist = [{
         },
 
         {
-            name: 'Shadow Guardian',
+            name: 'Magic Tiles',
             download: 'http://oceanoffgames.com/category/home/',
-            imgSrc: '../mobile-games/strategy-games/shed.jpg',
+            imgSrc: '../kids-games/p-3.jpg',
             requirements: {
                 images: [
-                    '../windows-games/screen-shots/puzzle-game/1.jpg',
-                    '../mobile-games/strategy-games/shed.jpg',
-                    '../windows-games/screen-shots/puzzle-game/3.jpg',
-                    '../windows-games/screen-shots/puzzle-game/4.jpg',
+                    '../kids-games/p-3.jpg',
+                    '../kids-games/p-3.jpg',
+                    '../kids-games/p-3.jpg',
+                    '../kids-games/p-3.jpg',
                 ],
                 releaseDate: '2004',
                 updatedOn: '23 March, 2004',
@@ -505,15 +418,15 @@ var itemlist = [{
         },
 
         {
-            name: 'Strike Tactics',
+            name: 'Multiplayer Piano',
             download: 'http://oceanoffgames.com/category/home/',
-            imgSrc: '../mobile-games/strategy-games/s.jpg',
+            imgSrc: '../kids-games/p-4.jpg',
             requirements: {
                 images: [
-                    '../mobile-games/strategy-games/s-1.jpg',
-                    '../windows-games/screen-shots/puzzle-game/2.jpg',
-                    '../mobile-games/strategy-games/s-2.jpg',
-                    '../windows-games/screen-shots/puzzle-game/4.jpg',
+                    '../kids-games/p-4.jpg',
+                    '../kids-games/p-4.jpg',
+                    '../kids-games/p-4.jpg',
+                    '../kids-games/p-4.jpg',
                 ],
                 releaseDate: '2004',
                 updatedOn: '23 March, 2004',
