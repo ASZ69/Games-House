@@ -4,7 +4,7 @@
     height: 350px;
 }
 
-.ab-parent>div {
+.ab-parent > div {
     height: 350px;
     background-color: black;
     border-bottom: 1px solid white;
@@ -31,11 +31,11 @@
     position: relative;
 }
 
-.ab-heading>div {
-    position: absolute;
-    top: 50%;
-    transform: translateY(-50%);
-}
+    .ab-heading > div {
+        position: absolute;
+        top: 50%;
+        transform: translateY(-50%);
+    }
 
 .ab-logo-parent img {
     width: 150px;
@@ -59,7 +59,7 @@
     transform: translate(-50%, -50%);
 }
 
-.ab-map>div {
+.ab-map > div {
     width: 75%;
     position: absolute;
     top: 50%;

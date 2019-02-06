@@ -1,4 +1,4 @@
-<!doctype html>
+﻿<!doctype html>
 <html>
 
 <head>
@@ -9,14 +9,14 @@
     <link rel="stylesheet" type="text/css" href="../CSS/shotcut.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.0/animate.min.css">
     <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.7.6/angular.min.js"></script>
-<!--    <script src="../javascript/angulr-modal.js"></script>-->
+    <!--    <script src="../javascript/angulr-modal.js"></script>-->
     <meta charset="utf-8">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"></script>
     <title>kiDs-games</title>
-</head> 
- 
+</head>
+
 <body>
     <!--	strt navbar-->
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark sticky-top">
@@ -61,12 +61,12 @@
                             <img src="../home-images/dropdown-logo/mobile-games/temple-run.jpg" width="30px"
                                  height="30px" alt="image"> Tample Run
                         </a>
-                        
+
                         <a class="dropdown-item" href="games.html">
                             <img src="../home-images/dropdown-logo/mobile-games/subwaysurfers.jpg" width="30px"
                                  height="30px" alt="image"> Subwaysurfers
                         </a>
-                        
+
                         <a class="dropdown-item" href="mobile-games.html">
                             <img src="../home-images/dropdown-logo/mobile-games/mmo.jpg" width="30px"
                                  height="30px" alt="image"> MMOGames
@@ -77,7 +77,7 @@
                         </a>
                     </div>
                 </li>
- 
+
                 <li class="nav-item dropdown">
                     <a class="nav-link dropdown-toggle active" data-toggle="dropdown">KiDs-Games</a>
                     <div class="dropdown-menu">
@@ -93,7 +93,7 @@
                             <img src="../home-images/dropdown-logo/kiDs-games/bubbleshooter.jpg" width="30px"
                                  height="30px" alt="image"> Bubble Shooter
                         </a>
-                       
+
                         <a class="dropdown-item" href="kids-games.html">
                             <img src="../home-images/dropdown-logo/kiDs-games/piano.jpg" width="30px"
                                  height="30px" alt="image"> Piano KiDs
@@ -149,7 +149,7 @@
                             </ul>
                         </li>
                         <li>
-                            <h3 ng-click="showCat($event)">Piano KiDs</h3> 
+                            <h3 ng-click="showCat($event)">Piano KiDs</h3>
                             <ul>
                                 <li ng-click="viewGame($event)">Piano Tiles</li>
                                 <li ng-click="viewGame($event)">Virtual Keybored</li>
@@ -163,15 +163,15 @@
             </div>
 
             <div class="col-md-9">
-              
+
                 <div class="right-view" ng-repeat="games in evearray">
                     <div ng-repeat="season in games.seasons" class="mr-lr-5 mr-tb-5">
                         <span class="dis-none"></span>
                         <div class="cd-img-p">
                             <img src="{{season.imgSrc}}" alt="PIC" class="card-hover">
                             <div class="card-overlay">
-                                <a class="dis-blk text-center my-hover-a" ng-click="viewMore($event)">Requirements</a>
-                                <a href="{{season.download}}" target="new" class="dis-blk text-center mr-t-2">Download</a>
+                                <a class="dis-blk text-center my-hover-a" title="Requirements" ng-click="viewMore($event)"><i class="fas fa-info-circle fa-4x"></i></a>
+                                <a href="{{season.download}}" target="new" title="Download" class="dis-blk text-center mr-t-2"><i class="fas fa-download fa-4x"></i></a>
                             </div>
                         </div>
                         <hr>
@@ -183,7 +183,7 @@
                 </div>
 
                 <div class="right-page pd-5 dis-none">
-                    <button onclick="goToBack()" class="btn btn-outline-dark">Go Back</button>
+                    <button onclick="goToBack()" title="Go Back" class="btn btn-outline-dark">Go Back</button>
                     <img id="mainImg" class="main-scs" src="{{moredetailsarray[0].imgSrc}}" alt="iamge">
 
                     <div class="text-center">
@@ -211,8 +211,8 @@
                         </div>
 
                         <div class="fa-border" style="width: 100%;">
-                            <button class="btn btn-outline-dark btnss"><a class="w-ancer" href="{{moredetailsarray[0].requirements.officialSite}}" target="new">Download This Game</a></button><br>
-                            <button class="btn btn-outline-dark btns btn-dis-inl-blk"><a class="w-ancer" href="{{moredetailsarray[0].requirements.officialSite}}" target="new">Go To offical site</a></button>
+                            <button class="btn btn-outline-dark btnss"><a class="w-ancer" href="{{moredetailsarray[0].requirements.officialSite}}" title="Download This Game" target="new">Download This Game</a></button><br>
+                            <button class="btn btn-outline-dark btns btn-dis-inl-blk"><a class="w-ancer" href="{{moredetailsarray[0].requirements.officialSite}}" title="Go To offical site" target="new">Go To offical site</a></button>
                         </div>
 
 
@@ -233,17 +233,17 @@
                             FIERCE WILDLIFE AND SAVAGE AND MAJESTIC WORLD: This is earth before man laid claim to it, where deadly sabretooth tigers ruled the world, giant woolly mammoths were kings, and herds of massive Elk stormed through the plains. Discover these and many more daunting creatures in the savage open-world of Oros within the towering redwood forests, harsh taiga, cold glacial mountains and humid swamps.....
                         </p>
                     </div>
-<!--
-                    <div>
-                        <h1 class="text-center htp-heading">System Requirments</h1>
-                        <p class="fa-border prg">
-                            <strong>Minimum:</strong>
-                            {{moredetailsarray[0].requirements.minimumRequirment}}<br><br>
-                            <strong>Recommended:</strong>
-                            {{moredetailsarray[0].requirements.recommended}}
-                        </p>
-                    </div>
--->
+                    <!--
+                                        <div>
+                                            <h1 class="text-center htp-heading">System Requirments</h1>
+                                            <p class="fa-border prg">
+                                                <strong>Minimum:</strong>
+                                                {{moredetailsarray[0].requirements.minimumRequirment}}<br><br>
+                                                <strong>Recommended:</strong>
+                                                {{moredetailsarray[0].requirements.recommended}}
+                                            </p>
+                                        </div>
+                    -->
                 </div>
 
             </div>
@@ -254,7 +254,8 @@
 
 
     <!--	                    links-->
-    	<script src="../javascript/appear.js"></script>
+    <!--    	<script src="../javascript/appear.js"></script>-->
+    <script src="../javascript/window-games.js"></script>
     <script src="../javascript/kids-game.js"></script>
 
 </body>

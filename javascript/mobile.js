@@ -1,4 +1,4 @@
-	
+
 var games = angular.module("games", []);
 
 games.controller("cat-ctrl", function ($scope, $filter) {
@@ -22,7 +22,7 @@ games.controller("cat-ctrl", function ($scope, $filter) {
 
 
         $(".right-view").css("display", "none");
-        $(".right-page").css("display", "block"); 
+        $(".right-page").css("display", "block");
 
         $scope.moredetailsarray = $filter('filter')($scope.evearray[0].seasons, { name: gameName });
 
@@ -338,7 +338,7 @@ var itemlist = [{
                 updatedOn: '23 March, 2004',
                 genre: 'Action',
                 category: 'Action',
-                views: '11290', 
+                views: '11290',
                 votes: 'N/A',
                 officialSite: 'http://oceanoffgames.com/category/home/',
             }
@@ -458,7 +458,7 @@ var itemlist = [{
                 views: '11290',
                 votes: 'N/A',
                 officialSite: 'http://oceanoffgames.com/category/home/',
-                
+
             }
         },
 

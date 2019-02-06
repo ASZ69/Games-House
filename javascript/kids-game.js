@@ -1,4 +1,4 @@
-	
+
 var games = angular.module("games", []);
 
 games.controller("cat-ctrl", function ($scope, $filter) {
@@ -11,7 +11,7 @@ games.controller("cat-ctrl", function ($scope, $filter) {
         $(".right-page").css("display", "none");
 
         hoverSetting();
- 
+
     };
 
     $scope.evearray = $filter('filter')(itemlist, { name: 'Barbie games' });
@@ -44,7 +44,7 @@ games.controller("cat-ctrl", function ($scope, $filter) {
         }, 70);
 
         scrollUp();
-        hoverSetting(); 
+        hoverSetting();
 
     };
 
@@ -57,7 +57,7 @@ games.controller("cat-ctrl", function ($scope, $filter) {
 
 function scrollUp() {
     $(window).scrollTop(0);
-} 
+}
 
 function hoverSetting() {
     setTimeout(function () {
@@ -276,7 +276,7 @@ var itemlist = [{
                 updatedOn: '23 March, 2004',
                 genre: 'Action',
                 category: 'Action',
-                views: '11290', 
+                views: '11290',
                 votes: 'N/A',
                 officialSite: 'http://oceanoffgames.com/category/home/',
             }
@@ -371,7 +371,7 @@ var itemlist = [{
                 views: '11290',
                 votes: 'N/A',
                 officialSite: 'http://oceanoffgames.com/category/home/',
-                
+
             }
         },
 

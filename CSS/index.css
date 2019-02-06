@@ -1,61 +1,67 @@
-html,body{
-	background-color: rgba(240,240,240,1.00);
+html, body {
+    background-color: rgba(240,240,240,1.00);
 }
+
 .heading {
-	position: absolute;
-	font-size: 6vw;
-	text-shadow: 2px 2px 0 #bcbcbc, 4px 4px 0 #9c9c9c;
-	color: #000;
-	top: 8vw;
-	left: 31.5%;
+    position: absolute;
+    font-size: 6vw;
+    text-shadow: 2px 2px 0 #bcbcbc, 4px 4px 0 #9c9c9c;
+    color: #000;
+    top: 8vw;
+    left: 31.5%;
 }
 
 .sub-text {
-	display: block;
-	position: absolute;
-	font-size: 2vw;
-	text-shadow: 2px 2px 0 #bcbcbc, 4px 4px 0 #9c9c9c;
-	color: #000;
-	top: 16vw;
-	left: 50%;
-	transform: translateX(-50%);
+    display: block;
+    position: absolute;
+    font-size: 2vw;
+    text-shadow: 2px 2px 0 #bcbcbc, 4px 4px 0 #9c9c9c;
+    color: #000;
+    top: 16vw;
+    left: 50%;
+    transform: translateX(-50%);
 }
+
 .top-div {
-	background-color: #a5a2a2;
+    background-color: #a5a2a2;
 }
 
 .top-img {
-	opacity: 1;
+    opacity: 1;
 }
+
 .navbar a.active {
-  color: white;
+    color: white;
 }
+
 .content {
-  padding: 16px;
+    padding: 16px;
 }
 
 .link-no-deco {
-	text-decoration: none;
-	color: black;
-	font-size: 1.1vw;
-	margin: 0;
-	padding: 0;
-}
-.link-no-deco:hover{
-	text-decoration: none;
-	color: black;
+    text-decoration: none;
+    color: black;
+    font-size: 1.1vw;
+    margin: 0;
+    padding: 0;
 }
 
-.popular-download-table:hover{
-	background-color: lightslategrey;
-	cursor: pointer;
+    .link-no-deco:hover {
+        text-decoration: none;
+        color: black;
+    }
+
+.popular-download-table:hover {
+    background-color: lightslategrey;
+    cursor: pointer;
 }
+
 #vedio {
-	width: 100%;
-	height: 35vw;
-	opacity: 0.5;
-	overflow: hidden;
-	object-fit: initial;
+    width: 100%;
+    height: 35vw;
+    opacity: 0.5;
+    overflow: hidden;
+    object-fit: initial;
 }
 
 /*
@@ -66,124 +72,140 @@ html,body{
 }
 */
 .h1 {
-	font-size: 5vw !important;
+    font-size: 5vw !important;
 }
+
 .parallax2 {
-	height: 40vw;
-	background-image: url("../home-images/Home-Images/bg-image.jpg");
-	background-position: 50%;
-	background-size: cover;
-	background-repeat: no-repeat;
-	background-attachment: fixed;
-	color: white;
-	display: flex;
-	align-items: center;
+    height: 40vw;
+    background-image: url("../home-images/Home-Images/bg-image.jpg");
+    background-position: 50%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    color: white;
+    display: flex;
+    align-items: center;
 }
-.parallax2 h2{
-	color: black;
-	padding-bottom: 5vh;
+
+    .parallax2 h2 {
+        color: black;
+        padding-bottom: 5vh;
+    }
+
+    .parallax2 p {
+        color: black;
+        font-size: 1.3vw;
+    }
+
+.btn1 {
+    float: left;
+    background-color: transparent !important;
+    color: white !important;
 }
-.parallax2 p{
-	color: black;
-	font-size: 1.3vw;
+
+.btn2 {
+    float: right;
+    background-color: transparent !important;
+    color: white !important;
 }
-.btn1{
-	float: left;
-	background-color: transparent !important;
-	color: white !important;
-}
-.btn2{
-	float: right;
-	background-color: transparent !important;
-	color: white !important;
-}
+
 .parallax3 {
-	height: 40vw;
-	background-image: url("../home-images/Home-Images/angry_birds_terence_wallpaper_by_tomefc98-d542kzv.png");
-	background-position: 50%;
-	background-size: cover;
-	background-repeat: no-repeat;
-	background-attachment: fixed;
-	color: white;
-	display: flex;
-	align-items: center;
+    height: 40vw;
+    background-image: url("../home-images/Home-Images/angry_birds_terence_wallpaper_by_tomefc98-d542kzv.png");
+    background-position: 50%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    color: white;
+    display: flex;
+    align-items: center;
 }
 
 .col-3 {
-/*	cursor: pointer;*/
-}
-.col-3:hover{
-/*	opacity: 0.7;*/
+    /*	cursor: pointer;*/
 }
 
+    .col-3:hover {
+        /*	opacity: 0.7;*/
+    }
+
 .myImg:hover {
-	opacity: 0.7 !important;
-	border: 3px solid #000;	
+    opacity: 0.7 !important;
+    border: 3px solid #000;
 }
-                                  /*action animation start*/
-.actionzid{
-   position: relative;
-}                                /*action animation end*/
-.slideinup{
-	position: relative;
+/*action animation start*/
+.actionzid {
+    position: relative;
 }
-.rotatein{
-	position: relative;
+/*action animation end*/
+.slideinup {
+    position: relative;
 }
-.roatadown{
-	position: relative;
+
+.rotatein {
+    position: relative;
 }
-.flipInX{
-	position: relative;
+
+.roatadown {
+    position: relative;
+}
+
+.flipInX {
+    position: relative;
 }
 
 .footer-div {
-  width: 100%;
-  background-color: black;
-  vertical-align: bottom;
-  color: white;
-  line-height: 60px;
-  text-align: center;
+    width: 100%;
+    background-color: black;
+    vertical-align: bottom;
+    color: white;
+    line-height: 60px;
+    text-align: center;
 }
 
 .row-heading {
-	position: relative;
-	width: 70%;
-	color: black;
-	border: 3px solid #000;
-	border-radius: 30%;
-	font-size: 2.5vw;
-	padding-bottom: 5px;
-	text-align: center;
+    position: relative;
+    width: 70%;
+    color: black;
+    border: 3px solid #000;
+    border-radius: 30%;
+    font-size: 2.5vw;
+    padding-bottom: 5px;
+    text-align: center;
 }
+
 .parallax {
-	height: 30vw;
-	background-image: url(../home-images/Home-Images/background.jpg);
-	background-position: 50%;
-	background-size: cover;
-	background-repeat: no-repeat;
-	background-attachment: fixed;
-	color: white;
-	display: flex;
-	align-items: center;
+    height: 30vw;
+    background-image: url(../home-images/Home-Images/background.jpg);
+    background-position: 50%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    color: white;
+    display: flex;
+    align-items: center;
 }
+
 .btn {
-	color: white;
-	margin-top: 3%;
+    color: white;
+    margin-top: 3%;
 }
-.btn:hover{
-	position: relative;
-	animation: heartBeat 5s infinite;
-}
+
+    .btn:hover {
+        position: relative;
+        animation: heartBeat 5s infinite;
+    }
+
 .ancer:hover {
-	color: white;
-	text-decoration: none;
+    color: white;
+    text-decoration: none;
 }
-.ancer{
-	color: white;	
+
+.ancer {
+    color: white;
 }
 
 .ancer-about {
-	text-decoration: none;
-	color: black;
+    text-decoration: none;
+    color: black;
 }
