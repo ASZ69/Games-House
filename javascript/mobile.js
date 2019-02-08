@@ -221,7 +221,7 @@ var itemlist = [{
 
 
 {
-    name: 'Racing &amp; flying',
+    name: 'Racing-flying',
     seasons: [
 
         {
