@@ -215,7 +215,257 @@ var itemlist = [{
                 officialSite: 'http://oceanoffgames.com/category/home/',
             }
         },
-
+         {
+            name: 'journey to Jungle',
+            download: 'http://oceanoffgames.com/category/home/',
+            imgSrc: '../mobile-games/moreadd-images/journey-to-jungle.jpg',
+            requirements: {
+                images: [
+                    '../mobile-games/screenshots/ab2-1.jpg',
+                    '../mobile-games/screenshots/ab2-2.jpg',
+                    '../mobile-games/screenshots/ab2-3.jpg',
+                    '../mobile-games/screenshots/ab2-4.jpg',
+                ],
+                releaseDate: '2017',
+                updatedOn: '23 March, 2017',
+                genre: 'Action',
+                category: 'Action',
+                views: '11290',
+                votes: 'N/A',
+                officialSite: 'http://oceanoffgames.com/category/home/',
+            }
+        },
+		
+		 {
+            name: 'Chicken Invaders',
+            download: 'http://oceanoffgames.com/category/home/',
+            imgSrc: '../mobile-games/moreadd-images/chicken-invaders.jpg',
+            requirements: {
+                images: [
+                    '../mobile-games/screenshots/ab2-1.jpg',
+                    '../mobile-games/screenshots/ab2-2.jpg',
+                    '../mobile-games/screenshots/ab2-3.jpg',
+                    '../mobile-games/screenshots/ab2-4.jpg',
+                ],
+                releaseDate: '2004',
+                updatedOn: '23 March, 2004',
+                genre: 'Action',
+                category: 'Action',
+                views: '11290',
+                votes: 'N/A',
+                officialSite: 'http://oceanoffgames.com/category/home/',
+            }
+        },
+		
+		{
+            name: 'Chicken Invaders 2',
+            download: 'http://oceanoffgames.com/category/home/',
+            imgSrc: '../mobile-games/moreadd-images/ch-2.jpg',
+            requirements: {
+                images: [
+                    '../mobile-games/screenshots/ab2-1.jpg',
+                    '../mobile-games/screenshots/ab2-2.jpg',
+                    '../mobile-games/screenshots/ab2-3.jpg',
+                    '../mobile-games/screenshots/ab2-4.jpg',
+                ],
+                releaseDate: '2004',
+                updatedOn: '23 March, 2004',
+                genre: 'Action',
+                category: 'Action',
+                views: '11290',
+                votes: 'N/A',
+                officialSite: 'http://oceanoffgames.com/category/home/',
+            }
+        },
+		
+		{
+            name: 'Chicken Invaders 3',
+            download: 'http://oceanoffgames.com/category/home/',
+            imgSrc: '../mobile-games/moreadd-images/chicken-3.jpg',
+            requirements: {
+                images: [
+                    '../mobile-games/screenshots/ab2-1.jpg',
+                    '../mobile-games/screenshots/ab2-2.jpg',
+                    '../mobile-games/screenshots/ab2-3.jpg',
+                    '../mobile-games/screenshots/ab2-4.jpg',
+                ],
+                releaseDate: '2004',
+                updatedOn: '23 March, 2004',
+                genre: 'Action',
+                category: 'Action',
+                views: '11290',
+                votes: 'N/A',
+                officialSite: 'http://oceanoffgames.com/category/home/',
+            }
+        },
+		
+		{
+            name: 'Chicken Invaders 4',
+            download: 'http://oceanoffgames.com/category/home/',
+            imgSrc: '../mobile-games/moreadd-images/ch-4.jpg',
+            requirements: {
+                images: [
+                    '../mobile-games/screenshots/ab2-1.jpg',
+                    '../mobile-games/screenshots/ab2-2.jpg',
+                    '../mobile-games/screenshots/ab2-3.jpg',
+                    '../mobile-games/screenshots/ab2-4.jpg',
+                ],
+                releaseDate: '2004',
+                updatedOn: '23 March, 2004',
+                genre: 'Action',
+                category: 'Action',
+                views: '11290',
+                votes: 'N/A',
+                officialSite: 'http://oceanoffgames.com/category/home/',
+            }
+        },
+		
+		{
+            name: 'Chicken Invaders 5',
+            download: 'http://oceanoffgames.com/category/home/',
+            imgSrc: '../mobile-games/moreadd-images/ch-5.jpg',
+            requirements: {
+                images: [
+                    '../mobile-games/screenshots/ab2-1.jpg',
+                    '../mobile-games/screenshots/ab2-2.jpg',
+                    '../mobile-games/screenshots/ab2-3.jpg',
+                    '../mobile-games/screenshots/ab2-4.jpg',
+                ],
+                releaseDate: '2004',
+                updatedOn: '23 March, 2004',
+                genre: 'Action',
+                category: 'Action',
+                views: '11290',
+                votes: 'N/A',
+                officialSite: 'http://oceanoffgames.com/category/home/',
+            }
+        },
+		
+		{
+            name: 'Cadillacs Dinosaurs',
+            download: 'http://oceanoffgames.com/category/home/',
+            imgSrc: '../mobile-games/moreadd-images/cd-1.jpg',
+            requirements: {
+                images: [
+                    '../mobile-games/screenshots/ab2-1.jpg',
+                    '../mobile-games/screenshots/ab2-2.jpg',
+                    '../mobile-games/screenshots/ab2-3.jpg',
+                    '../mobile-games/screenshots/ab2-4.jpg',
+                ],
+                releaseDate: '2004',
+                updatedOn: '23 March, 2004',
+                genre: 'Action',
+                category: 'Action',
+                views: '11290',
+                votes: 'N/A',
+                officialSite: 'http://oceanoffgames.com/category/home/',
+            }
+        },
+		
+		{
+            name: 'Aladdin',
+            download: 'http://oceanoffgames.com/category/home/',
+            imgSrc: '../mobile-games/moreadd-images/aladin.jpg',
+            requirements: {
+                images: [
+                    '../mobile-games/screenshots/ab2-1.jpg',
+                    '../mobile-games/screenshots/ab2-2.jpg',
+                    '../mobile-games/screenshots/ab2-3.jpg',
+                    '../mobile-games/screenshots/ab2-4.jpg',
+                ],
+                releaseDate: '2004',
+                updatedOn: '23 March, 2004',
+                genre: 'Action',
+                category: 'Action',
+                views: '11290',
+                votes: 'N/A',
+                officialSite: 'http://oceanoffgames.com/category/home/',
+            }
+        },
+		
+		{
+            name: 'Pac Man',
+            download: 'http://oceanoffgames.com/category/home/',
+            imgSrc: '../mobile-games/moreadd-images/pm.jpg',
+            requirements: {
+                images: [
+                    '../mobile-games/screenshots/ab2-1.jpg',
+                    '../mobile-games/screenshots/ab2-2.jpg',
+                    '../mobile-games/screenshots/ab2-3.jpg',
+                    '../mobile-games/screenshots/ab2-4.jpg',
+                ],
+                releaseDate: '2004',
+                updatedOn: '23 March, 2004',
+                genre: 'Action',
+                category: 'Action',
+                views: '11290',
+                votes: 'N/A',
+                officialSite: 'http://oceanoffgames.com/category/home/',
+            }
+        },
+		
+		{
+            name: 'Super Mario',
+            download: 'http://oceanoffgames.com/category/home/',
+            imgSrc: '../mobile-games/moreadd-images/sm.jpg',
+            requirements: {
+                images: [
+                    '../mobile-games/screenshots/ab2-1.jpg',
+                    '../mobile-games/screenshots/ab2-2.jpg',
+                    '../mobile-games/screenshots/ab2-3.jpg',
+                    '../mobile-games/screenshots/ab2-4.jpg',
+                ],
+                releaseDate: '2004',
+                updatedOn: '23 March, 2004',
+                genre: 'Action',
+                category: 'Action',
+                views: '11290',
+                votes: 'N/A',
+                officialSite: 'http://oceanoffgames.com/category/home/',
+            }
+        },
+		
+		{
+            name: 'Tarzan',
+            download: 'http://oceanoffgames.com/category/home/',
+            imgSrc: '../mobile-games/moreadd-images/tarzan.jpg',
+            requirements: {
+                images: [
+                    '../mobile-games/screenshots/ab2-1.jpg',
+                    '../mobile-games/screenshots/ab2-2.jpg',
+                    '../mobile-games/screenshots/ab2-3.jpg',
+                    '../mobile-games/screenshots/ab2-4.jpg',
+                ],
+                releaseDate: '2004',
+                updatedOn: '23 March, 2004',
+                genre: 'Action',
+                category: 'Action',
+                views: '11290',
+                votes: 'N/A',
+                officialSite: 'http://oceanoffgames.com/category/home/',
+            }
+        },
+		
+		{
+            name: 'Vikings',
+            download: 'http://oceanoffgames.com/category/home/',
+            imgSrc: '../mobile-games/moreadd-images/v.jpg',
+            requirements: {
+                images: [
+                    '../mobile-games/screenshots/ab2-1.jpg',
+                    '../mobile-games/screenshots/ab2-2.jpg',
+                    '../mobile-games/screenshots/ab2-3.jpg',
+                    '../mobile-games/screenshots/ab2-4.jpg',
+                ],
+                releaseDate: '2004',
+                updatedOn: '23 March, 2004',
+                genre: 'Action',
+                category: 'Action',
+                views: '11290',
+                votes: 'N/A',
+                officialSite: 'http://oceanoffgames.com/category/home/',
+            }
+        },
     ]
 },
 

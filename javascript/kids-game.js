@@ -205,6 +205,259 @@ var itemlist = [{
                 officialSite: 'http://oceanoffgames.com/category/home/',
             }
         },
+		
+		 {
+            name: 'Style Your Crew',
+            download: 'http://oceanoffgames.com/category/home/',
+            imgSrc: '../kids-games/barbie-1.jpg',
+            requirements: {
+                images: [
+                    '../kids-games/barbie-1.jpg',
+                    '../kids-games/barbie-1.jpg',
+                    '../kids-games/barbie-1.jpg',
+                    '../kids-games/barbie-1.jpg',
+                ],
+                releaseDate: '2010',
+                updatedOn: '11 jun, 2010',
+                genre: 'Arcade',
+                category: 'Arcade',
+                views: '11290',
+                votes: '69',
+                officialSite: 'http://oceanoffgames.com/category/home/',
+            }
+        },
+
+        {
+            name: 'You Can Be A Chef',
+            download: 'http://oceanoffgames.com/category/home/',
+            imgSrc: '../kids-games/barbie-2.jpg',
+            requirements: {
+                images: [
+                    '../kids-games/barbie-2.jpg',
+                    '../kids-games/barbie-2.jpg',
+                    '../kids-games/barbie-2.jpg',
+                    '../kids-games/barbie-2.jpg',
+                ],
+                releaseDate: '2004',
+                updatedOn: '23 March, 2004',
+                genre: 'Action',
+                category: 'Action',
+                views: '11290',
+                votes: 'N/A',
+                officialSite: 'http://oceanoffgames.com/category/home/',
+            }
+        },
+
+        {
+            name: 'Dolphin Magic',
+            download: 'http://oceanoffgames.com/category/home/',
+            imgSrc: '../kids-games/barbie-3.jpg',
+            requirements: {
+                images: [
+                    '../kids-games/barbie-3.jpg',
+                    '../kids-games/barbie-3.jpg',
+                    '../kids-games/barbie-3.jpg',
+                    '../kids-games/barbie-3.jpg',
+                ],
+                releaseDate: '2004',
+                updatedOn: '23 March, 2004',
+                genre: 'Action',
+                category: 'Action',
+                views: '11290',
+                votes: 'N/A',
+                officialSite: 'http://oceanoffgames.com/category/home/',
+            }
+        },
+
+        {
+            name: 'Spy Squad Academy',
+            download: 'http://oceanoffgames.com/category/home/',
+            imgSrc: '../kids-games/barbie-4.jpg',
+            requirements: {
+                images: [
+                    '../kids-games/barbie-4.jpg',
+                    '../kids-games/barbie-4.jpg',
+                    '../kids-games/barbie-4.jpg',
+                    '../kids-games/barbie-4.jpg',
+                ],
+                releaseDate: '2004',
+                updatedOn: '23 March, 2004',
+                genre: 'Action',
+                category: 'Action',
+                views: '11290',
+                votes: 'N/A',
+                officialSite: 'http://oceanoffgames.com/category/home/',
+            }
+        },
+            		
+         {
+            name: 'Style Your Crew',
+            download: 'http://oceanoffgames.com/category/home/',
+            imgSrc: '../kids-games/barbie-1.jpg',
+            requirements: {
+                images: [
+                    '../kids-games/barbie-1.jpg',
+                    '../kids-games/barbie-1.jpg',
+                    '../kids-games/barbie-1.jpg',
+                    '../kids-games/barbie-1.jpg',
+                ],
+                releaseDate: '2010',
+                updatedOn: '11 jun, 2010',
+                genre: 'Arcade',
+                category: 'Arcade',
+                views: '11290',
+                votes: '69',
+                officialSite: 'http://oceanoffgames.com/category/home/',
+            }
+        },
+
+        {
+            name: 'You Can Be A Chef',
+            download: 'http://oceanoffgames.com/category/home/',
+            imgSrc: '../kids-games/barbie-2.jpg',
+            requirements: {
+                images: [
+                    '../kids-games/barbie-2.jpg',
+                    '../kids-games/barbie-2.jpg',
+                    '../kids-games/barbie-2.jpg',
+                    '../kids-games/barbie-2.jpg',
+                ],
+                releaseDate: '2004',
+                updatedOn: '23 March, 2004',
+                genre: 'Action',
+                category: 'Action',
+                views: '11290',
+                votes: 'N/A',
+                officialSite: 'http://oceanoffgames.com/category/home/',
+            }
+        },
+
+        {
+            name: 'Dolphin Magic',
+            download: 'http://oceanoffgames.com/category/home/',
+            imgSrc: '../kids-games/barbie-3.jpg',
+            requirements: {
+                images: [
+                    '../kids-games/barbie-3.jpg',
+                    '../kids-games/barbie-3.jpg',
+                    '../kids-games/barbie-3.jpg',
+                    '../kids-games/barbie-3.jpg',
+                ],
+                releaseDate: '2004',
+                updatedOn: '23 March, 2004',
+                genre: 'Action',
+                category: 'Action',
+                views: '11290',
+                votes: 'N/A',
+                officialSite: 'http://oceanoffgames.com/category/home/',
+            }
+        },
+
+        {
+            name: 'Spy Squad Academy',
+            download: 'http://oceanoffgames.com/category/home/',
+            imgSrc: '../kids-games/barbie-4.jpg',
+            requirements: {
+                images: [
+                    '../kids-games/barbie-4.jpg',
+                    '../kids-games/barbie-4.jpg',
+                    '../kids-games/barbie-4.jpg',
+                    '../kids-games/barbie-4.jpg',
+                ],
+                releaseDate: '2004',
+                updatedOn: '23 March, 2004',
+                genre: 'Action',
+                category: 'Action',
+                views: '11290',
+                votes: 'N/A',
+                officialSite: 'http://oceanoffgames.com/category/home/',
+            }
+        },
+		
+		 {
+            name: 'Style Your Crew',
+            download: 'http://oceanoffgames.com/category/home/',
+            imgSrc: '../kids-games/barbie-1.jpg',
+            requirements: {
+                images: [
+                    '../kids-games/barbie-1.jpg',
+                    '../kids-games/barbie-1.jpg',
+                    '../kids-games/barbie-1.jpg',
+                    '../kids-games/barbie-1.jpg',
+                ],
+                releaseDate: '2010',
+                updatedOn: '11 jun, 2010',
+                genre: 'Arcade',
+                category: 'Arcade',
+                views: '11290',
+                votes: '69',
+                officialSite: 'http://oceanoffgames.com/category/home/',
+            }
+        },
+
+        {
+            name: 'You Can Be A Chef',
+            download: 'http://oceanoffgames.com/category/home/',
+            imgSrc: '../kids-games/barbie-2.jpg',
+            requirements: {
+                images: [
+                    '../kids-games/barbie-2.jpg',
+                    '../kids-games/barbie-2.jpg',
+                    '../kids-games/barbie-2.jpg',
+                    '../kids-games/barbie-2.jpg',
+                ],
+                releaseDate: '2004',
+                updatedOn: '23 March, 2004',
+                genre: 'Action',
+                category: 'Action',
+                views: '11290',
+                votes: 'N/A',
+                officialSite: 'http://oceanoffgames.com/category/home/',
+            }
+        },
+
+        {
+            name: 'Dolphin Magic',
+            download: 'http://oceanoffgames.com/category/home/',
+            imgSrc: '../kids-games/barbie-3.jpg',
+            requirements: {
+                images: [
+                    '../kids-games/barbie-3.jpg',
+                    '../kids-games/barbie-3.jpg',
+                    '../kids-games/barbie-3.jpg',
+                    '../kids-games/barbie-3.jpg',
+                ],
+                releaseDate: '2004',
+                updatedOn: '23 March, 2004',
+                genre: 'Action',
+                category: 'Action',
+                views: '11290',
+                votes: 'N/A',
+                officialSite: 'http://oceanoffgames.com/category/home/',
+            }
+        },
+
+        {
+            name: 'Spy Squad Academy',
+            download: 'http://oceanoffgames.com/category/home/',
+            imgSrc: '../kids-games/barbie-4.jpg',
+            requirements: {
+                images: [
+                    '../kids-games/barbie-4.jpg',
+                    '../kids-games/barbie-4.jpg',
+                    '../kids-games/barbie-4.jpg',
+                    '../kids-games/barbie-4.jpg',
+                ],
+                releaseDate: '2004',
+                updatedOn: '23 March, 2004',
+                genre: 'Action',
+                category: 'Action',
+                views: '11290',
+                votes: 'N/A',
+                officialSite: 'http://oceanoffgames.com/category/home/',
+            }
+        },
+
 
     ]
 },
