@@ -57,7 +57,7 @@ games.controller("cat-ctrl", function ($scope, $filter) {
 var url = window.location.search.replace("?","").replaceAll("%22","").replaceAll("%20"," ");
 	if(url == ""){
 		
-		$scope.evearray = $filter('filter')(itemlist, { name: 'Action games' });
+		$scope.evearray = $filter('filter')(itemlist, { name: 'Barbie games' });
 		hoverSetting();
 		
 	}else{

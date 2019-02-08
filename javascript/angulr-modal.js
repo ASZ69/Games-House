@@ -1061,7 +1061,7 @@ var itemlist = [{
     seasons: [
 
         {
-            name: 'Circket07',
+            name: 'Cricket07',
             download: 'http://oceanoffgames.com/category/home/',
             imgSrc: '../windows-games/circket07.jpg',
             requirements: {

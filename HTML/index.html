@@ -5,6 +5,7 @@
     <link rel="shortcut icon" href="../gamelogo/unnamed.png">
     <!--	<script src="https://unpkg.com/scrollreveal@4"></script>-->
     <link rel="stylesheet" type="text/css" href="../CSS/index.css">
+    <link rel="stylesheet" type="text/css" href="../CSS/shotcut.css">
     <link rel="stylesheet" type="text/css" href="../CSS/about-us.css">
     <link rel="stylesheet" type="text/css" href="../CSS/about-us-penal.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.0/animate.min.css">
@@ -12,11 +13,11 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"></script>
     <meta charset="utf-8">
-    <title>Home</title>
+    <title>Game-House</title>
 </head>
 
 <body>
-    <!--	top image and heading strat-->
+    <!--	top image and heading strat--> 
 
     <div class="top-div">
         <center>
@@ -30,7 +31,7 @@
         </center>
     </div>
     <!--	strt navbar-->
-    <nav class="navbar navbar-expand-lg navbar-dark bg-dark sticky-top" style="margin-top: -6px">
+    <nav class="navbar navbar-expand-md navbar-dark bg-dark sticky-top" style="margin-top: -6px">
         <a class="navbar-brand" href="index.html">
             <img src="../gamelogo/unnamed.png" width="20px" height="20px" alt="LOGO">
         </a>
@@ -43,9 +44,29 @@
                 <li class="nav-item">
                     <a class="nav-link active">Home</a>
                 </li>
+				<li class="nav-item">
+                    <a class="nav-link nav-about" href="window-games.html">Window-games</a>
+                </li> 
+				<li class="nav-item">
+                    <a class="nav-link nav-about" href="mobile-games.html">Mobile-games</a>
+                </li> 
+				<li class="nav-item">
+                    <a class="nav-link nav-about" href="kids-games.html">KiDs-games</a>
+                </li>
                 <li class="nav-item dropdown">
-                    <a class="nav-link dropdown-toggle" href="window-games.html" data-toggle="dropdown">Window-games</a>
-                    <div class="dropdown-menu">
+                     <a class="nav-link dropdown-toggle" href="#" role="button" data-toggle="dropdown"
+                       aria-haspopup="true" aria-expanded="false">Games</a>
+                    <div class="dropdown-menu mega-menu">
+						 <div class="row">
+<!--							 <div class="col-md-3"></div>-->
+                            <div class="col-md-3">
+								<p>
+                                    <strong class="sub-menu-heading">
+                                        <a href="#">
+                                            Window-games
+                                        </a>
+                                    </strong>
+                               </p>
                         <a class="dropdown-item" href="window-games.html">
                             <img src="../home-images/dropdown-logo/windows-games/action.jpg" width="30px"
                                  height="30px" alt="image" /> Action-Games
@@ -62,15 +83,17 @@
                             <img src="../home-images/dropdown-logo/windows-games/Puzzle.png" width="30px"
                                  height="30px" alt="image"> PuzzleGames
                         </a>
-                    </div>
-                </li>
-
-                <li class="nav-item dropdown">
-                    <a class="nav-link dropdown-toggle" href="#" data-toggle="dropdown">
-                        Mobile-Games
-                    </a>
-                    <div class="dropdown-menu">
-                        <a class="dropdown-item" href="mobile-games.html">
+							 </div>
+					    </div>
+						<div class="col-md-3">
+							<p>
+                                    <strong class="sub-menu-heading">
+                                        <a href="#">
+                                            Mobile-games
+                                        </a>
+                                    </strong>
+                           </p>
+							 <a class="dropdown-item" href="mobile-games.html">
                             <img src="../home-images/dropdown-logo/mobile-games/temple-run.jpg" width="30px"
                                  height="30px" alt="image"> Tample Run
                         </a>
@@ -86,15 +109,16 @@
                             <img src="../home-images/dropdown-logo/mobile-games/8balpull.png" width="30px"
                                  height="30px" alt="image"> 8BallPool
                         </a>
-                    </div>
-                </li>
-
-                <li class="nav-item dropdown">
-                    <a class="nav-link dropdown-toggle" href="#" data-toggle="dropdown">
-                        KiDs-Games
-                    </a>
-                    <div class="dropdown-menu">
-                        <a class="dropdown-item" href="kids-games.html">
+						</div>	
+						<div class="col-md-3">
+						<p>
+                                    <strong class="sub-menu-heading">
+                                        <a href="#">
+                                            KiDs-game
+                                        </a>
+                                    </strong>
+                           </p>
+						<a class="dropdown-item" href="kids-games.html">
                             <img src="../home-images/dropdown-logo/kiDs-games/barbie.gif" width="30px"
                                  height="30px" alt="image"> Barbie game
                         </a>
@@ -110,11 +134,13 @@
                             <img src="../home-images/dropdown-logo/kiDs-games/piano.jpg" width="30px"
                                  height="30px" alt="image"> Piano KiDs
                         </a>
+						</div>
                     </div>
                 </li>
+				
                 <li class="nav-item">
                     <a class="nav-link nav-about" href="about-us.html">About Us</a>
-                </li>
+                </li> 
             </ul>
             <form class="form-inline my-2 my-lg-0">
                 <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
@@ -273,7 +299,7 @@
                     <tbody>
                         <tr class="popular-download-table">
                             <td>
-                                <a href="games.html" class="link-no-deco">
+                                <a href="window-games.html?cat=%22Action games%22" class="link-no-deco">
                                     <img style="width: 2vw;height: 3vh" src="../home-images/Game-cat/WB_Games_Montréal_logo.png"
                                          width="auto" height="auto" alt="image">Action &amp; adventure
                                 </a>
@@ -283,7 +309,7 @@
                             <td>
                                 <a href="games.html" class="link-no-deco">
                                     <img style="width: 2vw;height: 3vh" src="../home-images/Game-cat/advantur.jpeg"
-                                         width="auto" height="auto" alt="image"> Companion
+                                         width="auto" height="auto" alt="image"> Shooting games
                                 </a>
                             </td>
                         </tr>
@@ -310,18 +336,12 @@
                                 <a href="games.html" class="link-no-deco">
                                     <img style="width: 2vw;height: 3vh" src="../home-images/Game-cat/action.jpg"
                                          width="auto" height="auto" alt="image">
-                                    Casino
+                                    Barbie games
                                 </a>
                             </td>
                         </tr>
                         <tr class="popular-download-table">
-                            <td>
-                                <a href="games.html" class="link-no-deco">
-                                    <img style="width: 2vw;height: 3vh" src="../home-images/Game-cat/shooting.png"
-                                         width="auto" height="auto" alt="image">
-                                    Family &amp; kiDs
-                                </a>
-                            </td>
+                            <a href="games.html" class="link-no-deco"> <td><img style="width: 2vw;height: 3vh" src="../home-images/Game-cat/shooting.png" width="auto" height="auto" alt="image">Arcade games</td></a>
                         </tr>
                     </tbody>
                 </table>
@@ -341,7 +361,7 @@
                     <center>
                         <img class="myImg scroll-up" src="../home-images/Home-Images/actiongame.jpg" width="100%" height="auto"
                              alt="Snow" style="border-radius: 5%;max-height: 250px;max-width: 250px">
-                        <button class="btn btn-dark px-2 btn-row"><a class="ancer" href="games.html">Go to</a></button>
+                        <a class="ancer" href="window-games.html?cat=%22Shooting games%22&season=%22CallofDuty%22"><button class="btn btn-dark px-2 btn-row">Go to</button></a>
                     </center>
                 </div>
 
@@ -349,7 +369,7 @@
                     <center>
                         <img class="myImg scroll-up" src="../home-images/Home-Images/actiongame1.jpg" width="100%" height="auto"
                              alt="Snow" style="border-radius: 5%;max-height: 250px;max-width: 250px">
-                        <button class="btn btn-dark px-2"><a class="ancer" href="games.html">Go to</a></button>
+                       <a class="ancer" href="window-games.html?cat=%22Shooting games%22&season=%22Battlefield%22"><button class="btn btn-dark px-2">Go to</button></a>
                     </center>
                 </div>
 
@@ -359,7 +379,7 @@
 
                         <img class="myImg scroll-up" src="../home-images/Home-Images/actiongame2.jpg" width="100%" height="auto"
                              alt="Snow" style="border-radius: 5%;max-height: 250px;max-width: 250px">
-                        <button class="btn btn-dark px-2"><a class="ancer" href="games.html">Go to</a></button>
+                        <a class="ancer" href="window-games.html?cat=%22Shooting games%22&season=%22Sniper elite 4%22"><button class="btn btn-dark px-2">Go to</button></a>
                     </center>
                 </div>
                 <div class="col-3">
@@ -368,7 +388,7 @@
 
                         <img class="myImg scroll-up" src="../home-images/Home-Images/actiongame3.jpg" width="100%" height="auto"
                              alt="Snow" style="border-radius: 5%;max-height: 250px;max-width: 250px">
-                        <button class="btn btn-dark px-2"><a class="ancer" href="games.html">Go to</a></button>
+                        <a class="ancer" href="window-games.html?cat=%22Shooting games%22&season=%22Fallout 1%22"><button class="btn btn-dark px-2">Go to</button></a>
                     </center>
                 </div>
 
@@ -386,28 +406,28 @@
                         <center>
                             <img class="myImg " src="../home-images/Home-Images/xbox3.jpg" width="100%" height="auto" style="max-height: 250px;max-width: 250px;border-radius: 5%"
                                  alt="image">
-                            <button class="btn btn-dark px-2"><a class="ancer" href="games.html">Go to</a></button>
+                            <a class="ancer" href="https://www.xbox.com/en-US/"><button class="btn btn-dark px-2">Go to</button></a>
                         </center>
                     </div>
                     <div class="col-3 scroll-up">
                         <center>
                             <img class="myImg" src="../home-images/Home-Images/xbox2.jpg" width="100%" height="auto" style="max-height: 250px;max-width: 250px;border-radius: 5%"
                                  alt="image">
-                            <button class="btn btn-dark px-2"><a class="ancer" href="games.html">Go to</a></button>
+                            <a class="ancer" href="https://www.xbox.com/en-US/"><button class="btn btn-dark px-2">Go to</button></a>
                         </center>
                     </div>
                     <div class="col-3 scroll-up">
                         <center>
                             <img class="myImg" src="../home-images/Home-Images/xbox1.jpg" width="100%" height="auto" style="max-height: 250px;max-width: 250px;border-radius: 5%"
                                  alt="image">
-                            <button class="btn btn-dark px-2"><a class="ancer" href="games.html">Go to</a></button>
+                            <a class="ancer" href="https://www.xbox.com/en-US/"><button class="btn btn-dark px-2">Go to</button></a>
                         </center>
                     </div>
                     <div class="col-3 scroll-up">
                         <center>
                             <img class="myImg" src="../home-images/Home-Images/xbox.jpg" width="100%" height="auto" style="max-height: 250px;max-width: 250px;border-radius: 5%"
                                  alt="image">
-                            <button class="btn btn-dark px-2"><a class="ancer" href="games.html">Go to</a></button>
+                            <a class="ancer" href="https://www.xbox.com/en-US/"><button class="btn btn-dark px-2">Go to</button></a>
                         </center>
                     </div>
                 </div>
@@ -421,30 +441,30 @@
         <div class="row  scroll-up" style="margin-top: 1%">
             <div class="col-3">
                 <center>
-                    <img class="myImg rotatein scroll-up" src="../home-images/Home-Images/fighting.jpg" width="100%" height="auto" alt="Snow"
+                    <img class="myImg rotatein scroll-up" src="../home-images/renew-images/18.jpg" width="100%" height="auto" alt="Snow"
                          style="border-radius: 5%;max-height: 250vh;max-width: 250px">
-                    <button class="btn btn-dark px-2"><a class="ancer" href="games.html">Go to</a></button>
+                    <a class="ancer" href="window-games.html?cat=%22Action games%22&season=%22Tekken 7%22"><button class="btn btn-dark px-2">Go to</button></a>
                 </center>
             </div>
             <div class="col-3">
                 <center>
                     <img class="myImg rotatein scroll-up" src="../home-images/Home-Images/fighting1.jpg" width="100%" height="auto"
                          alt="Snow" style="border-radius: 5%;max-height: 250vh;max-width: 250px">
-                    <button class="btn btn-dark px-2"><a class="ancer" href="games.html">Go to</a></button>
+                    <a class="ancer" href="mobile-games.html?cat=%22Fighting games%22&season=%22XenoShyft%22"><button class="btn btn-dark px-2">Go to</button></a>
                 </center>
             </div>
             <div class="col-3">
                 <center>
                     <img class="myImg rotatein scroll-up" src="../home-images/Home-Images/fighting3.png" width="100%" height="auto"
                          alt="Snow" style="border-radius: 5%;max-height: 250vh;max-width: 250px">
-                    <button class="btn btn-dark px-2"><a class="ancer" href="games.html">Go to</a></button>
+                    <a class="ancer" href="mobile-games.html?cat=%22Fighting games%22&season=%22Soul Calibur 4%22"><button class="btn btn-dark px-2">Go to</button></a>
                 </center>
             </div>
             <div class="col-3">
                 <center>
-                    <img class="myImg rotatein scroll-up" src="../home-images/Home-Images/fightinh2.jpg" width="100%" height="auto"
+                    <img class="myImg rotatein scroll-up" src="../home-images/renew-images/17.jpg" width="100%" height="auto"
                          alt="Snow" style="border-radius: 5%;max-height: 250vh;max-width: 250px">
-                    <button class="btn btn-dark px-2"><a class="ancer" href="games.html">Go to</a></button>
+                    <a class="ancer"  href="mobile-games.html?cat=%22Fighting games%22&season=%22Shadow Fight 3%22"><button class="btn btn-dark px-2">Go to</button></a>
                 </center>
             </div>
 
@@ -460,28 +480,28 @@
                     <center>
                         <img class="myImg roatadown scroll-up" src="../home-images/Home-Images/racing.jpg" width="100%" height="auto" alt="Snow"
                              style="border-radius: 5%;max-height: 250px;max-width: 250px">
-                        <button class="btn btn-dark px-2"><a class="ancer" href="games.html">Go to</a></button>
+                        <a class="ancer" href="window-games.html?cat=%22Sport games%22&season=%22NeedForSpeed%22"><button class="btn btn-dark px-2">Go to</button></a>
                     </center>
                 </div>
                 <div class="col-3 ">
                     <center>
                         <img class="myImg roatadown scroll-up" src="../home-images/Home-Images/racing1.jpg" width="100%" height="auto"
                              alt="Snow" style="border-radius: 5%; max-height: 250px;max-width: 250px">
-                        <button class="btn btn-dark px-2"><a class="ancer" href="games.html">Go to</a></button>
+                        <a class="ancer" href="mobile-games.html?cat=%22Racing &amp; flying%22&season=%22Apocalypse Planet%22"><button class="btn btn-dark px-2">Go to</button></a>	
                     </center>
                 </div>
                 <div class="col-3 ">
                     <center>
                         <img class="myImg roatadown scroll-up" src="../home-images/Home-Images/racing2.jpg" width="100%" height="auto"
                              alt="Snow" style="border-radius: 5%;max-height: 250px;max-width: 250px">
-                        <button class="btn btn-dark px-2"><a class="ancer" href="games.html">Go to</a></button>
+                        <a class="ancer" href="mobile-games.html?cat=%22Racing &amp; flying%22&season=%22Inosane%22"><button class="btn btn-dark px-2">Go to</button></a>
                     </center>
                 </div>
                 <div class="col-3 ">
                     <center>
                         <img class="myImg roatadown scroll-up" src="../home-images/Home-Images/racing3.jpg" width="100%" height="auto"
                              alt="Snow" style="border-radius: 5%;max-height: 250px;max-width:250px">
-                        <button class="btn btn-dark px-2"><a class="ancer" href="games.html">Go to</a></button>
+                        <a class="ancer" href="mobile-games.html?cat=%22Racing &amp; flying%22&season=%22Sega game%22"><button class="btn btn-dark px-2">Go to</button></a>
                     </center>
                 </div>
             </div>
@@ -510,12 +530,7 @@
                                 <div id="colid"></div>
                             </div>
                             <div class="col-6">
-                                <button type="button" class="btn btn-dark px-2">
-                                    <a style="color: white;text-decoration: none" href="about-us.html">
-                                        Read
-                                        More
-                                    </a>
-                                </button>
+                                 <a style="color: white;text-decoration: none" href="about-us.html"><button type="button" class="btn btn-dark px-2">ReadMore</button></a>
                             </div>
                         </div>
                     </div>
@@ -533,28 +548,28 @@
                 <center>
                     <img class="myImg flipinx scroll-up" src="../home-images/Home-Images/stratgety3.jpg" width="100%" height="auto"
                          alt="Snow" style="border-radius: 5%;max-height: 250px;max-width: 250px">
-                    <button class="btn btn-dark px-2"><a class="ancer" href="games.html">Go to</a></button>
+                   <a class="ancer" href="mobile-games.html?cat=%22Strategy games%22&season=%22Rool of galaxy%22"><button class="btn btn-dark px-2">Go to</button></a>
                 </center>
             </div>
             <div class="col-3">
                 <center>
                     <img class="myImg flipinx scroll-up" src="../home-images/Home-Images/stragety2.jpg" width="100%" height="auto" alt="Snow"
                          style="border-radius: 5%;max-height: 250px;max-width: 250px">
-                    <button class="btn btn-dark px-2"><a class="ancer" href="games.html">Go to</a></button>
+                    <a class="ancer" href="mobile-games.html?cat=%22Strategy games%22&season=%22RadIand Historia%22"><button class="btn btn-dark px-2">Go to</button></a>
                 </center>
             </div>
             <div class="col-3">
                 <center>
                     <img class="myImg flipinx scroll-up" src="../home-images/Home-Images/stratgety1.jpg" width="100%" height="auto"
                          alt="Snow" style="border-radius: 5%;max-height: 250px;max-width: 250px">
-                    <button class="btn btn-dark px-2"><a class="ancer" href="games.html">Go to</a></button>
+                    <a class="ancer" href="mobile-games.html?cat=%22Strategy games%22&season=%22Shadow Guardian%22"><button class="btn btn-dark px-2">Go to</button></a>
                 </center>
             </div>
             <div class="col-3">
                 <center>
                     <img class="myImg flipinx scroll-up" src="../home-images/Home-Images/stratgety.jpg" width="100%" height="auto" alt="Snow"
                          style="border-radius: 5%;max-height: 250px;max-width: 250px">
-                    <button class="btn btn-dark px-2"><a class="ancer" href="games.html">Go to</a></button>
+                    <a class="ancer" href="mobile-games.html?cat=%22Strategy games%22&season=%22Strike Tactics%22"><button class="btn btn-dark px-2">Go to</button></a>
                 </center>
             </div>
         </div><br>
@@ -567,30 +582,30 @@
         <div class="row scroll-up" style="margin-top: 1%">
             <div class="col-3 ">
                 <center>
-                    <img class="myImg flipinx scroll-up" src="../home-images/Home-Images/sports1.jpg" width="100%" height="auto" alt="Snow"
+                    <img class="myImg flipinx scroll-up" src="../home-images/renew-images/16.jpg" width="100%" height="auto" alt="Snow"
                          style="border-radius: 5%;max-height: 250px;max-width: 250px">
-                    <button class="btn btn-dark px-2"><a class="ancer" href="games.html">Go to</a></button>
+                    <a class="ancer" href="window-games.html?cat=%22Sport games%22&season=%22Cricket07%22"><button class="btn btn-dark px-2">Go to</button></a>
+                </center>
+            </div>	
+            <div class="col-3">
+                <center>
+                    <img class="myImg flipinx scroll-up" src="../home-images/renew-images/15.jpg" width="100%" height="auto" alt="Snow"
+                         style="border-radius: 5%;max-height: 250px;max-width: 250px">
+                    <a class="ancer" href="window-games.html?cat=%22Sport games%22&season=%22FIFA 18%22"><button class="btn btn-dark px-2">Go to</button></a>
                 </center>
             </div>
             <div class="col-3">
                 <center>
-                    <img class="myImg flipinx scroll-up" src="../home-images/Home-Images/sports.jpg" width="100%" height="auto" alt="Snow"
+                    <img class="myImg flipinx scroll-up" src="../home-images/renew-images/14.jpg" width="100%" height="auto" alt="Snow"
                          style="border-radius: 5%;max-height: 250px;max-width: 250px">
-                    <button class="btn btn-dark px-2"><a class="ancer" href="games.html">Go to</a></button>
+                   <a class="ancer" href="window-games.html?cat=%22Sport games%22&season=%22MotoGp 15%22"><button class="btn btn-dark px-2">Go to</button></a>
                 </center>
             </div>
             <div class="col-3">
                 <center>
-                    <img class="myImg flipinx scroll-up" src="../home-images/Home-Images/sports3.jpg" width="100%" height="auto" alt="Snow"
+                    <img class="myImg flipinx scroll-up" src="../home-images/renew-images/13.png" width="100%" height="auto" alt="Snow"
                          style="border-radius: 5%;max-height: 250px;max-width: 250px">
-                    <button class="btn btn-dark px-2"><a class="ancer" href="games.html">Go to</a></button>
-                </center>
-            </div>
-            <div class="col-3">
-                <center>
-                    <img class="myImg flipinx scroll-up" src="../home-images/Home-Images/sport3.jpg" width="100%" height="auto" alt="Snow"
-                         style="border-radius: 5%;max-height: 250px;max-width: 250px">
-                    <button class="btn btn-dark px-2"><a class="ancer" href="games.html">Go to</a></button>
+                    <a class="ancer" href="window-games.html?cat=%22Sport games%22&season=%22NFS Most Wanted%22"><button class="btn btn-dark px-2">Go to</button></a>
                 </center>
             </div>
         </div><br>
@@ -602,30 +617,30 @@
         <div class="row scroll-up" style="margin-top: 1%">
             <div class="col-3 ">
                 <center>
-                    <img class="myImg flipinx scroll-up" src="../home-images/Home-Images/kidsgame.jpg" width="100%" height="auto" alt="Snow"
+                    <img class="myImg flipinx scroll-up" src="../home-images/renew-images/3.jpg" width="100%" height="auto" alt="Snow"
                          style="border-radius: 5%;max-height: 250px;max-width: 250px">
-                    <button class="btn btn-dark px-2"><a class="ancer" href="games.html">Go to</a></button>
+                    <a class="ancer" href="mobile-games.html?cat=%22Arcade games%22&season=%22Subway surfers%22"><button class="btn btn-dark px-2">Go to</button></a>
                 </center>
             </div>
             <div class="col-3 ">
                 <center>
-                    <img class="myImg flipinx scroll-up" src="../home-images/Home-Images/kidsgame1.jpg" width="100%" height="auto" alt="Snow"
+                    <img class="myImg flipinx scroll-up" src="../home-images/renew-images/12.jpg" width="100%" height="auto" alt="Snow"
                          style="border-radius: 5%;max-height: 250px;max-width: 250px">
-                    <button class="btn btn-dark px-2"><a class="ancer" href="games.html">Go to</a></button>
+                    <a class="ancer" href="kids-games.html?cat=%22Barbie games%22&season=%22Style Your Crew%22"><button class="btn btn-dark px-2">Go to</button></a>
                 </center>
             </div>
             <div class="col-3 ">
                 <center>
-                    <img class="myImg flipinx scroll-up" src="../home-images/Home-Images/kidsgame2.jpg" width="100%" height="auto" alt="Snow"
+                    <img class="myImg flipinx scroll-up" src="../home-images/renew-images/11.jpg" width="100%" height="auto" alt="Snow"
                          style="border-radius: 5%;max-height: 250px;max-width: 250px">
-                    <button class="btn btn-dark px-2"><a class="ancer" href="games.html">Go to</a></button>
+                    <a class="ancer" href="kids-games.html?cat=%22Tom & Jerry%22&season=%22Trap-O-Matic%22"><button class="btn btn-dark px-2">Go to</button></a>
                 </center>
             </div>
             <div class="col-3 ">
                 <center>
-                    <img class="myImg flipinx scroll-up" src="../home-images/Home-Images/kidsgame3.jpg" width="100%" height="auto" alt="Snow"
+                    <img class="myImg flipinx scroll-up" src="../home-images/renew-images/10.jpg" width="100%" height="auto" alt="Snow"
                          style="border-radius: 5%;max-height: 250px;max-width: 250px">
-                    <button class="btn btn-dark px-2"><a class="ancer" href="games.html">Go to</a></button>
+                    <a class="ancer" href="kids-games.html?cat=%22Bubble Shooter%22&season=%22Bubble Shooter%22"><button class="btn btn-dark px-2">Go to</button></a>
                 </center>
             </div>
         </div><br>
@@ -639,30 +654,30 @@
 
                 <div class="col-3">
                     <center>
-                        <img class="myImg flipinx scroll-up" src="../home-images/Home-Images/classic3.jpg" width="100%" height="auto" alt="Snow"
+                        <img class="myImg flipinx scroll-up" src="../home-images/renew-images/9.jpg" width="100%" height="auto" alt="Snow"
                              style="border-radius: 5%;max-height: 250px;max-width: 250px">
-                        <button class="btn btn-dark px-2"><a class="ancer" href="games.html">Go to</a></button>
+                        <a class="ancer" href="mobile-games.html?cat=%22Arcade games%22&season=%22Fruit Ninja%22"><button class="btn btn-dark px-2">Go to</button></a>
                     </center>
                 </div>
                 <div class="col-3">
                     <center>
-                        <img class="myImg flipinx scroll-up" src="../home-images/Home-Images/classic2.jpg" width="100%" height="auto" alt="Snow"
+                        <img class="myImg flipinx scroll-up" src="../home-images/renew-images/8.jpeg" width="100%" height="auto" alt="Snow"
                              style="border-radius: 5%;max-height: 250px;max-width: 250px">
-                        <button class="btn btn-dark px-2"><a class="ancer" href="games.html">Go to</a></button>
+                        <a class="ancer" href="mobile-games.html?cat=%22Racing & flying%22&season=%22Asphalt8 Airborne%22"><button class="btn btn-dark px-2">Go to</button></a>
                     </center>
                 </div>
                 <div class="col-3">
                     <center>
-                        <img class="myImg flipinx scroll-up" src="../home-images/Home-Images/classic1.jpg" width="100%" height="auto" alt="Snow"
+                        <img class="myImg flipinx scroll-up" src="../home-images/renew-images/7.jpeg" width="100%" height="auto" alt="Snow"
                              style="border-radius: 5%;max-height: 250px;max-width: 250px">
-                        <button class="btn btn-dark px-2"><a class="ancer" href="games.html">Go to</a></button>
+                        <a class="ancer" href="mobile-games.html?cat=%22Fighting games%22&season=%22Shadow Fight 2%22"><button class="btn btn-dark px-2">Go to</button></a>
                     </center>
                 </div>
                 <div class="col-3">
                     <center>
-                        <img class="myImg flipinx scroll-up" src="../home-images/Home-Images/classic.jpg" width="100%" height="auto" alt="Snow"
+                        <img class="myImg flipinx scroll-up" src="../home-images/renew-images/6.png" width="100%" height="auto" alt="Snow"
                              style="border-radius: 5%;max-height: 250px;max-width: 250px">
-                        <button class="btn btn-dark px-2"><a class="ancer" href="games.html">Go to</a></button>
+                        <a class="ancer" href="mobile-games.html?cat=%22Racing & flying%22&season=%22Traffic Racer%22"><button class="btn btn-dark px-2">Go to</button></a>
                     </center>
                 </div>
             </div>
@@ -684,21 +699,21 @@
                     <center>
                         <img class="myImg flipinx scroll-up" src="../home-images/Home-Images/angry_birds_2_opinion.jpg" width="100%"
                              height="auto" alt="Snow" style="border-radius: 5%;max-height: 250px;max-width: 250px">
-                        <button class="btn btn-dark px-2"><a class="ancer" href="games.html">Go to</a></button>
+                        <a class="ancer" href="mobile-games.html?cat=%22Arcade games%22&season=%22Angry Birds%22"><button class="btn btn-dark px-2">Go to</button></a>
                     </center>
                 </div>
                 <div class="col-3">
                     <center>
                         <img class="myImg flipinx scroll-up " src="../home-images/Home-Images/ab-season.jpg" width="100%" height="auto"
                              alt="Snow" style="border-radius: 5%;max-height: 250px;max-width: 250px">
-                        <button class="btn btn-dark px-2"><a class="ancer" href="games.html">Go to</a></button>
+                        <a class="ancer" href="mobile-games.html?cat=%22Arcade games%22&season=%22Angry Birds 2%22"><button class="btn btn-dark px-2">Go to</button></a>
                     </center>
                 </div>
                 <div class="col-3">
                     <center>
                         <img class="myImg flipinx scroll-up" src="../home-images/Home-Images/ab-space.jpg" width="100%" height="auto" alt="Snow"
                              style="border-radius: 5%;max-height: 250px;max-width: 250px">
-                        <button class="btn btn-dark px-2"><a class="ancer" href="games.html">Go to</a></button>
+                        <a class="ancer" href="mobile-games.html?cat=%22Arcade games%22&season=%22Angry Birds 2%22"><button class="btn btn-dark px-2">Go to</button></a>
                     </center>
                 </div>
             </div>
@@ -714,33 +729,33 @@
             <div class="row scroll-up" style="margin-top: 1%">
                 <div class="col-3">
                     <center>
-                        <img class="myImg flipinx scroll-up" src="../home-images/Home-Images/other3.png" width="100%" height="auto" alt="Snow"
+                        <img class="myImg flipinx scroll-up" src="../home-images/renew-images/4.jpg" width="100%" height="auto" alt="Snow"
                              style="border-radius: 5%;max-height: 250px;max-width: 250px">
-                        <button class="btn btn-dark px-2"><a class="ancer" href="games.html">Go to</a></button>
+                        <a class="ancer" href="window-games.html?cat=%22Action games%22&season=%22Far Cry 3%22"><button class="btn btn-dark px-2">Go to</button></a>
                     </center>
                 </div>
 
                 <div class="col-3">
                     <center>
-                        <img class="myImg flipinx scroll-up" src="../home-images/Home-Images/other2.jpg" width="100%" height="auto" alt="Snow"
+                        <img class="myImg flipinx scroll-up" src="../home-images/renew-images/3.jpg" width="100%" height="auto" alt="Snow"
                              style="border-radius: 5%;max-height: 250px;max-width: 250px">
-                        <button class="btn btn-dark px-2"><a class="ancer" href="games.html">Go to</a></button>
+                        <a class="ancer" href="mobile-games.html?cat=%22Arcade games%22&season=%22Subway surfers%22"><button class="btn btn-dark px-2">Go to</button></a>
                     </center>
                 </div>
 
                 <div class="col-3">
                     <center>
-                        <img class="myImg flipinx scroll-up" src="../home-images/Home-Images/other1.jpg" width="100%" height="auto" alt="Snow"
+                        <img class="myImg flipinx scroll-up" src="../home-images/renew-images/2.jpg" width="100%" height="auto" alt="Snow"
                              style="border-radius: 5%;max-height: 250px;max-width: 250px">
-                        <button class="btn btn-dark px-2"><a class="ancer" href="games.html">Go to</a></button>
+                        <a class="ancer" href="window-games.html?cat=%22Shooting games%22&season=%22Sniper Elite 4%22"><button class="btn btn-dark px-2">Go to</button></a>
                     </center>
                 </div>
 
                 <div class="col-3">
                     <center>
-                        <img class="myImg flipinx scroll-up" src="../home-images/Home-Images/other.jpg" width="100%" height="auto" alt="Snow"
+                        <img class="myImg flipinx scroll-up" src="../home-images/renew-images/1.jpg" width="100%" height="auto" alt="Snow"
                              style="border-radius: 5%;max-height: 250px;max-width: 250px">
-                        <button class="btn btn-dark px-2"><a class="ancer" href="games.html">Go to</a></button>
+                        <a class="ancer" href="window-games.html?cat=%22Shooting games%22&season=%22PUBG Pc%22"><button class="btn btn-dark px-2">Go to</button></a>
                     </center>
                 </div>
 

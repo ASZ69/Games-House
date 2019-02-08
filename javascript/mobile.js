@@ -2,7 +2,7 @@
 String.prototype.replaceAll = function(search, replacement) {
     var target = this;
     return target.split(search).join(replacement);
-};
+}; 
 var games = angular.module("games", []);
 
 games.controller("cat-ctrl", function ($scope, $filter) {
@@ -58,7 +58,7 @@ games.controller("cat-ctrl", function ($scope, $filter) {
 var url = window.location.search.replace("?","").replaceAll("%22","").replaceAll("%20"," ");
 	if(url == ""){
 		
-		$scope.evearray = $filter('filter')(itemlist, { name: 'Action games' });
+		$scope.evearray = $filter('filter')(itemlist, { name: 'Arcade games' });
 		hoverSetting();
 		
 	}else{
@@ -69,19 +69,7 @@ var url = window.location.search.replace("?","").replaceAll("%22","").replaceAll
 		
         $scope.evearray = $filter('filter')(itemlist, { name: category });
 
-//        $(".scroll-container h2").addClass("mr-r-30p");
-//        $(".right-page h3").css("animation", "2s top-to-down-margin");
-
         $scope.moredetailsarray = $filter('filter')($scope.evearray[0].seasons, { name: season });
-		
-//        $("#frame").hide();
-////
-////        setTimeout(function () {
-////            var data = $("#vidData").html().trim();
-////            $("#frame").attr("src", data);
-////            $("#frame").show();
-////        }, 1000);
-
 		
 		setTimeout(function () {
             $(".right-view").css("display", "none");
@@ -132,7 +120,7 @@ var itemlist = [{
                     '../mobile-games/screenshots/F-1.jpg',
                     '../mobile-games/screenshots/F-2.jpg',
                     '../mobile-games/screenshots/F-3.jpg',
-                    '../mobile-games/screenshots/F-4.jpg',
+                    '../mobile-games/screenshots/F-4.jpg', 
                 ],
                 releaseDate: '2010',
                 updatedOn: '11 jun, 2010',
@@ -155,10 +143,10 @@ var itemlist = [{
                     '../mobile-games/screenshots/t-3.jpg',
                     '../mobile-games/screenshots/t-4.jpg',
                 ],
-                releaseDate: '2004',
-                updatedOn: '23 March, 2004',
-                genre: 'Action',
-                category: 'Action',
+                releaseDate: '2012',
+                updatedOn: '23 March, 2012',
+                genre: 'Arcade',
+                category: 'Arcade',
                 views: '11290',
                 votes: 'N/A',
                 officialSite: 'http://oceanoffgames.com/category/home/',
@@ -176,10 +164,10 @@ var itemlist = [{
                     '../mobile-games/screenshots/sw-3.jpg',
                     '../mobile-games/screenshots/sw-4.jpg',
                 ],
-                releaseDate: '2004',
-                updatedOn: '23 March, 2004',
-                genre: 'Action',
-                category: 'Action',
+                releaseDate: '2009',
+                updatedOn: '2 July, 2009',
+                genre: 'Arcade',
+                category: 'Arcade',
                 views: '11290',
                 votes: 'N/A',
                 officialSite: 'http://oceanoffgames.com/category/home/',
@@ -237,7 +225,7 @@ var itemlist = [{
     seasons: [
 
         {
-            name: 'Asphalt8: Airborne',
+            name: 'Asphalt8 Airborne',
             download: 'http://oceanoffgames.com/category/home/',
             imgSrc: '../mobile-games/racing-game/asphalts.jpg',
             requirements: {
@@ -300,7 +288,7 @@ var itemlist = [{
         },
 
         {
-            name: 'Apocalypse',
+            name: 'Apocalypse Planet',
             download: 'http://oceanoffgames.com/category/home/',
             imgSrc: '../mobile-games/racing-game/apolo.jpg',
             requirements: {
@@ -308,7 +296,7 @@ var itemlist = [{
                     '../mobile-games/screenshots/apo-1.jpg',
                     '../mobile-games/screenshots/apo-2.jpg',
                     '../mobile-games/screenshots/apo-3.jpg',
-                    '../mobile-games/screenshots/apo-4.jpg',
+                    '../mobile-games/screenshots/apo-1.jpg',
                 ],
                 releaseDate: '2004',
                 updatedOn: '23 March, 2004',
