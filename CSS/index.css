@@ -1,14 +1,16 @@
 html, body {
-    background-color: rgba(240,240,240,1.00);
+	scroll-behavior: smooth;
+    background-color:var(--body-color);
 }
 
 .heading {
     position: absolute;
     font-size: 6vw;
     text-shadow: 2px 2px 0 #bcbcbc, 4px 4px 0 #9c9c9c;
-    color: #000;
+    color:var(--text-black);
     top: 8vw;
     left: 31.5%;
+	
 }
 
 .sub-text {
@@ -16,7 +18,7 @@ html, body {
     position: absolute;
     font-size: 2vw;
     text-shadow: 2px 2px 0 #bcbcbc, 4px 4px 0 #9c9c9c;
-    color: #000;
+    color:var(--text-black);
     top: 16vw;
     left: 50%;
     transform: translateX(-50%);
@@ -31,7 +33,7 @@ html, body {
 }
 
 .navbar a.active {
-    color: white;
+    color: var(--text-white);
 }
 
 .content {
@@ -40,7 +42,7 @@ html, body {
 
 .link-no-deco {
     text-decoration: none;
-    color: black;
+    color:var(--text-black);
     font-size: 1.1vw;
     margin: 0;
     padding: 0;
@@ -50,14 +52,13 @@ html, body {
 
     .link-no-deco:hover {
         text-decoration: none;
-        color: black;
+        color: var(--text-black);
     }
 
 .popular-download-table:hover {
-    background-color: lightslategrey;
+    background-color: var(--hover-color);
     cursor: pointer;
 }
-
 #vedio {
     width: 100%;
     height: 35vw;
@@ -66,13 +67,6 @@ html, body {
     object-fit: initial;
 }
 
-/*
-#video {
-	width: 100%;
-	height: 30vw;
-	background-color: #545454;
-}
-*/
 .h1 {
     font-size: 5vw !important;
 }
@@ -84,7 +78,7 @@ html, body {
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
-    color: white;
+    color: var(--text-black);
     display: flex;
     align-items: center;
 }
@@ -95,20 +89,20 @@ html, body {
     }
 
     .parallax2 p {
-        color: black;
+        color: var(--text-black);
         font-size: 1.3vw;
     }
 
 .btn1 {
     float: left;
     background-color: transparent !important;
-    color: white !important;
+    color: var(--text-white) !important;
 }
 
 .btn2 {
     float: right;
     background-color: transparent !important;
-    color: white !important;
+    color: var(--text-white) !important;
 }
 
 .parallax3 {
@@ -122,14 +116,6 @@ html, body {
     display: flex;
     align-items: center;
 }
-
-.col-3 {
-    /*	cursor: pointer;*/
-}
-
-    .col-3:hover {
-        /*	opacity: 0.7;*/
-    }
 
 .myImg:hover {
     opacity: 0.7 !important;
@@ -160,7 +146,7 @@ html, body {
     width: 100%;
     background-color: black;
     vertical-align: bottom;
-    color: white;
+    color: var(--text-white);
     line-height: 60px;
     text-align: center;
 }
@@ -168,8 +154,8 @@ html, body {
 .row-heading {
     position: relative;
     width: 70%;
-    color: black;
-    border: 3px solid #000;
+    color: var(--text-black);
+    border-bottom: double;
     border-radius: 30%;
     font-size: 2.5vw;
     padding-bottom: 5px;
@@ -183,13 +169,13 @@ html, body {
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
-    color: white;
+    color: var(--text-white);
     display: flex;
     align-items: center;
 }
 
 .btn {
-    color: white;
+    color: var(--text-white);
     margin-top: 3%;
 }
 
@@ -199,15 +185,19 @@ html, body {
     }
 
 .ancer:hover {
-    color: white;
+    color:var(--text-white);
     text-decoration: none;
 }
 
 .ancer {
-    color: white;
+    color: var(--text-white);
 }
 
 .ancer-about {
     text-decoration: none;
-    color: black;
+    color: var(--text-black);
+}
+
+.container-fluid {
+	background-color: var(--bg-color);
 }

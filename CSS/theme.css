@@ -1,0 +1,9 @@
+:root {
+    /*    declaring some variables for color*/
+	--bg-color:#2A2727;
+    --hover-color: #7B7B7B;
+    --text-white: white;
+    --text-black: white;
+    --body-color: rgba(240,240,240,1.00);
+}
+/*lbnlcb{background-color: #2A2727}*/

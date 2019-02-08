@@ -3,11 +3,6 @@
 
 .about-row-penal {
 	border:1px solid #000;
-/*
-	border-top:3px solid #000;
-	border-left:3px solid #000;
-	border-right:3px solid #000;
-*/
 }
 
 .about-penal-div img{
@@ -18,17 +13,15 @@
 .about-penal-div h3{
 margin-left: 15%;
 }
-
-
-
 .about-penal-divsm {
 	list-style-type: none;
-	color: black;
+	color: var(--text-black);
 	text-align: justify;
 	margin: 15%;
 	font-size: 1.2vw;
 }
 
+/*
 .about-penal {
 	border:1px solid #000;
 }
@@ -44,3 +37,4 @@ margin-left: 15%;
 .about-penal-divvvv {
 	border:1px solid #000;
 }
+*/
