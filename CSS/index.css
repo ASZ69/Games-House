@@ -7,7 +7,7 @@ html, body {
     position: absolute;
     font-size: 6vw;
     text-shadow: 2px 2px 0 #bcbcbc, 4px 4px 0 #9c9c9c;
-    color:var(--text-black);
+    color:black;
     top: 8vw;
     left: 31.5%;
 	
@@ -18,7 +18,7 @@ html, body {
     position: absolute;
     font-size: 2vw;
     text-shadow: 2px 2px 0 #bcbcbc, 4px 4px 0 #9c9c9c;
-    color:var(--text-black);
+    color:black;
     top: 16vw;
     left: 50%;
     transform: translateX(-50%);
