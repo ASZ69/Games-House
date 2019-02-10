@@ -18,7 +18,7 @@ games.controller("cat-ctrl", function ($scope, $filter) {
 
     };
 
-    $scope.evearray = $filter('filter')(itemlist, { name: 'Barbie games' });
+    $scope.evearray = $filter('filter')(itemlist, { name: 'Barbie games' }); 
 
     $scope.viewMore = function (game) {
         var clikeRf = game.currentTarget;

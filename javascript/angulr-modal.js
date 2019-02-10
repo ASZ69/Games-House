@@ -13,7 +13,7 @@ games.controller("cat-ctrl", function ($scope, $filter) {
 
         $scope.evearray = $filter('filter')(itemlist, { name: cat });
         $(".right-view").css("display", "flex");
-        $(".right-page").css("display", "none");
+        $(".right-page").css("display", "none"); 
 
         hoverSetting();
 
@@ -156,7 +156,7 @@ var itemlist = [{
                     '../windows-games/screen-shots/facry2/3.jpg',
                     '../windows-games/screen-shots/facry2/4.jpg',
                 ],
-                releaseDate: '2004',
+                releaseDate: '20',
                 updatedOn: '23 March, 2004',
                 genre: 'Action',
                 category: 'Action',
@@ -169,7 +169,7 @@ var itemlist = [{
         },
 
         {
-            name: 'Hitman 1',
+            name: 'Hitman 1', 
             download: 'http://oceanoffgames.com/category/home/',
             imgSrc: '../windows-games/hitman.jpg',
             requirements: {
@@ -184,7 +184,7 @@ var itemlist = [{
                 genre: 'Action',
                 category: 'Action',
                 views: '11290',
-                votes: 'N/A',
+                votes: 'N/A', 
                 officialSite: 'http://oceanoffgames.com/category/home/',
                 minimumRequirment: 'OS: Windows 7 Windows 8.1 Windows 10 (64-bit versions only). Processor: Intel Core i3- 550 | AMD Phenom II X4 955 or equivalent. Memory: 4 GB RAM. Graphics: NVIDIA GeForce GTX 460 (1GB VRAM) | AMD Radeon HD 5770 (1GB VRAM) or equivalent. Storage: 20 GB available space',
                 recommended: 'OS: Windows 7, Windows 8.1, Windows 10 (64-bit versions only). Processor: Intel Core i7- 2600K | AMD FX-8350 or equivalent. Memory: 8 GB RAM. Graphics: NVIDIA GeForce GTX 780 | AMD Radeon R9 280X or equivalent. Storage: 20 GB available space'

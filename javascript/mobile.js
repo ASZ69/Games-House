@@ -221,10 +221,10 @@ var itemlist = [{
             imgSrc: '../mobile-games/moreadd-images/journey-to-jungle.jpg',
             requirements: {
                 images: [
-                    '../mobile-games/screenshots/ab2-1.jpg',
-                    '../mobile-games/screenshots/ab2-2.jpg',
-                    '../mobile-games/screenshots/ab2-3.jpg',
-                    '../mobile-games/screenshots/ab2-4.jpg',
+                    '../mobile-games/moresceenshootsadd/jur-1.jpg',
+                    '../mobile-games/moresceenshootsadd/jur-2.jpg',
+                    '../mobile-games/moresceenshootsadd/jur-3.jpg',
+                    '../mobile-games/moresceenshootsadd/jur-4.jpg',
                 ],
                 releaseDate: '2017',
                 updatedOn: '23 March, 2017',
@@ -242,10 +242,10 @@ var itemlist = [{
             imgSrc: '../mobile-games/moreadd-images/chicken-invaders.jpg',
             requirements: {
                 images: [
-                    '../mobile-games/screenshots/ab2-1.jpg',
-                    '../mobile-games/screenshots/ab2-2.jpg',
-                    '../mobile-games/screenshots/ab2-3.jpg',
-                    '../mobile-games/screenshots/ab2-4.jpg',
+                    '../mobile-games/moresceenshootsadd/ch-1.jpg',
+                    '../mobile-games/moresceenshootsadd/ch-2.jpg',
+                    '../mobile-games/moresceenshootsadd/ch-3.jpg',
+                    '../mobile-games/moresceenshootsadd/ch-4.jpg',
                 ],
                 releaseDate: '2004',
                 updatedOn: '23 March, 2004',
@@ -263,10 +263,10 @@ var itemlist = [{
             imgSrc: '../mobile-games/moreadd-images/ch-2.jpg',
             requirements: {
                 images: [
-                    '../mobile-games/screenshots/ab2-1.jpg',
-                    '../mobile-games/screenshots/ab2-2.jpg',
-                    '../mobile-games/screenshots/ab2-3.jpg',
-                    '../mobile-games/screenshots/ab2-4.jpg',
+                    '../mobile-games/moresceenshootsadd/ch2-1.jpg',
+                    '../mobile-games/moresceenshootsadd/ch2-2.jpg',
+                    '../mobile-games/moresceenshootsadd/ch2-3.jpg',
+                    '../mobile-games/moresceenshootsadd/ch2-4.jpg',
                 ],
                 releaseDate: '2004',
                 updatedOn: '23 March, 2004',
@@ -284,10 +284,10 @@ var itemlist = [{
             imgSrc: '../mobile-games/moreadd-images/chicken-3.jpg',
             requirements: {
                 images: [
-                    '../mobile-games/screenshots/ab2-1.jpg',
-                    '../mobile-games/screenshots/ab2-2.jpg',
-                    '../mobile-games/screenshots/ab2-3.jpg',
-                    '../mobile-games/screenshots/ab2-4.jpg',
+                    '../mobile-games/moresceenshootsadd/ch3-1.jpg',
+                    '../mobile-games/moresceenshootsadd/ch3-2.jpg',
+                    '../mobile-games/moresceenshootsadd/ch3-3.jpg',
+                    '../mobile-games/moresceenshootsadd/ch3-4.jpg',
                 ],
                 releaseDate: '2004',
                 updatedOn: '23 March, 2004',
@@ -305,10 +305,10 @@ var itemlist = [{
             imgSrc: '../mobile-games/moreadd-images/ch-4.jpg',
             requirements: {
                 images: [
-                    '../mobile-games/screenshots/ab2-1.jpg',
-                    '../mobile-games/screenshots/ab2-2.jpg',
-                    '../mobile-games/screenshots/ab2-3.jpg',
-                    '../mobile-games/screenshots/ab2-4.jpg',
+                    '../mobile-games/moresceenshootsadd/ch4-1.jpg',
+                    '../mobile-games/moresceenshootsadd/ch4-2.jpg',
+                    '../mobile-games/moresceenshootsadd/ch4-3.jpg',
+                    '../mobile-games/moresceenshootsadd/ch4-4.jpg',
                 ],
                 releaseDate: '2004',
                 updatedOn: '23 March, 2004',
@@ -326,10 +326,10 @@ var itemlist = [{
             imgSrc: '../mobile-games/moreadd-images/ch-5.jpg',
             requirements: {
                 images: [
-                    '../mobile-games/screenshots/ab2-1.jpg',
-                    '../mobile-games/screenshots/ab2-2.jpg',
-                    '../mobile-games/screenshots/ab2-3.jpg',
-                    '../mobile-games/screenshots/ab2-4.jpg',
+                    '../mobile-games/moresceenshootsadd/ch5-1.jpg',
+                    '../mobile-games/moresceenshootsadd/ch5-2.jpg',
+                    '../mobile-games/moresceenshootsadd/ch5-3.jpg',
+                    '../mobile-games/moresceenshootsadd/ch5-4.jpg',
                 ],
                 releaseDate: '2004',
                 updatedOn: '23 March, 2004',
@@ -347,10 +347,10 @@ var itemlist = [{
             imgSrc: '../mobile-games/moreadd-images/cd-1.jpg',
             requirements: {
                 images: [
-                    '../mobile-games/screenshots/ab2-1.jpg',
-                    '../mobile-games/screenshots/ab2-2.jpg',
-                    '../mobile-games/screenshots/ab2-3.jpg',
-                    '../mobile-games/screenshots/ab2-4.jpg',
+                    '../mobile-games/moresceenshootsadd/c-1.jpg',
+                    '../mobile-games/moresceenshootsadd/c-2.jpg',
+                    '../mobile-games/moresceenshootsadd/c-3.jpg',
+                    '../mobile-games/moresceenshootsadd/c-4.jpg',
                 ],
                 releaseDate: '2004',
                 updatedOn: '23 March, 2004',
@@ -368,10 +368,10 @@ var itemlist = [{
             imgSrc: '../mobile-games/moreadd-images/aladin.jpg',
             requirements: {
                 images: [
-                    '../mobile-games/screenshots/ab2-1.jpg',
-                    '../mobile-games/screenshots/ab2-2.jpg',
-                    '../mobile-games/screenshots/ab2-3.jpg',
-                    '../mobile-games/screenshots/ab2-4.jpg',
+                    '../mobile-games/moresceenshootsadd/a-1.jpg',
+                    '../mobile-games/moresceenshootsadd/a-2.jpg',
+                    '../mobile-games/moresceenshootsadd/a-3.jpg',
+                    '../mobile-games/moresceenshootsadd/a-4.jpg',
                 ],
                 releaseDate: '2004',
                 updatedOn: '23 March, 2004',
@@ -389,10 +389,10 @@ var itemlist = [{
             imgSrc: '../mobile-games/moreadd-images/pm.jpg',
             requirements: {
                 images: [
-                    '../mobile-games/screenshots/ab2-1.jpg',
-                    '../mobile-games/screenshots/ab2-2.jpg',
-                    '../mobile-games/screenshots/ab2-3.jpg',
-                    '../mobile-games/screenshots/ab2-4.jpg',
+                    '../mobile-games/moresceenshootsadd/p-1.jpg',
+                    '../mobile-games/moresceenshootsadd/p-2.jpg',
+                    '../mobile-games/moresceenshootsadd/p-3.jpg',
+                    '../mobile-games/moresceenshootsadd/p-4.jpg',
                 ],
                 releaseDate: '2004',
                 updatedOn: '23 March, 2004',
@@ -410,10 +410,10 @@ var itemlist = [{
             imgSrc: '../mobile-games/moreadd-images/sm.jpg',
             requirements: {
                 images: [
-                    '../mobile-games/screenshots/ab2-1.jpg',
-                    '../mobile-games/screenshots/ab2-2.jpg',
-                    '../mobile-games/screenshots/ab2-3.jpg',
-                    '../mobile-games/screenshots/ab2-4.jpg',
+                    '../mobile-games/moresceenshootsadd/m-1.jpg',
+                    '../mobile-games/moresceenshootsadd/m-2.jpg',
+                    '../mobile-games/moresceenshootsadd/m-3.jpg',
+                    '../mobile-games/moresceenshootsadd/m-4.jpg',
                 ],
                 releaseDate: '2004',
                 updatedOn: '23 March, 2004',
@@ -431,10 +431,10 @@ var itemlist = [{
             imgSrc: '../mobile-games/moreadd-images/tarzan.jpg',
             requirements: {
                 images: [
-                    '../mobile-games/screenshots/ab2-1.jpg',
-                    '../mobile-games/screenshots/ab2-2.jpg',
-                    '../mobile-games/screenshots/ab2-3.jpg',
-                    '../mobile-games/screenshots/ab2-4.jpg',
+                    '../mobile-games/moresceenshootsadd/tr-1.jpg',
+                    '../mobile-games/moresceenshootsadd/tr-2.jpg',
+                    '../mobile-games/moresceenshootsadd/tr-3.jpg',
+                    '../mobile-games/moresceenshootsadd/tr-4.jpg',
                 ],
                 releaseDate: '2004',
                 updatedOn: '23 March, 2004',
@@ -452,10 +452,10 @@ var itemlist = [{
             imgSrc: '../mobile-games/moreadd-images/v.jpg',
             requirements: {
                 images: [
-                    '../mobile-games/screenshots/ab2-1.jpg',
-                    '../mobile-games/screenshots/ab2-2.jpg',
-                    '../mobile-games/screenshots/ab2-3.jpg',
-                    '../mobile-games/screenshots/ab2-4.jpg',
+                    '../mobile-games/moresceenshootsadd/v-1.jpg',
+                    '../mobile-games/moresceenshootsadd/v-2.jpg',
+                    '../mobile-games/moresceenshootsadd/v-3.jpg',
+                    '../mobile-games/moresceenshootsadd/v-4.jpg',
                 ],
                 releaseDate: '2004',
                 updatedOn: '23 March, 2004',

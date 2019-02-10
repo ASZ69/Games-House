@@ -101,7 +101,7 @@ html, body {
         box-shadow: 0 4px 8px 0 #ccc;
         border-radius: 5px;
         overflow: hidden;
-        border: 1px solid #000;
+        border: 1px solid #fff;
 		color: var(--text-white);
 		background-color: var(--bg-color);
     }

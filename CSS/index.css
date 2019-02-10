@@ -225,3 +225,25 @@ html, body {
 .mega-menu {
 	width: 700px;
 }
+
+.rightblock {
+	list-style-type: none;
+	color: var(--text-black);
+	line-height: 4.5vw;
+	border-bottom: 1px solid rgba(0, 0, 0, 0.50);
+	font-size: 1.2vw;
+	margin: 0;
+	padding: 0;
+}
+.rightblock:hover{
+	color: var(--hoer-color);
+}
+.rightblocka:hover{
+	text-decoration: none;
+	color: var(--hover-color);
+}
+
+.rightblocka {
+	text-decoration: none;
+}
+
