@@ -68,19 +68,7 @@ var url = window.location.search.replace("?","").replaceAll("%22","").replaceAll
 		
         $scope.evearray = $filter('filter')(itemlist, { name: category });
 
-//        $(".scroll-container h2").addClass("mr-r-30p");
-//        $(".right-page h3").css("animation", "2s top-to-down-margin");
-
         $scope.moredetailsarray = $filter('filter')($scope.evearray[0].seasons, { name: season });
-		
-//        $("#frame").hide();
-////
-////        setTimeout(function () {
-////            var data = $("#vidData").html().trim();
-////            $("#frame").attr("src", data);
-////            $("#frame").show();
-////        }, 1000);
-
 		
 		setTimeout(function () {
             $(".right-view").css("display", "none");
@@ -207,15 +195,15 @@ var itemlist = [{
         },
 		
 		 {
-            name: 'Style Your Crew',
+            name: 'Art Teacher',
             download: 'http://oceanoffgames.com/category/home/',
-            imgSrc: '../kids-games/barbie-1.jpg',
+            imgSrc: '../kids-games/msadd/art-1.jpg',
             requirements: {
                 images: [
-                    '../kids-games/barbie-1.jpg',
-                    '../kids-games/barbie-1.jpg',
-                    '../kids-games/barbie-1.jpg',
-                    '../kids-games/barbie-1.jpg',
+                    '../kids-games/msadd/art-1.jpg',
+                    '../kids-games/msadd/art-1.jpg',
+                    '../kids-games/msadd/art-1.jpg',
+                    '../kids-games/msadd/art-1.jpg',
                 ],
                 releaseDate: '2010',
                 updatedOn: '11 jun, 2010',
@@ -228,15 +216,15 @@ var itemlist = [{
         },
 
         {
-            name: 'You Can Be A Chef',
+            name: 'Bike Stylin Ride',
             download: 'http://oceanoffgames.com/category/home/',
-            imgSrc: '../kids-games/barbie-2.jpg',
+            imgSrc: '../kids-games/msadd/bike.jpg',
             requirements: {
                 images: [
-                    '../kids-games/barbie-2.jpg',
-                    '../kids-games/barbie-2.jpg',
-                    '../kids-games/barbie-2.jpg',
-                    '../kids-games/barbie-2.jpg',
+                    '../kids-games/msadd/bike.jpg',
+                    '../kids-games/msadd/bike.jpg',
+                    '../kids-games/msadd/bike.jpg',
+                    '../kids-games/msadd/bike.jpg',
                 ],
                 releaseDate: '2004',
                 updatedOn: '23 March, 2004',
@@ -249,15 +237,15 @@ var itemlist = [{
         },
 
         {
-            name: 'Dolphin Magic',
+            name: 'Cakery Bakery',
             download: 'http://oceanoffgames.com/category/home/',
-            imgSrc: '../kids-games/barbie-3.jpg',
+            imgSrc: '../kids-games/msadd/cake.jpg',
             requirements: {
                 images: [
-                    '../kids-games/barbie-3.jpg',
-                    '../kids-games/barbie-3.jpg',
-                    '../kids-games/barbie-3.jpg',
-                    '../kids-games/barbie-3.jpg',
+                    '../kids-games/msadd/cake.jpg',
+                    '../kids-games/msadd/cake.jpg',
+                    '../kids-games/msadd/cake.jpg',
+                    '../kids-games/msadd/cake.jpg',
                 ],
                 releaseDate: '2004',
                 updatedOn: '23 March, 2004',
@@ -270,15 +258,15 @@ var itemlist = [{
         },
 
         {
-            name: 'Spy Squad Academy',
+            name: 'Fan-tastic Concert',
             download: 'http://oceanoffgames.com/category/home/',
-            imgSrc: '../kids-games/barbie-4.jpg',
+            imgSrc: '../kids-games/msadd/fan.jpg',
             requirements: {
                 images: [
-                    '../kids-games/barbie-4.jpg',
-                    '../kids-games/barbie-4.jpg',
-                    '../kids-games/barbie-4.jpg',
-                    '../kids-games/barbie-4.jpg',
+                    '../kids-games/msadd/fan.jpg',
+                    '../kids-games/msadd/fan.jpg',
+                    '../kids-games/msadd/fan.jpg',
+                    '../kids-games/msadd/fan.jpg',
                 ],
                 releaseDate: '2004',
                 updatedOn: '23 March, 2004',
@@ -291,15 +279,15 @@ var itemlist = [{
         },
             		
          {
-            name: 'Style Your Crew',
+            name: 'Halfpipe Pixie',
             download: 'http://oceanoffgames.com/category/home/',
-            imgSrc: '../kids-games/barbie-1.jpg',
+            imgSrc: '../kids-games/msadd/helf.jpg',
             requirements: {
                 images: [
-                    '../kids-games/barbie-1.jpg',
-                    '../kids-games/barbie-1.jpg',
-                    '../kids-games/barbie-1.jpg',
-                    '../kids-games/barbie-1.jpg',
+                    '../kids-games/msadd/helf.jpg',
+                    '../kids-games/msadd/helf.jpg',
+                    '../kids-games/msadd/helf.jpg',
+                    '../kids-games/msadd/helf.jpg',
                 ],
                 releaseDate: '2010',
                 updatedOn: '11 jun, 2010',
@@ -312,15 +300,15 @@ var itemlist = [{
         },
 
         {
-            name: 'You Can Be A Chef',
+            name: 'Potty Race',
             download: 'http://oceanoffgames.com/category/home/',
-            imgSrc: '../kids-games/barbie-2.jpg',
+            imgSrc: '../kids-games/msadd/pot.jpg',
             requirements: {
                 images: [
-                    '../kids-games/barbie-2.jpg',
-                    '../kids-games/barbie-2.jpg',
-                    '../kids-games/barbie-2.jpg',
-                    '../kids-games/barbie-2.jpg',
+                    '../kids-games/msadd/pot.jpg',
+                    '../kids-games/msadd/pot.jpg',
+                    '../kids-games/msadd/pot.jpg',
+                    '../kids-games/msadd/pot.jpg',
                 ],
                 releaseDate: '2004',
                 updatedOn: '23 March, 2004',
@@ -333,15 +321,15 @@ var itemlist = [{
         },
 
         {
-            name: 'Dolphin Magic',
+            name: 'Race Car Cutie',
             download: 'http://oceanoffgames.com/category/home/',
-            imgSrc: '../kids-games/barbie-3.jpg',
+            imgSrc: '../kids-games/msadd/ready.jpg',
             requirements: {
                 images: [
-                    '../kids-games/barbie-3.jpg',
-                    '../kids-games/barbie-3.jpg',
-                    '../kids-games/barbie-3.jpg',
-                    '../kids-games/barbie-3.jpg',
+                    '../kids-games/msadd/ready.jpg',
+                    '../kids-games/msadd/ready.jpg',
+                    '../kids-games/msadd/ready.jpg',
+                    '../kids-games/msadd/ready.jpg',
                 ],
                 releaseDate: '2004',
                 updatedOn: '23 March, 2004',
@@ -354,15 +342,15 @@ var itemlist = [{
         },
 
         {
-            name: 'Spy Squad Academy',
+            name: 'Sugar Bug Blast',
             download: 'http://oceanoffgames.com/category/home/',
-            imgSrc: '../kids-games/barbie-4.jpg',
+            imgSrc: '../kids-games/msadd/suger.jpg',
             requirements: {
                 images: [
-                    '../kids-games/barbie-4.jpg',
-                    '../kids-games/barbie-4.jpg',
-                    '../kids-games/barbie-4.jpg',
-                    '../kids-games/barbie-4.jpg',
+                    '../kids-games/msadd/suger.jpg',
+                    '../kids-games/msadd/suger.jpg',
+                    '../kids-games/msadd/suger.jpg',
+                    '../kids-games/msadd/suger.jpg',
                 ],
                 releaseDate: '2004',
                 updatedOn: '23 March, 2004',
@@ -375,15 +363,15 @@ var itemlist = [{
         },
 		
 		 {
-            name: 'Style Your Crew',
+            name: 'Video Mixer',
             download: 'http://oceanoffgames.com/category/home/',
-            imgSrc: '../kids-games/barbie-1.jpg',
+            imgSrc: '../kids-games/msadd/vid.jpg',
             requirements: {
                 images: [
-                    '../kids-games/barbie-1.jpg',
-                    '../kids-games/barbie-1.jpg',
-                    '../kids-games/barbie-1.jpg',
-                    '../kids-games/barbie-1.jpg',
+                    '../kids-games/msadd/vid.jpg',
+                    '../kids-games/msadd/vid.jpg',
+                    '../kids-games/msadd/vid.jpg',
+                    '../kids-games/msadd/vid.jpg',
                 ],
                 releaseDate: '2010',
                 updatedOn: '11 jun, 2010',
@@ -396,15 +384,15 @@ var itemlist = [{
         },
 
         {
-            name: 'You Can Be A Chef',
+            name: 'Superstar Beats',
             download: 'http://oceanoffgames.com/category/home/',
-            imgSrc: '../kids-games/barbie-2.jpg',
+            imgSrc: '../kids-games/msadd/super.jpg',
             requirements: {
                 images: [
-                    '../kids-games/barbie-2.jpg',
-                    '../kids-games/barbie-2.jpg',
-                    '../kids-games/barbie-2.jpg',
-                    '../kids-games/barbie-2.jpg',
+                    '../kids-games/msadd/super.jpg',
+                    '../kids-games/msadd/super.jpg',
+                    '../kids-games/msadd/super.jpg',
+                    '../kids-games/msadd/super.jpg',
                 ],
                 releaseDate: '2004',
                 updatedOn: '23 March, 2004',
@@ -417,15 +405,15 @@ var itemlist = [{
         },
 
         {
-            name: 'Dolphin Magic',
+            name: 'Dreamhouse Puzzle',
             download: 'http://oceanoffgames.com/category/home/',
-            imgSrc: '../kids-games/barbie-3.jpg',
+            imgSrc: '../kids-games/msadd/dream.jpg',
             requirements: {
                 images: [
-                    '../kids-games/barbie-3.jpg',
-                    '../kids-games/barbie-3.jpg',
-                    '../kids-games/barbie-3.jpg',
-                    '../kids-games/barbie-3.jpg',
+                    '../kids-games/msadd/dream.jpg',
+                    '../kids-games/msadd/dream.jpg',
+                    '../kids-games/msadd/dream.jpg',
+                    '../kids-games/msadd/dream.jpg',
                 ],
                 releaseDate: '2004',
                 updatedOn: '23 March, 2004',
@@ -438,15 +426,15 @@ var itemlist = [{
         },
 
         {
-            name: 'Spy Squad Academy',
+            name: 'My Dreamhouse',
             download: 'http://oceanoffgames.com/category/home/',
-            imgSrc: '../kids-games/barbie-4.jpg',
+            imgSrc: '../kids-games/msadd/house.jpg',
             requirements: {
                 images: [
-                    '../kids-games/barbie-4.jpg',
-                    '../kids-games/barbie-4.jpg',
-                    '../kids-games/barbie-4.jpg',
-                    '../kids-games/barbie-4.jpg',
+                    '../kids-games/msadd/house.jpg',
+                    '../kids-games/msadd/house.jpg',
+                    '../kids-games/msadd/house.jpg',
+                    '../kids-games/msadd/house.jpg',
                 ],
                 releaseDate: '2004',
                 updatedOn: '23 March, 2004',

@@ -69,18 +69,7 @@ var url = window.location.search.replace("?","").replaceAll("%22","").replaceAll
 		
         $scope.evearray = $filter('filter')(itemlist, { name: category });
 
-//        $(".scroll-container h2").addClass("mr-r-30p");
-//        $(".right-page h3").css("animation", "2s top-to-down-margin");
-
         $scope.moredetailsarray = $filter('filter')($scope.evearray[0].seasons, { name: season });
-		
-//        $("#frame").hide();
-////
-////        setTimeout(function () {
-////            var data = $("#vidData").html().trim();
-////            $("#frame").attr("src", data);
-////            $("#frame").show();
-////        }, 1000);
 
 		
 		setTimeout(function () {
@@ -157,7 +146,7 @@ var itemlist = [{
                     '../windows-games/screen-shots/facry2/4.jpg',
                 ],
                 releaseDate: '20',
-                updatedOn: '23 March, 2004',
+                updatedOn: '2 April, 2006',
                 genre: 'Action',
                 category: 'Action',
                 views: '11290',
@@ -179,8 +168,8 @@ var itemlist = [{
                     '../windows-games/screen-shots/hitman/3.jpg',
                     '../windows-games/screen-shots/hitman/4.jpg',
                 ],
-                releaseDate: '2004',
-                updatedOn: '23 March, 2004',
+                releaseDate: '2009',
+                updatedOn: '5 Fabruary, 2009',
                 genre: 'Action',
                 category: 'Action',
                 views: '11290',
@@ -202,8 +191,8 @@ var itemlist = [{
                     '../windows-games/screen-shots/tekken7/3.jpg',
                     '../windows-games/screen-shots/tekken7/4.jpg',
                 ],
-                releaseDate: '2004',
-                updatedOn: '23 March, 2004',
+                releaseDate: '2012',
+                updatedOn: '29 March, 2012',
                 genre: 'Action',
                 category: 'Action',
                 views: '11290',
@@ -225,8 +214,8 @@ var itemlist = [{
                     '../windows-games/screen-shots/facry2/3.jpg',
                     '../windows-games/screen-shots/facry2/4.jpg',
                 ],
-                releaseDate: '2004',
-                updatedOn: '23 March, 2004',
+                releaseDate: '2005',
+                updatedOn: '20 March, 2005',
                 genre: 'Action',
                 category: 'Action',
                 views: '11290',
@@ -248,8 +237,8 @@ var itemlist = [{
                     '../windows-games/screen-shots/facry2/f3-4.jpg',
                     '../windows-games/screen-shots/facry2/f3-4.jpg',
                 ],
-                releaseDate: '2004',
-                updatedOn: '23 March, 2004',
+                releaseDate: '2010',
+                updatedOn: '30 Jun, 2010',
                 genre: 'Action',
                 category: 'Action',
                 views: '11290',
@@ -271,8 +260,8 @@ var itemlist = [{
                     '../windows-games/screen-shots/facry2/f4-3.jpg',
                     '../windows-games/screen-shots/facry2/f4-4.jpg',
                 ],
-                releaseDate: '2004',
-                updatedOn: '23 March, 2004',
+                releaseDate: '2015',
+                updatedOn: '23 March, 2015',
                 genre: 'Action',
                 category: 'Action',
                 views: '11290',
@@ -294,8 +283,8 @@ var itemlist = [{
                     '../windows-games/screen-shots/facry2/f5-3.jpg',
                     '../windows-games/screen-shots/facry2/f5-4.jpg',
                 ],
-                releaseDate: '2004',
-                updatedOn: '23 March, 2004',
+                releaseDate: '2018',
+                updatedOn: '25 March, 2018',
                 genre: 'Action',
                 category: 'Action',
                 views: '11290',
@@ -318,8 +307,8 @@ var itemlist = [{
                     '../windows-games/screen-shots/far-cry/4.jpg',
                     '../windows-games/screen-shots/far-cry/5.jpg'
                 ],
-                releaseDate: '2004',
-                updatedOn: '23 March, 2004',
+                releaseDate: '2009',
+                updatedOn: '1 May, 2009',
                 genre: 'Action',
                 category: 'Action',
                 views: '11290',
@@ -341,11 +330,11 @@ var itemlist = [{
                     '../windows-games/screen-shots/far-cry/3.jpg',
                     '../windows-games/screen-shots/max-paine/3.jpg',
                 ],
-                releaseDate: '2004',
-                updatedOn: '23 March, 2004',
+                releaseDate: '2011',
+                updatedOn: '10 May 2011',
                 genre: 'Action',
                 category: 'Action',
-                views: '11290',
+                views: '112',
                 votes: 'N/A',
                 officialSite: 'http://oceanoffgames.com/category/home/',
                 minimumRequirment: 'OS: Windows 7 Windows 8.1 Windows 10 (64-bit versions only). Processor: Intel Core i3- 550 | AMD Phenom II X4 955 or equivalent. Memory: 4 GB RAM. Graphics: NVIDIA GeForce GTX 460 (1GB VRAM) | AMD Radeon HD 5770 (1GB VRAM) or equivalent. Storage: 20 GB available space',
@@ -364,8 +353,8 @@ var itemlist = [{
                     '../windows-games/screen-shots/hitman/h2-3.jpg',
                     '../windows-games/screen-shots/hitman/h2-4.jpg',
                 ],
-                releaseDate: '2004',
-                updatedOn: '23 March, 2004',
+                releaseDate: '2009',
+                updatedOn: '3 July, 2009',
                 genre: 'Action',
                 category: 'Action',
                 views: '11290',
