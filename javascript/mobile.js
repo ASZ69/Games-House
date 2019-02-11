@@ -68,9 +68,8 @@ var url = window.location.search.replace("?","").replaceAll("%22","").replaceAll
 		var season = parts[1].split("=")[1];
 		
         $scope.evearray = $filter('filter')(itemlist, { name: category });
-
-        $scope.moredetailsarray = $filter('filter')($scope.evearray[0].seasons, { name: season });
-		
+         if(season != ""){
+		$scope.moredetailsarray = $filter('filter')($scope.evearray[0].seasons, { name: season });
 		setTimeout(function () {
             $(".right-view").css("display", "none");
             $(".right-page").css("display", "block");
@@ -78,7 +77,7 @@ var url = window.location.search.replace("?","").replaceAll("%22","").replaceAll
 
         scrollUp();
         hoverSetting();
-		
+			}
 	}
 
     $scope.evearray = $filter('filter')(itemlist, { name: 'Arcade games' });
