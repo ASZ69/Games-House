@@ -21,20 +21,42 @@ margin-left: 15%;
 	font-size: 1.2vw;
 }
 
-/*
-.about-penal {
-	border:1px solid #000;
+
+.main-heading {
+	width: 22%;
+	border-radius: 30%;
+	border-bottom: 5px double #000;
+	font-size: 3vw;
+	font-weight: bolder;
+	color: var(--text-black);
 }
 
-.about-penal-divv {
-	border:1px  solid #000;
+.a-heading {
+	margin-top: 10%;
+	font-size: 2.2vw;
+	font: bold;
+	color: var(--text-black);
 }
 
-.about-penal-divvv {
-	border:1px solid #000;
+.pg {
+	font-size: 1.2vw;
+	line-height: 2vw;
+	text-align: justify;
+	color: var(--text-black);
+}
+.pg:hover{
+	color: var(--hover-color);
+	cursor: pointer;
+}
+.container-fluid {
+	background-color: var(--bg-color);
 }
 
-.about-penal-divvvv {
-	border:1px solid #000;
+.footer-div {
+	width: 100%;
+    background-color: black;
+    vertical-align: bottom;
+    color: var(--text-white);
+    line-height: 60px;
+    text-align: center;
 }
-*/
