@@ -91,3 +91,14 @@ margin-left: 15%;
 .about-us {
 	
 }
+.parallax {
+    height: 30vw;
+    background-image: url("../home-images/3d-bars-wallpapers-55199-5160651.jpg");
+    background-position: 50%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    color: var(--text-white);
+    display: flex;
+    align-items: center;
+}
