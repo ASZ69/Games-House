@@ -102,3 +102,11 @@ margin-left: 15%;
     display: flex;
     align-items: center;
 }
+.pg-img {
+	border-radius: 50%;
+	float: left;	
+}
+.pg-img:hover{
+	cursor: pointer;
+	opacity: 0.7;
+}
