@@ -1,8 +1,8 @@
 
-String.prototype.replaceAll = function(search, replacement) {
+String.prototype.replaceAll = function (search, replacement) {
     var target = this;
     return target.split(search).join(replacement);
-}; 
+};
 var games = angular.module("games", []);
 
 games.controller("cat-ctrl", function ($scope, $filter) {
@@ -51,34 +51,34 @@ games.controller("cat-ctrl", function ($scope, $filter) {
         hoverSetting();
 
     };
-	
-	
-	//check url to get specific result
 
-var url = window.location.search.replace("?","").replaceAll("%22","").replaceAll("%20"," ");
-	if(url == ""){
-		
-		$scope.evearray = $filter('filter')(itemlist, { name: 'Arcade games' });
-		hoverSetting();
-		
-	}else{
-		
-		var parts = url.split("&");
-		var category = parts[0].split("=")[1];
-		var season = parts[1].split("=")[1];
-		
-        $scope.evearray = $filter('filter')(itemlist, { name: category });
-         if(season != ""){
-		$scope.moredetailsarray = $filter('filter')($scope.evearray[0].seasons, { name: season });
-		setTimeout(function () {
-            $(".right-view").css("display", "none");
-            $(".right-page").css("display", "block");
-        }, 70);
 
-        scrollUp();
+    //check url to get specific result
+
+    var url = window.location.search.replace("?", "").replaceAll("%22", "").replaceAll("%20", " ");
+    if (url == "") {
+
+        $scope.evearray = $filter('filter')(itemlist, { name: 'Arcade games' });
         hoverSetting();
-			}
-	}
+
+    } else {
+
+        var parts = url.split("&");
+        var category = parts[0].split("=")[1];
+        var season = parts[1].split("=")[1];
+
+        $scope.evearray = $filter('filter')(itemlist, { name: category });
+        if (season != "") {
+            $scope.moredetailsarray = $filter('filter')($scope.evearray[0].seasons, { name: season });
+            setTimeout(function () {
+                $(".right-view").css("display", "none");
+                $(".right-page").css("display", "block");
+            }, 70);
+
+            scrollUp();
+            hoverSetting();
+        }
+    }
 
     $scope.evearray = $filter('filter')(itemlist, { name: 'Arcade games' });
 
@@ -119,7 +119,7 @@ var itemlist = [{
                     '../mobile-games/screenshots/F-1.jpg',
                     '../mobile-games/screenshots/F-2.jpg',
                     '../mobile-games/screenshots/F-3.jpg',
-                    '../mobile-games/screenshots/F-4.jpg', 
+                    '../mobile-games/screenshots/F-4.jpg',
                 ],
                 releaseDate: '2010',
                 updatedOn: '11 jun, 2010',
@@ -214,7 +214,7 @@ var itemlist = [{
                 officialSite: 'http://oceanoffgames.com/category/home/',
             }
         },
-         {
+        {
             name: 'journey to Jungle',
             download: 'http://oceanoffgames.com/category/home/',
             imgSrc: '../mobile-games/moreadd-images/journey-to-jungle.jpg',
@@ -234,8 +234,8 @@ var itemlist = [{
                 officialSite: 'http://oceanoffgames.com/category/home/',
             }
         },
-		
-		 {
+
+        {
             name: 'Chicken Invaders',
             download: 'http://oceanoffgames.com/category/home/',
             imgSrc: '../mobile-games/moreadd-images/chicken-invaders.jpg',
@@ -255,8 +255,8 @@ var itemlist = [{
                 officialSite: 'http://oceanoffgames.com/category/home/',
             }
         },
-		
-		{
+
+        {
             name: 'Chicken Invaders 2',
             download: 'http://oceanoffgames.com/category/home/',
             imgSrc: '../mobile-games/moreadd-images/ch-2.jpg',
@@ -276,8 +276,8 @@ var itemlist = [{
                 officialSite: 'http://oceanoffgames.com/category/home/',
             }
         },
-		
-		{
+
+        {
             name: 'Chicken Invaders 3',
             download: 'http://oceanoffgames.com/category/home/',
             imgSrc: '../mobile-games/moreadd-images/chicken-3.jpg',
@@ -297,8 +297,8 @@ var itemlist = [{
                 officialSite: 'http://oceanoffgames.com/category/home/',
             }
         },
-		
-		{
+
+        {
             name: 'Chicken Invaders 4',
             download: 'http://oceanoffgames.com/category/home/',
             imgSrc: '../mobile-games/moreadd-images/ch-4.jpg',
@@ -318,8 +318,8 @@ var itemlist = [{
                 officialSite: 'http://oceanoffgames.com/category/home/',
             }
         },
-		
-		{
+
+        {
             name: 'Chicken Invaders 5',
             download: 'http://oceanoffgames.com/category/home/',
             imgSrc: '../mobile-games/moreadd-images/ch-5.jpg',
@@ -339,8 +339,8 @@ var itemlist = [{
                 officialSite: 'http://oceanoffgames.com/category/home/',
             }
         },
-		
-		{
+
+        {
             name: 'Cadillacs Dinosaurs',
             download: 'http://oceanoffgames.com/category/home/',
             imgSrc: '../mobile-games/moreadd-images/cd-1.jpg',
@@ -360,8 +360,8 @@ var itemlist = [{
                 officialSite: 'http://oceanoffgames.com/category/home/',
             }
         },
-		
-		{
+
+        {
             name: 'Aladdin',
             download: 'http://oceanoffgames.com/category/home/',
             imgSrc: '../mobile-games/moreadd-images/aladin.jpg',
@@ -381,8 +381,8 @@ var itemlist = [{
                 officialSite: 'http://oceanoffgames.com/category/home/',
             }
         },
-		
-		{
+
+        {
             name: 'Pac Man',
             download: 'http://oceanoffgames.com/category/home/',
             imgSrc: '../mobile-games/moreadd-images/pm.jpg',
@@ -402,8 +402,8 @@ var itemlist = [{
                 officialSite: 'http://oceanoffgames.com/category/home/',
             }
         },
-		
-		{
+
+        {
             name: 'Super Mario',
             download: 'http://oceanoffgames.com/category/home/',
             imgSrc: '../mobile-games/moreadd-images/sm.jpg',
@@ -423,8 +423,8 @@ var itemlist = [{
                 officialSite: 'http://oceanoffgames.com/category/home/',
             }
         },
-		
-		{
+
+        {
             name: 'Tarzan',
             download: 'http://oceanoffgames.com/category/home/',
             imgSrc: '../mobile-games/moreadd-images/tarzan.jpg',
@@ -444,8 +444,8 @@ var itemlist = [{
                 officialSite: 'http://oceanoffgames.com/category/home/',
             }
         },
-		
-		{
+
+        {
             name: 'Vikings',
             download: 'http://oceanoffgames.com/category/home/',
             imgSrc: '../mobile-games/moreadd-images/v.jpg',

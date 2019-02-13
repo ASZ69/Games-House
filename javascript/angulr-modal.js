@@ -1,5 +1,5 @@
 
-String.prototype.replaceAll = function(search, replacement) {
+String.prototype.replaceAll = function (search, replacement) {
     var target = this;
     return target.split(search).join(replacement);
 };
@@ -13,7 +13,7 @@ games.controller("cat-ctrl", function ($scope, $filter) {
 
         $scope.evearray = $filter('filter')(itemlist, { name: cat });
         $(".right-view").css("display", "flex");
-        $(".right-page").css("display", "none"); 
+        $(".right-page").css("display", "none");
 
         hoverSetting();
 
@@ -53,34 +53,34 @@ games.controller("cat-ctrl", function ($scope, $filter) {
 
     };
 
-	//check url to get specific result
+    //check url to get specific result
 
-var url = window.location.search.replace("?","").replaceAll("%22","").replaceAll("%20"," ");
-	if(url == ""){
-		
-		$scope.evearray = $filter('filter')(itemlist, { name: 'Action games' });
-		hoverSetting();
-		
-	}else{
-		
-		var parts = url.split("&");
-		var category = parts[0].split("=")[1];
-		var season = parts[1].split("=")[1];
-		
-        $scope.evearray = $filter('filter')(itemlist, { name: category });
-		
-         if(season != ""){
-		$scope.moredetailsarray = $filter('filter')($scope.evearray[0].seasons, { name: season });
-		setTimeout(function () {
-            $(".right-view").css("display", "none");
-            $(".right-page").css("display", "block");
-        }, 70);
+    var url = window.location.search.replace("?", "").replaceAll("%22", "").replaceAll("%20", " ");
+    if (url == "") {
 
-        scrollUp();
+        $scope.evearray = $filter('filter')(itemlist, { name: 'Action games' });
         hoverSetting();
-			
-			}
-	}
+
+    } else {
+
+        var parts = url.split("&");
+        var category = parts[0].split("=")[1];
+        var season = parts[1].split("=")[1];
+
+        $scope.evearray = $filter('filter')(itemlist, { name: category });
+
+        if (season != "") {
+            $scope.moredetailsarray = $filter('filter')($scope.evearray[0].seasons, { name: season });
+            setTimeout(function () {
+                $(".right-view").css("display", "none");
+                $(".right-page").css("display", "block");
+            }, 70);
+
+            scrollUp();
+            hoverSetting();
+
+        }
+    }
 
 });
 
@@ -158,7 +158,7 @@ var itemlist = [{
         },
 
         {
-            name: 'Hitman 1', 
+            name: 'Hitman 1',
             download: 'http://oceanoffgames.com/category/home/',
             imgSrc: '../windows-games/hitman.jpg',
             requirements: {
@@ -173,7 +173,7 @@ var itemlist = [{
                 genre: 'Action',
                 category: 'Action',
                 views: '11290',
-                votes: 'N/A', 
+                votes: 'N/A',
                 officialSite: 'http://oceanoffgames.com/category/home/',
                 minimumRequirment: 'OS: Windows 7 Windows 8.1 Windows 10 (64-bit versions only). Processor: Intel Core i3- 550 | AMD Phenom II X4 955 or equivalent. Memory: 4 GB RAM. Graphics: NVIDIA GeForce GTX 460 (1GB VRAM) | AMD Radeon HD 5770 (1GB VRAM) or equivalent. Storage: 20 GB available space',
                 recommended: 'OS: Windows 7, Windows 8.1, Windows 10 (64-bit versions only). Processor: Intel Core i7- 2600K | AMD FX-8350 or equivalent. Memory: 8 GB RAM. Graphics: NVIDIA GeForce GTX 780 | AMD Radeon R9 280X or equivalent. Storage: 20 GB available space'

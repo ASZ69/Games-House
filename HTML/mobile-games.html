@@ -5,16 +5,16 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="shortcut icon" href="../gamelogo/3.png">
     <link rel="stylesheet" type="text/css" href="../CSS/window-games.css">
-	<link rel="stylesheet" type="text/css" href="../CSS/theme.css">
-	<link rel="stylesheet" type="text/css" href="../CSS/mobile.css">
-	<link rel="stylesheet" type="text/css" href="../CSS/shotcut.css">
-	
+    <link rel="stylesheet" type="text/css" href="../CSS/theme.css">
+    <link rel="stylesheet" type="text/css" href="../CSS/mobile.css">
+    <link rel="stylesheet" type="text/css" href="../CSS/shotcut.css">
+
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css" integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous">
-    
+
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.0/animate.min.css">
     <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.7.6/angular.min.js"></script>
     <meta charset="utf-8">
-	
+
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"></script>
@@ -24,7 +24,7 @@
 <body>
     <!--	strt navbar-->
     <nav class="navbar navbar-expand-md navbar-dark bg-dark sticky-top">
-        <a class="navbar-brand" href="../index.html"> 
+        <a class="navbar-brand" href="../index.html">
             <img src="../gamelogo/3.png" width="30px" height="30px" alt="LOGO">
         </a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
@@ -36,25 +36,25 @@
                 <li class="nav-item">
                     <a class="nav-link" href="../index.html">Home</a>
                 </li>
-				<li class="nav-item">
+                <li class="nav-item">
                     <a class="nav-link nav-about" href="window-games.html">Window games</a>
-                </li> 
-				<li class="nav-item">
+                </li>
+                <li class="nav-item">
                     <a class="nav-link nav-about active" href="mobile-games.html">Mobile games</a>
-                </li> 
-				<li class="nav-item">
+                </li>
+                <li class="nav-item">
                     <a class="nav-link nav-about" href="kids-games.html">KiDs games</a>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link nav-about" href="about-us.html">About Us</a>
                 </li>
             </ul>
-<!--
-            <form class="form-inline my-2 my-lg-0">
-                <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
-                <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
-            </form>
--->
+            <!--
+                        <form class="form-inline my-2 my-lg-0">
+                            <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+                            <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+                        </form>
+            -->
         </div>
     </nav>
 
@@ -76,7 +76,7 @@
                                 <li ng-click="viewGame($event)">Subway surfers</li>
                                 <li ng-click="viewGame($event)">Angry Birds</li>
                                 <li ng-click="viewGame($event)">Angry Birds 2</li>
-								<li ng-click="viewGame($event)">Journey to Jungle</li>
+                                <li ng-click="viewGame($event)">Journey to Jungle</li>
                                 <li ng-click="viewGame($event)">Chicken Invaders</li>
                                 <li ng-click="viewGame($event)">Chicken Invaders 2</li>
                                 <li ng-click="viewGame($event)">Chicken Invaders 3</li>
@@ -127,24 +127,24 @@
 
             <div class="col-md-9">
                 <center>
-                <div class="right-view" ng-repeat="games in evearray">
-                    <div ng-repeat="season in games.seasons" class="mr-lr-5 mr-tb-5">
-                        <span class="dis-none"></span>
-                        <div class="cd-img-p">
-                            <img src="{{season.imgSrc}}" alt="PIC" class="card-hover">
-                            <div class="card-overlay">
-                                <a class="dis-blk text-center my-hover-a" title="Requirements" ng-click="viewMore($event)"><i class="fas fa-info-circle fa-3x"></i></a>
-                                <a href="{{season.download}}" target="new" title="Download" class="dis-blk text-center mr-t-2"><i class="fas fa-download fa-3x"></i></a>
+                    <div class="right-view" ng-repeat="games in evearray">
+                        <div ng-repeat="season in games.seasons" class="mr-lr-5 mr-tb-5">
+                            <span class="dis-none"></span>
+                            <div class="cd-img-p">
+                                <img src="{{season.imgSrc}}" alt="PIC" class="card-hover">
+                                <div class="card-overlay">
+                                    <a class="dis-blk text-center my-hover-a" title="Requirements" ng-click="viewMore($event)"><i class="fas fa-info-circle fa-3x"></i></a>
+                                    <a href="{{season.download}}" target="new" title="Download" class="dis-blk text-center mr-t-2"><i class="fas fa-download fa-3x"></i></a>
+                                </div>
+                            </div>
+                            <hr>
+                            <div class="card-heading">
+                                <h3>{{season.name}}</h3>
+                                <h4>{{season.moreDetails.requirements}}</h4>
                             </div>
                         </div>
-                        <hr>
-                        <div class="card-heading">
-                            <h3>{{season.name}}</h3>
-                            <h4>{{season.moreDetails.requirements}}</h4>
-                        </div>
                     </div>
-                </div>
-                 </center>
+                </center>
                 <div class="right-page pd-5 dis-none">
                     <button onclick="goToBack()" title="Go Back" class="btn btn-outline-light">Go Back</button>
                     <img id="mainImg" class="main-scs" src="{{moredetailsarray[0].imgSrc}}" alt="iamge">
@@ -173,8 +173,8 @@
                             </p>
                         </div>
 
-                            <a class="w-ancer" href="{{moredetailsarray[0].requirements.officialSite}}" title="Download This Game" target="new"><button class="btn btn-outline-light btnss">Download This Game</button></a><br>
-                            <a class="w-ancer" href="{{moredetailsarray[0].requirements.officialSite}}" title="Go To offical site" target="new"><button class="btn btn-outline-light btns btn-dis-inl-blk">Go To offical site</button></a>
+                        <a class="w-ancer" href="{{moredetailsarray[0].requirements.officialSite}}" title="Download This Game" target="new"><button class="btn btn-outline-light btnss">Download This Game</button></a><br>
+                        <a class="w-ancer" href="{{moredetailsarray[0].requirements.officialSite}}" title="Go To offical site" target="new"><button class="btn btn-outline-light btns btn-dis-inl-blk">Go To offical site</button></a>
 
 
                         <h1 class="text-center htp-heading">Note</h1>

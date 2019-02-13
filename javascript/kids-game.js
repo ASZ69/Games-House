@@ -1,5 +1,5 @@
 
-String.prototype.replaceAll = function(search, replacement) {
+String.prototype.replaceAll = function (search, replacement) {
     var target = this;
     return target.split(search).join(replacement);
 };
@@ -18,7 +18,7 @@ games.controller("cat-ctrl", function ($scope, $filter) {
 
     };
 
-    $scope.evearray = $filter('filter')(itemlist, { name: 'Barbie games' }); 
+    $scope.evearray = $filter('filter')(itemlist, { name: 'Barbie games' });
 
     $scope.viewMore = function (game) {
         var clikeRf = game.currentTarget;
@@ -51,34 +51,34 @@ games.controller("cat-ctrl", function ($scope, $filter) {
         hoverSetting();
 
     };
-	
-	//check url to get specific result
 
-var url = window.location.search.replace("?","").replaceAll("%22","").replaceAll("%20"," ");
-	if(url == ""){
-		
-		$scope.evearray = $filter('filter')(itemlist, { name: 'Barbie games' });
-		hoverSetting();
-		
-	}else{
-		
-		var parts = url.split("&");
-		var category = parts[0].split("=")[1];
-		var season = parts[1].split("=")[1];
-		
-		$scope.evearray = $filter('filter')(itemlist, { name: category });
-       
-      if(season != ""){
-	    $scope.moredetailsarray = $filter('filter')($scope.evearray[0].seasons, { name: season });
-		setTimeout(function () {
-            $(".right-view").css("display", "none");
-            $(".right-page").css("display", "block");
-        }, 70);
+    //check url to get specific result
 
-        scrollUp();
+    var url = window.location.search.replace("?", "").replaceAll("%22", "").replaceAll("%20", " ");
+    if (url == "") {
+
+        $scope.evearray = $filter('filter')(itemlist, { name: 'Barbie games' });
         hoverSetting();
-		 }
-	}
+
+    } else {
+
+        var parts = url.split("&");
+        var category = parts[0].split("=")[1];
+        var season = parts[1].split("=")[1];
+
+        $scope.evearray = $filter('filter')(itemlist, { name: category });
+
+        if (season != "") {
+            $scope.moredetailsarray = $filter('filter')($scope.evearray[0].seasons, { name: season });
+            setTimeout(function () {
+                $(".right-view").css("display", "none");
+                $(".right-page").css("display", "block");
+            }, 70);
+
+            scrollUp();
+            hoverSetting();
+        }
+    }
 
     $scope.evearray = $filter('filter')(itemlist, { name: 'Barbie games' });
 
@@ -193,8 +193,8 @@ var itemlist = [{
                 officialSite: 'http://oceanoffgames.com/category/home/',
             }
         },
-		
-		 {
+
+        {
             name: 'Art Teacher',
             download: 'http://oceanoffgames.com/category/home/',
             imgSrc: '../kids-games/msadd/art-1.jpg',
@@ -277,8 +277,8 @@ var itemlist = [{
                 officialSite: 'http://oceanoffgames.com/category/home/',
             }
         },
-            		
-         {
+
+        {
             name: 'Halfpipe Pixie',
             download: 'http://oceanoffgames.com/category/home/',
             imgSrc: '../kids-games/msadd/helf.jpg',
@@ -361,8 +361,8 @@ var itemlist = [{
                 officialSite: 'http://oceanoffgames.com/category/home/',
             }
         },
-		
-		 {
+
+        {
             name: 'Video Mixer',
             download: 'http://oceanoffgames.com/category/home/',
             imgSrc: '../kids-games/msadd/vid.jpg',

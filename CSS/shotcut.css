@@ -4,9 +4,9 @@
 }
 
 
-div>a>img[alt="www.000webhost.com"]{
-	position: fixed;
-	z-index: -99999999;
+div > a > img[alt="www.000webhost.com"] {
+    position: fixed;
+    z-index: -99999999;
 }
 
 
