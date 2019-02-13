@@ -1,6 +1,7 @@
 $(document).ready(function () {
     $('#video').append('<video id="vedio" loop autoplay><source src="vedio/vedio.mp4" type="video/mp4"></video>');
-    $('#vedio').get(0).play();
+    $('#vedio').get(0).play;
+//    $('#vedio').get(0).load();
 })
 //ScrollReveal().reveal('.scroll-up',{duration:2000});
 
