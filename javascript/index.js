@@ -1,5 +1,5 @@
 $(document).ready(function () {
-    $('#video').append('<video id="vedio" poster="home-images/slider-image/3.jpg" loop autoplay><source src="vedio/video.mp4" type="video/mp4"></video>');
+    $('#video').append('<video id="vedio" loop autoplay><source src="vedio/video.mp4" type="video/mp4"></video>');
     $('#vedio').get(0).play;
     //    $('#vedio').get(0).load();
 })
