@@ -103,8 +103,8 @@ margin-left: 15%;
     align-items: center;
 }
 .pg-img {
-	border-radius: 50%;
-	float: left;	
+	border-radius: 50%;	
+	margin-top: -15px;
 }
 .pg-img:hover{
 	cursor: pointer;
