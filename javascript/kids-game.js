@@ -127,7 +127,7 @@ var itemlist = [{
                 category: 'Arcade',
                 views: '11290',
                 votes: '69',
-                officialSite: 'http://oceanoffgames.com/category/home/',
+                officialSite: 'https://play.barbie.com/en-us/games',
             }
         },
 
@@ -148,7 +148,7 @@ var itemlist = [{
                 category: 'Action',
                 views: '11290',
                 votes: 'N/A',
-                officialSite: 'http://oceanoffgames.com/category/home/',
+                officialSite: 'https://play.barbie.com/en-us/games',
             }
         },
 
@@ -169,7 +169,7 @@ var itemlist = [{
                 category: 'Action',
                 views: '11290',
                 votes: 'N/A',
-                officialSite: 'http://oceanoffgames.com/category/home/',
+                officialSite: 'https://play.barbie.com/en-us/games',
             }
         },
 
@@ -190,7 +190,7 @@ var itemlist = [{
                 category: 'Action',
                 views: '11290',
                 votes: 'N/A',
-                officialSite: 'http://oceanoffgames.com/category/home/',
+                officialSite: 'https://play.barbie.com/en-us/games',
             }
         },
 
@@ -211,7 +211,7 @@ var itemlist = [{
                 category: 'Arcade',
                 views: '11290',
                 votes: '69',
-                officialSite: 'http://oceanoffgames.com/category/home/',
+                officialSite: 'https://play.barbie.com/en-us/games',
             }
         },
 
@@ -232,7 +232,7 @@ var itemlist = [{
                 category: 'Action',
                 views: '11290',
                 votes: 'N/A',
-                officialSite: 'http://oceanoffgames.com/category/home/',
+                officialSite: 'https://play.barbie.com/en-us/games',
             }
         },
 
@@ -253,7 +253,7 @@ var itemlist = [{
                 category: 'Action',
                 views: '11290',
                 votes: 'N/A',
-                officialSite: 'http://oceanoffgames.com/category/home/',
+                officialSite: 'https://play.barbie.com/en-us/games',
             }
         },
 
@@ -274,7 +274,7 @@ var itemlist = [{
                 category: 'Action',
                 views: '11290',
                 votes: 'N/A',
-                officialSite: 'http://oceanoffgames.com/category/home/',
+                officialSite: 'https://play.barbie.com/en-us/games',
             }
         },
 
@@ -295,7 +295,7 @@ var itemlist = [{
                 category: 'Arcade',
                 views: '11290',
                 votes: '69',
-                officialSite: 'http://oceanoffgames.com/category/home/',
+                officialSite: 'https://play.barbie.com/en-us/games',
             }
         },
 
@@ -316,7 +316,7 @@ var itemlist = [{
                 category: 'Action',
                 views: '11290',
                 votes: 'N/A',
-                officialSite: 'http://oceanoffgames.com/category/home/',
+                officialSite: 'https://play.barbie.com/en-us/games',
             }
         },
 
@@ -337,7 +337,7 @@ var itemlist = [{
                 category: 'Action',
                 views: '11290',
                 votes: 'N/A',
-                officialSite: 'http://oceanoffgames.com/category/home/',
+                officialSite: 'https://play.barbie.com/en-us/games',
             }
         },
 
@@ -358,7 +358,7 @@ var itemlist = [{
                 category: 'Action',
                 views: '11290',
                 votes: 'N/A',
-                officialSite: 'http://oceanoffgames.com/category/home/',
+                officialSite: 'https://play.barbie.com/en-us/games',
             }
         },
 
@@ -379,7 +379,7 @@ var itemlist = [{
                 category: 'Arcade',
                 views: '11290',
                 votes: '69',
-                officialSite: 'http://oceanoffgames.com/category/home/',
+                officialSite: 'https://play.barbie.com/en-us/games',
             }
         },
 
@@ -400,7 +400,7 @@ var itemlist = [{
                 category: 'Action',
                 views: '11290',
                 votes: 'N/A',
-                officialSite: 'http://oceanoffgames.com/category/home/',
+                officialSite: 'https://play.barbie.com/en-us/games',
             }
         },
 
@@ -421,7 +421,7 @@ var itemlist = [{
                 category: 'Action',
                 views: '11290',
                 votes: 'N/A',
-                officialSite: 'http://oceanoffgames.com/category/home/',
+                officialSite: 'https://play.barbie.com/en-us/games',
             }
         },
 
@@ -442,7 +442,7 @@ var itemlist = [{
                 category: 'Action',
                 views: '11290',
                 votes: 'N/A',
-                officialSite: 'http://oceanoffgames.com/category/home/',
+                officialSite: 'https://play.barbie.com/en-us/games',
             }
         },
 
