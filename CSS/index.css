@@ -248,3 +248,8 @@ html, body {
 .rightblocka {
     text-decoration: none;
 }
+
+.nav-ancer {
+	text-decoration: none;
+	color: var(--text-black) !important;
+}

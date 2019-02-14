@@ -97,3 +97,8 @@ ul {
     float: right;
     overflow: hidden;
 }
+
+.nav-ancer {
+	text-decoration: none;
+	color: var(--text-black) !important;
+}
