@@ -1,4 +1,3 @@
-
 String.prototype.replaceAll = function (search, replacement) {
     var target = this;
     return target.split(search).join(replacement);
@@ -145,7 +144,7 @@ var itemlist = [{
                     '../windows-games/screen-shots/facry2/3.jpg',
                     '../windows-games/screen-shots/facry2/4.jpg',
                 ],
-                releaseDate: '20',
+                releaseDate: '2006',
                 updatedOn: '2 April, 2006',
                 genre: 'Action',
                 category: 'Action',
